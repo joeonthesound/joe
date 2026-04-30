@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josueth Acevedo Cruz — Digital Strategist & AI Specialist</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#111118;
+  --ink2:#44445a;
+  --ink3:#8888a0;
+  --line:#e2e0ec;
+  --page:#faf9fd;
+  --gold:#b87333;
+  --gold-light:#f5ede4;
+  --gold-mid:#d4944a;
+  --teal:#1a7a6a;
+  --teal-light:#e3f3ef;
+  --blue:#1a52a0;
+  --blue-light:#e6eef8;
+  --surface:#ffffff;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Geist',system-ui,sans-serif;
+  background:var(--page);
+  color:var(--ink);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;
+  z-index:100;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:0 48px;height:64px;
+  background:rgba(250,249,253,0.88);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.nav-logo{
+  font-family:'Instrument Serif',serif;
+  font-size:20px;
+  letter-spacing:-0.3px;
+  color:var(--ink);
+}
+.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:32px;align-items:center}
+.nav-links a{
+  font-size:13px;font-weight:500;
+  color:var(--ink2);
+  letter-spacing:0.02em;
+  transition:color .2s;
+}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{
+  background:var(--ink);
+  color:#fff !important;
+  padding:9px 20px;
+  border-radius:8px;
+  font-size:13px !important;
+  font-weight:500 !important;
+  transition:background .2s, transform .15s !important;
+}
+.nav-cta:hover{background:#2a2a38 !important;transform:translateY(-1px)}
+
+/* ── HERO ── */
+.hero{
+  min-height:100vh;
+  display:flex;align-items:center;
+  padding:120px 48px 80px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;
+  top:-200px;right:-200px;
+  width:700px;height:700px;
+  background:radial-gradient(circle,rgba(184,115,51,0.07) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero::after{
+  content:'';position:absolute;
+  bottom:-150px;left:-100px;
+  width:500px;height:500px;
+  background:radial-gradient(circle,rgba(26,122,106,0.05) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-inner{
+  max-width:1100px;margin:0 auto;width:100%;
+  display:grid;grid-template-columns:1fr 360px;gap:80px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--gold-light);
+  border:1px solid rgba(184,115,51,0.25);
+  color:var(--gold);
+  font-size:11px;font-weight:600;
+  letter-spacing:0.12em;text-transform:uppercase;
+  padding:6px 14px;border-radius:20px;
+  margin-bottom:28px;
+}
+.dot{
+  width:6px;height:6px;
+  border-radius:50%;
+  background:var(--gold-mid);
+  animation:pulse 2s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(0.8)}}
+
+h1.hero-title{
+  font-family:'Instrument Serif',serif;
+  font-size:62px;
+  line-height:1.05;
+  letter-spacing:-1.5px;
+  color:var(--ink);
+  margin-bottom:12px;
+}
+h1.hero-title em{
+  font-style:italic;
+  color:var(--gold);
+}
+.hero-sub{
+  font-size:18px;
+  font-weight:300;
+  color:var(--ink2);
+  margin-bottom:28px;
+  letter-spacing:-0.2px;
+}
+.hero-desc{
+  font-size:15px;
+  line-height:1.7;
+  color:var(--ink2);
+  max-width:520px;
+  margin-bottom:40px;
+}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:56px}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--ink);color:#fff;
+  padding:14px 28px;border-radius:10px;
+  font-size:14px;font-weight:500;
+  transition:transform .15s,background .2s;
+}
+.btn-primary:hover{background:#2a2a38;transform:translateY(-2px)}
+.btn-secondary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--surface);color:var(--ink);
+  border:1px solid var(--line);
+  padding:14px 28px;border-radius:10px;
+  font-size:14px;font-weight:500;
+  transition:transform .15s,border-color .2s,background .2s;
+}
+.btn-secondary:hover{border-color:var(--gold);background:var(--gold-light);transform:translateY(-2px)}
+
+.hero-stats{
+  display:flex;gap:0;
+  border:1px solid var(--line);border-radius:12px;
+  overflow:hidden;background:var(--surface);
+}
+.stat{
+  flex:1;
+  padding:20px 16px;
+  text-align:center;
+  border-right:1px solid var(--line);
+}
+.stat:last-child{border-right:none}
+.stat-num{
+  font-family:'Instrument Serif',serif;
+  font-size:32px;
+  color:var(--ink);
+  display:block;
+  line-height:1;
+  margin-bottom:4px;
+}
+.stat-num span{font-size:18px;color:var(--gold)}
+.stat-label{
+  font-size:10.5px;
+  font-weight:500;
+  color:var(--ink3);
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+}
+
+/* Hero card */
+.hero-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 4px 32px rgba(17,17,24,0.06);
+}
+.hcard-top{
+  background:var(--ink);
+  padding:28px 28px 24px;
+  position:relative;
+}
+.hcard-avatar{
+  width:60px;height:60px;
+  border-radius:14px;
+  background:linear-gradient(135deg,#b87333,#d4944a);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Instrument Serif',serif;
+  font-size:28px;color:#fff;
+  margin-bottom:16px;
+  font-style:italic;
+}
+.hcard-name{
+  font-size:18px;font-weight:500;
+  color:#fff;
+  margin-bottom:4px;
+}
+.hcard-role{
+  font-size:12px;color:rgba(255,255,255,0.55);
+  font-weight:400;letter-spacing:0.03em;
+}
+.hcard-status{
+  position:absolute;top:28px;right:28px;
+  display:flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,0.1);
+  padding:5px 10px;border-radius:20px;
+  font-size:11px;color:rgba(255,255,255,0.7);font-weight:500;
+}
+.status-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:#4ade80;
+  box-shadow:0 0 6px #4ade80;
+  animation:pulse 2s infinite;
+}
+.hcard-body{padding:24px 28px}
+.hcard-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 0;
+  border-bottom:1px solid var(--line);
+  font-size:13px;
+}
+.hcard-row:last-child{border-bottom:none}
+.hcard-key{color:var(--ink3);font-weight:400}
+.hcard-val{color:var(--ink);font-weight:500;text-align:right}
+.hcard-val.gold{color:var(--gold)}
+.hcard-val.teal{color:var(--teal)}
+
+/* ── SECTION SHARED ── */
+section{padding:80px 48px}
+.section-inner{max-width:1100px;margin:0 auto}
+.section-header{
+  display:flex;align-items:baseline;gap:20px;
+  margin-bottom:48px;
+}
+.section-tag{
+  font-size:10px;font-weight:600;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--gold);
+  background:var(--gold-light);
+  border:1px solid rgba(184,115,51,0.2);
+  padding:4px 12px;border-radius:20px;
+  white-space:nowrap;
+}
+h2.section-title{
+  font-family:'Instrument Serif',serif;
+  font-size:38px;
+  letter-spacing:-0.8px;
+  color:var(--ink);
+  line-height:1.1;
+}
+
+/* ── VALUE PILLARS ── */
+#pilares{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pillars-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+}
+.pillar{
+  background:var(--surface);
+  padding:36px 28px;
+  position:relative;
+  transition:background .2s;
+}
+.pillar:hover{background:var(--page)}
+.pillar-icon{
+  width:40px;height:40px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:20px;
+  font-size:18px;
+}
+.icon-gold{background:var(--gold-light)}
+.icon-teal{background:var(--teal-light)}
+.icon-blue{background:var(--blue-light)}
+.icon-pink{background:#f8eaf0}
+.pillar-label{
+  font-size:10px;font-weight:600;
+  letter-spacing:0.12em;text-transform:uppercase;
+  margin-bottom:8px;
+}
+.c-gold{color:var(--gold)}
+.c-teal{color:var(--teal)}
+.c-blue{color:var(--blue)}
+.c-pink{color:#a0367a}
+h3.pillar-title{
+  font-family:'Instrument Serif',serif;
+  font-size:22px;
+  color:var(--ink);
+  margin-bottom:12px;
+  line-height:1.2;
+}
+.pillar-desc{
+  font-size:13px;line-height:1.65;
+  color:var(--ink2);
+  margin-bottom:20px;
+}
+.pillar-tags{display:flex;flex-wrap:wrap;gap:6px}
+.ptag{
+  font-size:10.5px;font-weight:500;
+  padding:3px 10px;border-radius:20px;
+  background:var(--page);
+  border:1px solid var(--line);
+  color:var(--ink2);
+}
+
+/* ── TIMELINE ── */
+#experiencia{background:var(--page)}
+.timeline{position:relative;padding-left:32px}
+.timeline::before{
+  content:'';
+  position:absolute;left:7px;top:8px;bottom:8px;
+  width:1px;background:var(--line);
+}
+.tl-item{position:relative;margin-bottom:44px}
+.tl-item:last-child{margin-bottom:0}
+.tl-dot{
+  position:absolute;left:-32px;top:4px;
+  width:16px;height:16px;border-radius:50%;
+  background:var(--surface);
+  border:2px solid var(--line);
+  transition:border-color .2s;
+  z-index:1;
+}
+.tl-item:hover .tl-dot{border-color:var(--gold)}
+.tl-date{
+  font-size:11px;font-weight:600;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:6px;
+}
+.tl-header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+h3.tl-title{
+  font-size:16px;font-weight:500;
+  color:var(--ink);
+}
+.tl-company{
+  font-size:13px;color:var(--ink3);
+  font-weight:400;
+}
+.tl-bullets{
+  list-style:none;
+  margin-top:12px;
+}
+.tl-bullets li{
+  font-size:13.5px;line-height:1.65;
+  color:var(--ink2);
+  padding-left:16px;
+  position:relative;
+  margin-bottom:6px;
+}
+.tl-bullets li::before{
+  content:'';
+  position:absolute;left:0;top:9px;
+  width:5px;height:1px;
+  background:var(--gold-mid);
+}
+.tl-badge{
+  display:inline-flex;
+  background:var(--gold-light);
+  color:var(--gold);
+  border:1px solid rgba(184,115,51,0.2);
+  font-size:11px;font-weight:600;
+  padding:3px 10px;border-radius:20px;
+  margin-top:10px;
+}
+
+/* ── ACHIEVEMENTS ── */
+#logros{background:var(--ink);color:#fff}
+#logros .section-tag{
+  background:rgba(184,115,51,0.2);
+  border-color:rgba(184,115,51,0.3);
+}
+#logros h2.section-title{color:#fff}
+.achievements-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.ach-card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:16px;
+  padding:28px 24px;
+  transition:background .2s,transform .2s;
+}
+.ach-card:hover{background:rgba(255,255,255,0.08);transform:translateY(-3px)}
+.ach-num{
+  font-family:'Instrument Serif',serif;
+  font-size:48px;
+  color:var(--gold-mid);
+  line-height:1;
+  margin-bottom:8px;
+}
+.ach-label{
+  font-size:13px;
+  font-weight:500;
+  color:rgba(255,255,255,0.9);
+  margin-bottom:8px;
+  line-height:1.4;
+}
+.ach-desc{
+  font-size:12.5px;
+  color:rgba(255,255,255,0.45);
+  line-height:1.6;
+}
+
+/* ── SKILLS ── */
+#habilidades{background:var(--surface);border-top:1px solid var(--line)}
+.skills-layout{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:48px;align-items:start;
+}
+.skill-block{margin-bottom:28px}
+.skill-block-name{
+  font-size:12px;font-weight:600;
+  color:var(--ink);
+  letter-spacing:0.04em;
+  margin-bottom:10px;
+}
+.skill-bar-wrap{
+  display:flex;align-items:center;gap:14px;
+  margin-bottom:8px;
+}
+.skill-name{font-size:13px;color:var(--ink2);width:160px;flex-shrink:0}
+.bar-track{
+  flex:1;height:4px;
+  background:var(--line);
+  border-radius:4px;overflow:hidden;
+}
+.bar-fill{
+  height:100%;border-radius:4px;
+  background:var(--gold-mid);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 1.2s cubic-bezier(.16,1,.3,1);
+}
+.bar-fill.animated{transform:scaleX(1)}
+
+.side-items{display:flex;flex-direction:column;gap:20px}
+.side-block{
+  border:1px solid var(--line);
+  border-radius:14px;padding:20px 22px;
+  background:var(--page);
+}
+.side-block-title{
+  font-size:11px;font-weight:600;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:14px;
+}
+.lang-row{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:10px;
+  font-size:13.5px;
+}
+.lang-row:last-child{margin-bottom:0}
+.lang-name{color:var(--ink);font-weight:500}
+.lang-badge{
+  font-size:10.5px;font-weight:600;
+  padding:3px 10px;border-radius:20px;
+  background:var(--teal-light);
+  color:var(--teal);
+  border:1px solid rgba(26,122,106,0.2);
+}
+.cert-list{list-style:none}
+.cert-list li{
+  font-size:13px;color:var(--ink2);
+  padding:7px 0;
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:8px;
+}
+.cert-list li:last-child{border-bottom:none}
+.cert-check{
+  width:16px;height:16px;border-radius:50%;
+  background:var(--teal-light);
+  color:var(--teal);
+  display:flex;align-items:center;justify-content:center;
+  font-size:9px;flex-shrink:0;
+}
+
+/* ── MEDIA PROOF ── */
+#autoridad{background:var(--page);border-top:1px solid var(--line)}
+.media-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.media-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:24px;
+  transition:transform .2s,box-shadow .2s;
+}
+.media-card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,0,0,0.06)}
+.media-year{
+  font-size:11px;font-weight:600;
+  color:var(--gold);
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+.media-outlet{
+  font-family:'Instrument Serif',serif;
+  font-size:20px;color:var(--ink);
+  margin-bottom:6px;
+}
+.media-desc{font-size:13px;color:var(--ink2);line-height:1.55}
+
+/* ── CTA ── */
+#contacto{
+  background:var(--gold-light);
+  border-top:1px solid rgba(184,115,51,0.2);
+  text-align:center;
+  padding:100px 48px;
+}
+#contacto h2{
+  font-family:'Instrument Serif',serif;
+  font-size:52px;
+  letter-spacing:-1.5px;
+  color:var(--ink);
+  margin-bottom:12px;
+}
+#contacto h2 em{font-style:italic;color:var(--gold)}
+#contacto p{
+  font-size:16px;color:var(--ink2);
+  max-width:500px;margin:0 auto 48px;
+  line-height:1.6;
+}
+.cta-row{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.btn-wa{
+  display:inline-flex;align-items:center;gap:10px;
+  background:#25d366;color:#fff;
+  padding:16px 32px;border-radius:12px;
+  font-size:15px;font-weight:600;
+  transition:transform .15s,filter .2s;
+}
+.btn-wa:hover{filter:brightness(1.1);transform:translateY(-2px)}
+.btn-email{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--ink);color:#fff;
+  padding:16px 32px;border-radius:12px;
+  font-size:15px;font-weight:500;
+  transition:transform .15s,background .2s;
+}
+.btn-email:hover{background:#2a2a38;transform:translateY(-2px)}
+.btn-cv{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--surface);color:var(--ink);
+  border:1px solid rgba(184,115,51,0.3);
+  padding:16px 32px;border-radius:12px;
+  font-size:15px;font-weight:500;
+  transition:transform .15s,border-color .2s;
+}
+.btn-cv:hover{border-color:var(--gold);transform:translateY(-2px)}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--ink);
+  padding:28px 48px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.footer-logo{
+  font-family:'Instrument Serif',serif;
+  font-size:18px;color:rgba(255,255,255,0.6);
+  font-style:italic;
+}
+.footer-right{font-size:12px;color:rgba(255,255,255,0.35)}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  nav{padding:0 24px}
+  .hero{padding:100px 24px 60px}
+  .hero-inner{grid-template-columns:1fr;gap:48px}
+  .hero-card{display:none}
+  h1.hero-title{font-size:44px}
+  section{padding:60px 24px}
+  .pillars-grid{grid-template-columns:1fr 1fr}
+  .achievements-grid{grid-template-columns:1fr 1fr}
+  .skills-layout{grid-template-columns:1fr}
+  .media-grid{grid-template-columns:1fr}
+  footer{flex-direction:column;gap:12px;text-align:center}
+}
+@media(max-width:600px){
+  .nav-links{display:none}
+  h1.hero-title{font-size:36px}
+  h2.section-title{font-size:28px}
+  .pillars-grid{grid-template-columns:1fr}
+  .achievements-grid{grid-template-columns:1fr}
+  .hero-stats{flex-direction:column}
+  .stat{border-right:none;border-bottom:1px solid var(--line)}
+  .stat:last-child{border-bottom:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Josueth <span>Acevedo</span></div>
+  <div class="nav-links">
+    <a href="#pilares">Expertise</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#logros">Logros</a>
+    <a href="#habilidades">Skills</a>
+    <a href="#contacto" class="nav-cta">Contactar</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">
+        <span class="dot"></span>
+        Disponible para nuevas oportunidades
+      </div>
+      <h1 class="hero-title">
+        Estrategia digital<br>
+        donde la <em>IA</em><br>
+        amplifica el ROI.
+      </h1>
+      <p class="hero-sub">Digital Marketing Strategist · SEO Specialist · AI Content Creator</p>
+      <p class="hero-desc">
+        +15 años liderando campañas de alto rendimiento en Panamá y Latinoamérica. Reduzco tiempos de producción con IA, posiciono marcas en orgánico y conecto visión técnica con objetivos de negocio.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/50765164741" class="btn-primary">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+          Agendar conversación
+        </a>
+        <a href="josueth_cv_optimizado.html" target="_blank" class="btn-secondary">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          Descargar CV
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">15<span>+</span></span>
+          <span class="stat-label">Años en digital</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">40<span>%</span></span>
+          <span class="stat-label">Eficiencia con IA</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10<span>k+</span></span>
+          <span class="stat-label">Audiencia alcanzada</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">C1</span>
+          <span class="stat-label">Nivel de inglés</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO CARD -->
+    <div class="hero-card reveal">
+      <div class="hcard-top">
+        <div class="hcard-status">
+          <span class="status-dot"></span>
+          Disponible
+        </div>
+        <div class="hcard-avatar">J</div>
+        <div class="hcard-name">Josueth Acevedo Cruz</div>
+        <div class="hcard-role">Digital Strategist & AI Specialist · Panamá</div>
+      </div>
+      <div class="hcard-body">
+        <div class="hcard-row">
+          <span class="hcard-key">Especialidad</span>
+          <span class="hcard-val gold">SEO · IA · Growth</span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">Experiencia</span>
+          <span class="hcard-val">+15 años</span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">Inglés</span>
+          <span class="hcard-val teal">C1 Avanzado</span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">Región</span>
+          <span class="hcard-val">Panamá / LATAM / Remoto</span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">WhatsApp</span>
+          <span class="hcard-val"><a href="https://wa.me/50765164741" style="color:var(--gold)">+507 6516-4741</a></span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">LinkedIn</span>
+          <span class="hcard-val"><a href="https://linkedin.com/in/josuethacevedo" style="color:var(--gold)">josuethacevedo</a></span>
+        </div>
+        <div class="hcard-row">
+          <span class="hcard-key">Email</span>
+          <span class="hcard-val" style="font-size:11.5px">josueth.acevedo@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILARES -->
+<section id="pilares">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-tag">El cuadrante de valor</span>
+      <h2 class="section-title">Cuatro disciplinas, una ventaja</h2>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar reveal">
+        <div class="pillar-icon icon-gold">🤖</div>
+        <div class="pillar-label c-gold">IA & Automatización</div>
+        <h3 class="pillar-title">Pionero en IA generativa</h3>
+        <p class="pillar-desc">Implemento Prompt Engineering avanzado con GPT-4, Midjourney y Suno para optimizar flujos de producción de contenido y mantener altos niveles de engagement.</p>
+        <div class="pillar-tags">
+          <span class="ptag">GPT-4</span>
+          <span class="ptag">Prompt Engineering</span>
+          <span class="ptag">Midjourney</span>
+          <span class="ptag">Suno</span>
+          <span class="ptag">GEO / AI Search</span>
+        </div>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon icon-teal">📈</div>
+        <div class="pillar-label c-teal">SEO & Growth</div>
+        <h3 class="pillar-title">Autoridad orgánica</h3>
+        <p class="pillar-desc">Posicionamiento orgánico de marcas locales en primeros resultados mediante estrategias de contenido semántico tanto en Google como en entornos de búsqueda por IA.</p>
+        <div class="pillar-tags">
+          <span class="ptag">SEO On/Off-page</span>
+          <span class="ptag">Google Analytics 4</span>
+          <span class="ptag">Power BI</span>
+          <span class="ptag">SEM</span>
+          <span class="ptag">Community Mgmt</span>
+        </div>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon icon-blue">💻</div>
+        <div class="pillar-label c-blue">Desarrollo Técnico</div>
+        <h3 class="pillar-title">Visión técnica aplicada</h3>
+        <p class="pillar-desc">Arquitecto de soluciones digitales con React JS y WordPress avanzado. Conecto la visión de negocio con la implementación técnica sin perder de vista el ROI.</p>
+        <div class="pillar-tags">
+          <span class="ptag">React JS</span>
+          <span class="ptag">WordPress</span>
+          <span class="ptag">PHP</span>
+          <span class="ptag">Tailwind CSS</span>
+        </div>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon icon-pink">🎨</div>
+        <div class="pillar-label c-pink">Arte & Producción</div>
+        <h3 class="pillar-title">Contenido que convierte</h3>
+        <p class="pillar-desc">Autor publicado en Amazon y productor audiovisual. Entiendo la estética, la psicología del color y la narrativa de marca para crear experiencias memorables.</p>
+        <div class="pillar-tags">
+          <span class="ptag">Adobe Premiere</span>
+          <span class="ptag">FL Studio</span>
+          <span class="ptag">Blender</span>
+          <span class="ptag">Fotografía</span>
+          <span class="ptag">Autor Amazon</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-tag">Trayectoria</span>
+      <h2 class="section-title">15 años construyendo resultados</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">2010 – Presente · 14+ años</div>
+        <div class="tl-header">
+          <h3 class="tl-title">Administrador de Proyectos Digitales</h3>
+          <span class="tl-company">· Social Media Panamá</span>
+        </div>
+        <ul class="tl-bullets">
+          <li>Dirección de estrategias digitales y posicionamiento SEO para clientes de alto perfil en sectores turístico, comercial e institucional.</li>
+          <li>Gestión de equipos creativos y Community Managers, asegurando cohesión del mensaje de marca y calidad de contenido.</li>
+          <li>Análisis de métricas (GA4, Power BI) para toma de decisiones basada en datos y optimización de pauta publicitaria.</li>
+          <li>Implementación de automatizaciones con IA que incrementaron la productividad del equipo en un 40%.</li>
+        </ul>
+        <span class="tl-badge">⚡ Reducción 40% en tiempos de producción</span>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Mayo 2023 – Diciembre 2024</div>
+        <div class="tl-header">
+          <h3 class="tl-title">Manager General & Coordinador Digital</h3>
+          <span class="tl-company">· Joe's Layover Hostel</span>
+        </div>
+        <ul class="tl-bullets">
+          <li>Diseñé e implementé la estrategia de marketing turístico, logrando incremento medible en visibilidad orgánica y tasa de reservas.</li>
+          <li>Producción audiovisual y fotográfica para redes sociales, elevando la estética del perfil y el deseo de reserva.</li>
+          <li>Gestión integral de reputación online (ORM) y atención al cliente digital en múltiples plataformas.</li>
+        </ul>
+        <span class="tl-badge">📈 Crecimiento en visibilidad orgánica</span>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Octubre 2018 – Presente</div>
+        <div class="tl-header">
+          <h3 class="tl-title">Fotógrafo Colaborador</h3>
+          <span class="tl-company">· Shutterstock</span>
+        </div>
+        <ul class="tl-bullets">
+          <li>Producción de contenido visual editorial y comercial bajo estándares internacionales de calidad para distribución global.</li>
+        </ul>
+        <span class="tl-badge">🌍 Distribución global de contenido</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOGROS -->
+<section id="logros">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-tag">Impacto cuantificable</span>
+      <h2 class="section-title">Números que hablan solos</h2>
+    </div>
+    <div class="achievements-grid">
+      <div class="ach-card reveal">
+        <div class="ach-num">40%</div>
+        <div class="ach-label">Reducción en tiempos de producción de contenido</div>
+        <div class="ach-desc">Mediante implementación de flujos de trabajo basados en IA, manteniendo altos niveles de engagement.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-num">15+</div>
+        <div class="ach-label">Años liderando campañas digitales en LATAM</div>
+        <div class="ach-desc">Ejecución exitosa para múltiples sectores en Panamá y Latinoamérica con resultados documentados.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-num">10k+</div>
+        <div class="ach-label">Personas alcanzadas como speaker y conferencista</div>
+        <div class="ach-desc">Ponente en Social Media Day Panamá, Cámara de Comercio y foros corporativos privados.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-num">2</div>
+        <div class="ach-label">Obras literarias publicadas en Amazon</div>
+        <div class="ach-desc">Autor con circulación global, abordando tecnología y desarrollo personal desde la experiencia práctica.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-num">C1</div>
+        <div class="ach-label">Nivel de inglés avanzado certificado</div>
+        <div class="ach-desc">Comunicación fluida con equipos internacionales y directivos en cualquier parte del mundo.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-num">#1</div>
+        <div class="ach-label">Posicionamiento orgánico para clientes</div>
+        <div class="ach-desc">Marcas locales ubicadas en primeros resultados de búsqueda mediante estrategia de contenido semántico.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="habilidades">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-tag">Competencias</span>
+      <h2 class="section-title">Stack completo, resultados reales</h2>
+    </div>
+    <div class="skills-layout">
+      <div>
+        <div class="skill-block reveal">
+          <div class="skill-block-name">SEO & Analytics</div>
+          <div class="skill-bar-wrap"><span class="skill-name">SEO On/Off-page</span><div class="bar-track"><div class="bar-fill" style="width:96%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">Google Analytics 4</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">Power BI</span><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">GEO / AI Search</span><div class="bar-track"><div class="bar-fill" style="width:88%"></div></div></div>
+        </div>
+        <div class="skill-block reveal">
+          <div class="skill-block-name">IA & Contenido</div>
+          <div class="skill-bar-wrap"><span class="skill-name">Prompt Engineering</span><div class="bar-track"><div class="bar-fill" style="width:94%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">GPT-4 / Midjourney</span><div class="bar-track"><div class="bar-fill" style="width:91%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">Edición de Video</span><div class="bar-track"><div class="bar-fill" style="width:87%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">Fotografía Comercial</span><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+        </div>
+        <div class="skill-block reveal">
+          <div class="skill-block-name">Desarrollo & Marketing</div>
+          <div class="skill-bar-wrap"><span class="skill-name">WordPress Avanzado</span><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">React JS</span><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">Community Mgmt</span><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
+          <div class="skill-bar-wrap"><span class="skill-name">SEM / Pauta Digital</span><div class="bar-track"><div class="bar-fill" style="width:83%"></div></div></div>
+        </div>
+      </div>
+      <div class="side-items">
+        <div class="side-block reveal">
+          <div class="side-block-title">Idiomas</div>
+          <div class="lang-row"><span class="lang-name">Español</span><span class="lang-badge">Nativo</span></div>
+          <div class="lang-row"><span class="lang-name">Inglés</span><span class="lang-badge">C1 Avanzado</span></div>
+          <div class="lang-row"><span class="lang-name">Francés</span><span class="lang-badge">Básico</span></div>
+        </div>
+        <div class="side-block reveal">
+          <div class="side-block-title">Educación</div>
+          <ul class="cert-list">
+            <li><span class="cert-check">✓</span>Diplomatura en Marketing Digital · Mejorando.la (2014)</li>
+            <li><span class="cert-check">✓</span>Tec. Programación / Informática · UTP (2001–2003)</li>
+          </ul>
+        </div>
+        <div class="side-block reveal">
+          <div class="side-block-title">Certificaciones</div>
+          <ul class="cert-list">
+            <li><span class="cert-check">✓</span>Fundamentos del Marketing Digital · Google</li>
+            <li><span class="cert-check">✓</span>Power BI y Analítica de Datos</li>
+            <li><span class="cert-check">✓</span>Waze Ads & Spotify Advertising</li>
+            <li><span class="cert-check">✓</span>IMS Certification on Gaming</li>
+            <li><span class="cert-check">✓</span>Curso Básico de Marketing · IAB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTORIDAD -->
+<section id="autoridad">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-tag">Autoridad & Medios</span>
+      <h2 class="section-title">Referenciado por líderes de la industria</h2>
+    </div>
+    <div class="media-grid">
+      <div class="media-card reveal">
+        <div class="media-year">2011 – 2012</div>
+        <div class="media-outlet">Social Media Day</div>
+        <div class="media-desc">Speaker principal ante audiencias masivas sobre estrategia en redes sociales e innovación digital en Panamá.</div>
+      </div>
+      <div class="media-card reveal">
+        <div class="media-year">2012</div>
+        <div class="media-outlet">Medcom TV</div>
+        <div class="media-desc">Entrevista televisiva como referente de tendencias digitales y nuevas formas de trabajo en internet.</div>
+      </div>
+      <div class="media-card reveal">
+        <div class="media-year">2012</div>
+        <div class="media-outlet">La Prensa</div>
+        <div class="media-desc">Reportaje en el diario líder de Panamá sobre dinamismo laboral en internet y el auge del trabajo digital.</div>
+      </div>
+      <div class="media-card reveal">
+        <div class="media-year">2011</div>
+        <div class="media-outlet">Cámara de Comercio</div>
+        <div class="media-desc">Presentación ante la Cámara de Comercio de Panamá sobre marketing digital e innovación empresarial.</div>
+      </div>
+      <div class="media-card reveal">
+        <div class="media-year">2015</div>
+        <div class="media-outlet">Evento Corporativo</div>
+        <div class="media-desc">Conferencista en foro corporativo privado sobre estrategia digital avanzada para líderes empresariales.</div>
+      </div>
+      <div class="media-card reveal">
+        <div class="media-year">Permanente</div>
+        <div class="media-outlet">Amazon Books</div>
+        <div class="media-desc">Dos obras literarias publicadas y disponibles globalmente, abordando tecnología y desarrollo personal.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contacto">
+  <div class="section-inner">
+    <h2 class="reveal">¿Listo para<br><em>potenciar</em> tu equipo?</h2>
+    <p class="reveal">Actualmente disponible para roles de liderazgo digital, consultoría estratégica en IA y proyectos de alto impacto en Panamá, LATAM o en modalidad remota.</p>
+    <div class="cta-row reveal">
+      <a href="https://wa.me/50765164741" class="btn-wa">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.559 4.12 1.531 5.845L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.358-.213-3.76.982.998-3.657-.234-.375A9.817 9.817 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.431 0 9.818 4.388 9.818 9.818 0 5.43-4.387 9.818-9.818 9.818z"/></svg>
+        WhatsApp Directo
+      </a>
+      <a href="mailto:josueth.acevedo@gmail.com" class="btn-email">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        josueth.acevedo@gmail.com
+      </a>
+      <a href="josueth_cv_optimizado.html" target="_blank" class="btn-cv">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        Ver CV completo
+      </a>
+    </div>
+    <p style="margin-top:48px;font-size:13px;color:var(--ink3)">
+      🔗 <a href="https://linkedin.com/in/josuethacevedo" style="color:var(--gold)">linkedin.com/in/josuethacevedo</a>
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Josueth Acevedo Cruz</div>
+  <div class="footer-right">Panamá Norte, La Cabima · 2025</div>
+</footer>
+
+<script>
+// Scroll reveal
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      // Animate bars when skills section visible
+      const bars=e.target.querySelectorAll('.bar-fill');
+      bars.forEach(b=>b.classList.add('animated'));
+    }
+  });
+},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+// Also observe bars globally
+const barObserver=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting) e.target.classList.add('animated');
+  });
+},{threshold:0.5});
+document.querySelectorAll('.bar-fill').forEach(b=>barObserver.observe(b));
+</script>
+</body>
+</html>
