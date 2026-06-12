@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josueth Acevedo Cruz — Selección automática de idioma</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://josuethacevedo.com/es/">
+<link rel="alternate" hreflang="es" href="https://josuethacevedo.com/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://josuethacevedo.com/br/">
+<link rel="alternate" hreflang="en" href="https://josuethacevedo.com/en/">
+<link rel="alternate" hreflang="fr" href="https://josuethacevedo.com/fr/">
+<link rel="alternate" hreflang="de" href="https://josuethacevedo.com/de/">
+<link rel="alternate" hreflang="ar" href="https://josuethacevedo.com/ar/">
+<link rel="alternate" hreflang="zh-Hans" href="https://josuethacevedo.com/zh/">
+<link rel="alternate" hreflang="ja" href="https://josuethacevedo.com/ja/">
+<link rel="alternate" hreflang="x-default" href="https://josuethacevedo.com/">
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#FBF8F1;color:#191510;display:grid;place-items:center;min-height:100vh;margin:0;padding:24px;text-align:center}
+  main{max-width:640px}
+  a{color:#8A5417;font-weight:700}
+  .links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px}
+</style>
+<script>
+(function(){
+  var supported = ["es", "br", "en", "fr", "de", "ar", "zh", "ja"];
+  var aliases = {"pt":"br","pt-br":"br","pt_BR":"br","zh-cn":"zh","zh-hans":"zh","zh-tw":"zh"};
+  var paths = {"es": "/es/", "br": "/br/", "en": "/en/", "fr": "/fr/", "de": "/de/", "ar": "/ar/", "zh": "/zh/", "ja": "/ja/"};
+  function normalize(value){
+    var raw = String(value || "").toLowerCase().replace("_", "-");
+    if (aliases[raw]) return aliases[raw];
+    var base = raw.split("-")[0];
+    return aliases[base] || base;
+  }
+  function pick(){
+    try {
+      var saved = normalize(localStorage.getItem("site-lang"));
+      if (supported.indexOf(saved) > -1) return saved;
+    } catch(e){}
+    var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
+    for (var i=0; i<langs.length; i++) {
+      var lang = normalize(langs[i]);
+      if (supported.indexOf(lang) > -1) return lang;
+    }
+    return "es";
+  }
+  var target = pick();
+  location.replace(paths[target] + (location.hash || ""));
+})();
+</script>
+</head>
+<body>
+<main>
+  <h1>Josueth Acevedo Cruz</h1>
+  <p>Detectando idioma / Detecting language…</p>
+  <noscript>
+    <p>Selecciona una versión:</p>
+    <p class="links"><a href="/es/">Español</a><a href="/br/">Português Brasil</a><a href="/en/">English</a><a href="/fr/">Français</a><a href="/de/">Deutsch</a><a href="/ar/">العربية</a><a href="/zh/">中文</a><a href="/ja/">日本語</a></p>
+  </noscript>
+</main>
+</body>
+</html>
