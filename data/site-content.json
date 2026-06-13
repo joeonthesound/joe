@@ -2558,8 +2558,8 @@
   "media": {
     "r2": {
       "_comment": "Sustituye primaryBaseUrl por tu dominio personalizado de R2 y altBaseUrl por la URL publica *.r2.dev del bucket.",
-      "primaryBaseUrl": "https://media.josuethacevedo.com",
-      "altBaseUrl": "https://pub-CAMBIA-ESTE-ID.r2.dev",
+      "primaryBaseUrl": "https://cdn.josuethacevedo.online",
+      "altBaseUrl": "https://pub-...-CAMBIA-...r2.dev",
       "placeholderPath": "paginahv/me.png"
     },
     "localPlaceholder": "img/me.png"
