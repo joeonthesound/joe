@@ -1,0 +1,8 @@
+# robots.txt — josuethacevedo.online
+User-agent: *
+Allow: /
+
+# Versiones antiguas no enlazadas (no indexar)
+Disallow: /archive/
+
+Sitemap: https://josuethacevedo.online/sitemap.xml

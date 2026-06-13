@@ -2,6 +2,9 @@
    core/renderer.js — bloques de página, navegación, idioma y tema
    ------------------------------------------------------------------
    Cada ruta del JSON combina libremente los bloques de este registro.
+   MIGRACIÓN A URLS REALES: los enlaces internos se pintan con
+   ctx.router.toUrl(...) en vez de "#/...". Los externos no cambian
+   (toUrl los deja intactos).
    ================================================================== */
 import { esc, extAttrs } from "../utils/dom.js";
 import { isVisible } from "../utils/validation.js";
@@ -12,10 +15,14 @@ export function createRenderer(ctx) {
   const LINKS = data.links || {};
   const { t, ui } = i18n;
 
+  /* Convierte cualquier href interno a URL real; deja pasar los externos.
+     ctx.router ya existe cuando estas funciones se ejecutan. */
+  function url(href) { return ctx.router.toUrl(href); }
+
   function linkOf(item) {
     if (!item) return "#";
     if (item.linkRef && LINKS[item.linkRef]) return LINKS[item.linkRef];
-    return item.href || "#";
+    return url(item.href || "#");
   }
 
   function sectionHead(eyebrow, heading, lead) {
@@ -83,7 +90,7 @@ export function createRenderer(ctx) {
       return '<section class="section"><div class="container">' +
         sectionHead(e.eyebrow, e.heading, e.lead) +
         '<div class="grid grid-4">' + BLOCKS.expertiseCards(4) + "</div>" +
-        '<div style="margin-top:26px" class="reveal"><a class="btn btn-ghost" href="#/expertise">' +
+        '<div style="margin-top:26px" class="reveal"><a class="btn btn-ghost" href="' + esc(url("#/expertise")) + '">' +
         esc(state.lang === "es" ? "Ver las 8 áreas de especialidad →" : "See all 8 areas of expertise →") + "</a></div>" +
         "</div></section>";
     },
@@ -106,7 +113,7 @@ export function createRenderer(ctx) {
           '<span class="model-tag">' + esc(t(m.tag)) + "</span>" +
           "<h3>" + esc(t(m.title)) + "</h3><p>" + esc(t(m.intro)) + "</p>" +
           '<ul class="tick-list">' + items + "</ul>" +
-          '<div class="model-foot"><a class="btn btn-primary btn-sm" href="' + esc(m.cta.href) + '">' + esc(t(m.cta.label)) + "</a></div>" +
+          '<div class="model-foot"><a class="btn btn-primary btn-sm" href="' + esc(url(m.cta.href)) + '">' + esc(t(m.cta.label)) + "</a></div>" +
           "</article>";
       }
       return '<section class="section"><div class="container">' +
@@ -126,7 +133,7 @@ export function createRenderer(ctx) {
         esc(state.lang === "es"
           ? "Una primera conversación para entender el contexto, el problema y los objetivos. Después, una propuesta clara con alcance, entregables y tiempos."
           : "A first conversation to understand context, problem and goals. Then a clear proposal with scope, deliverables and timeline.") +
-        '</p><div class="model-foot"><a class="btn btn-primary" href="' + esc(m.cta.href) + '">' + esc(t(m.cta.label)) + "</a></div></div></div>" +
+        '</p><div class="model-foot"><a class="btn btn-primary" href="' + esc(url(m.cta.href)) + '">' + esc(t(m.cta.label)) + "</a></div></div></div>" +
         "</div></section>";
     },
     payrollPage: function () {
@@ -137,7 +144,7 @@ export function createRenderer(ctx) {
       return '<section class="section" style="padding-top:calc(var(--header-h) + 56px)"><div class="container">' +
         sectionHead(c.eyebrow, m.title, m.intro) +
         '<div class="pill-cloud reveal">' + pills + "</div>" +
-        '<div style="margin-top:30px" class="reveal"><a class="btn btn-primary" href="' + esc(m.cta.href) + '">' + esc(t(m.cta.label)) + "</a></div>" +
+        '<div style="margin-top:30px" class="reveal"><a class="btn btn-primary" href="' + esc(url(m.cta.href)) + '">' + esc(t(m.cta.label)) + "</a></div>" +
         "</div></section>";
     },
 
@@ -190,7 +197,7 @@ export function createRenderer(ctx) {
       if (!isVisible(c)) return "";
       return '<section class="section"><div class="container"><div class="cta-band reveal">' +
         "<div><h2>" + esc(t(c.heading)) + "</h2><p>" + esc(t(c.text)) + "</p></div>" +
-        '<a class="btn btn-primary" href="' + esc(c.button.href) + '">' + esc(t(c.button.label)) + "</a>" +
+        '<a class="btn btn-primary" href="' + esc(url(c.button.href)) + '">' + esc(t(c.button.label)) + "</a>" +
         "</div></div></section>";
     },
 
@@ -226,11 +233,11 @@ export function createRenderer(ctx) {
   function renderNav() {
     const list = document.getElementById("nav-list");
     list.innerHTML = (data.navigation || []).filter(isVisible).map(function (n) {
-      return '<li><a href="#' + esc(n.path) + '" data-path="' + esc(n.path) + '">' + esc(t(n.label)) + "</a></li>";
+      return '<li><a href="' + esc(url(n.path)) + '" data-path="' + esc(n.path) + '">' + esc(t(n.label)) + "</a></li>";
     }).join("");
     const fl = document.getElementById("footer-links");
     fl.innerHTML = (data.navigation || []).filter(isVisible).map(function (n) {
-      return '<li><a href="#' + esc(n.path) + '">' + esc(t(n.label)) + "</a></li>";
+      return '<li><a href="' + esc(url(n.path)) + '">' + esc(t(n.label)) + "</a></li>";
     }).join("") +
       '<li><a href="' + esc(LINKS.linkedin) + '" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>' +
       '<li><a href="' + esc(LINKS.pressArticle) + '" target="_blank" rel="noopener noreferrer">La Prensa</a></li>';

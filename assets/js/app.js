@@ -4,6 +4,11 @@
    Este archivo NO contiene contenido del sitio: todo el contenido
    vive en /data/site-content.json. Aquí solo se cargan los datos,
    se componen los módulos y se conectan los eventos globales.
+
+   MIGRACIÓN A URLS REALES (History API):
+   - Sin "hashchange" ni redirección a "#/inicio".
+   - router.start() conecta popstate + intercepción de clics.
+   - El cambio de idioma conserva la ruta actual como URL real.
    ================================================================== */
 import { loadSiteContent, renderFatalError } from "./core/content-loader.js";
 import { createLocale } from "./core/locale.js";
@@ -47,10 +52,10 @@ async function main() {
   ctx.renderer.renderNav();
   ctx.ai.injectJSONLD();
   ctx.modal.bindGlobalTriggers();
-  if (!location.hash) location.replace("#/inicio");
   ctx.router.renderRoute();
 
-  window.addEventListener("hashchange", ctx.router.renderRoute);
+  /* History API: popstate (atrás/adelante) + intercepción de clics internos */
+  ctx.router.start();
 
   document.getElementById("menu-toggle").addEventListener("click", function () {
     const nav = document.getElementById("main-nav");
@@ -66,11 +71,14 @@ async function main() {
 
   document.getElementById("lang-select").addEventListener("change", function () {
     const nextLang = this.value;
-    const currentHash = location.hash || "#/inicio";
     locale.rememberLanguage(nextLang);
     if (locale.getLanguageFromPath() || document.documentElement.getAttribute("data-lang")) {
-      /* Navegación relativa: conserva subdirectorios de despliegue */
-      location.href = locale.languageUrl(nextLang, currentHash);
+      /* Conserva la ruta actual al cambiar de idioma, con URL real.
+         (Asume despliegue en la raíz del dominio: josuethacevedo.online) */
+      const segs = location.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+      segs[0] = nextLang;                       /* intercambia el segmento de idioma */
+      const url = "/" + segs.join("/") + (segs.length === 1 ? "/" : "") + location.search;
+      location.href = url;
       return;
     }
     state.lang = nextLang;

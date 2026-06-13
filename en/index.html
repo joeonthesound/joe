@@ -44,6 +44,38 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/main.css">
+<script>
+(function (l, h) {
+  /* (a) Restaura la URL real tras el redirect del 404.html: /en/?/proyectos -> /en/proyectos */
+  if (l.search[1] === '/') {
+    var decoded = l.search.slice(1).split('&').map(function (s) {
+      return s.replace(/~and~/g, '&');
+    }).join('?');
+    h.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+    return;
+  }
+  /* (b) Puente para enlaces antiguos con hash: /en/#/proyectos -> /en/proyectos */
+  if (l.hash.indexOf('#/') === 0) {
+    var raw = l.hash.slice(1);                 // "/proyectos?tipo=x"
+    var base = l.pathname.replace(/\/+$/, ''); // "/en"
+    h.replaceState(null, null, base + (raw === '/inicio' ? '/' : raw));
+  }
+}(window.location, window.history));
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Josueth Acevedo Cruz",
+    "alternateName": "Joe",
+    "url": "https://josuethacevedo.online/",
+    "jobTitle": "Digital Marketing, Applied AI and Web Design Professional",
+    "description": "Professional profile based in Panama serving LATAM and remote clients."
+  }
+}
+</script>
 <!-- JSON-LD base (el motor JS inyecta una versión ampliada desde el JSON interno) -->
 <script type="application/ld+json">
 {
