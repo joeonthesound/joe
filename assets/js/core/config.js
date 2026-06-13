@@ -15,5 +15,8 @@ export const DATA_URL = new URL("data/site-content.json", SITE_ROOT_URL);
 
 /** Convierte una ruta relativa a la raíz del sitio en URL absoluta. */
 export function rootAsset(path) {
-  return new URL(String(path || "").replace(/^\/+/, ""), SITE_ROOT_URL).href;
+  return new URL(
+    String(path || "").replace(/^\/+/, ""),
+    SITE_ROOT_URL
+  ).href;
 }
