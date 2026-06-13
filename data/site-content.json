@@ -1261,10 +1261,23 @@
       "zh": "我的工作如何落地",
       "ja": "実務での仕事の見え方"
     },
-    "lead": {
-      "es": "Una muestra de los tipos de proyecto que lidero. Cada tarjeta se administra desde el JSON interno: imágenes, textos, etiquetas y botones.",
-      "en": "A sample of the kinds of projects I lead. Each card is managed from the internal JSON: images, copy, tags and buttons."
-    }
+   "lead": {
+     "es": "Explora proyectos de marketing, inteligencia artificial y desarrollo web que he liderado para resolver retos reales de negocio, optimizar procesos y generar resultados medibles. Cada caso presenta el objetivo, la solución y el impacto alcanzado.",
+
+     "br": "Conheça projetos de marketing, inteligência artificial e desenvolvimento web que liderei para resolver desafios reais de negócio, otimizar processos e gerar resultados mensuráveis. Cada case apresenta o objetivo, a solução e o impacto alcançado.",
+
+     "en": "Explore marketing, artificial intelligence and web development projects I have led to solve real business challenges, streamline processes and deliver measurable results. Each case highlights the objective, the solution and the impact achieved.",
+
+     "fr": "Découvrez les projets de marketing, d’intelligence artificielle et de développement web que j’ai pilotés pour répondre à des enjeux concrets, optimiser les processus et obtenir des résultats mesurables. Chaque cas présente l’objectif, la solution et l’impact obtenu.",
+
+     "de": "Entdecken Sie Projekte aus Marketing, künstlicher Intelligenz und Webentwicklung, die ich geleitet habe, um konkrete geschäftliche Herausforderungen zu lösen, Prozesse zu optimieren und messbare Ergebnisse zu erzielen. Jeder Fall zeigt das Ziel, die Lösung und die erzielte Wirkung.",
+
+     "ar": "استكشف مشاريع في التسويق والذكاء الاصطناعي وتطوير الويب قدتها لحل تحديات أعمال حقيقية، وتحسين العمليات، وتحقيق نتائج قابلة للقياس. يعرض كل مشروع الهدف والحل والأثر الذي تم تحقيقه.",
+
+     "zh": "探索我主导的市场营销、人工智能和网站开发项目，了解这些项目如何解决真实的业务挑战、优化流程并创造可衡量的成果。每个案例都会展示项目目标、解决方案和最终成效。",
+
+     "ja": "私が主導したマーケティング、AI、Web開発のプロジェクトをご覧ください。実際のビジネス課題を解決し、業務を効率化し、測定可能な成果につなげた事例を紹介しています。各事例では、目的、解決策、得られた成果を確認できます。"
+   }
   },
   "projects": [
     {
