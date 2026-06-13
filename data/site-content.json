@@ -711,9 +711,9 @@
     },
     "media": {
       "type": "image",
-      "src": "",
-      "r2Path": "paginahv/me.png",
-      "localSrc": "img/me.png",
+      "src": "https://josuethacevedo.online/paginahv/joe.webp",
+      "r2Path": "https://josuethacevedo.online/paginahv/joe.webp",
+      "localSrc": "https://josuethacevedo.online/paginahv/joe.webp",
       "alt": {
         "es": "Josueth Acevedo Cruz, consultor de marketing digital, inteligencia artificial y diseño web en Panamá",
         "en": "Josueth Acevedo Cruz, digital marketing, applied AI and web design consultant in Panama"
