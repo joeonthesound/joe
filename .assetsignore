@@ -1,14 +1,13 @@
 _worker.js
+_redirects
+_headers
 wrangler.jsonc
-wrangler.json
-wrangler.toml
+.assetsignore
 
 .git
 .git/**
 .github
 .github/**
-.gitignore
-.assetsignore
 
 node_modules
 node_modules/**
@@ -17,4 +16,6 @@ node_modules/**
 
 package.json
 package-lock.json
+
 README.md
+COMMIT_MESSAGE.txt
