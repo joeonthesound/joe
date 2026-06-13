@@ -1262,8 +1262,14 @@
       "ja": "実務での仕事の見え方"
     },
     "lead": {
-      "es": "Una muestra de los tipos de proyecto que lidero. Cada tarjeta se administra desde el JSON interno: imágenes, textos, etiquetas y botones.",
-      "en": "A sample of the kinds of projects I lead. Each card is managed from the internal JSON: images, copy, tags and buttons."
+      "es": "Una selección de proyectos donde convierto retos de negocio en soluciones digitales claras, funcionales y orientadas a resultados, combinando estrategia, creatividad y tecnología.",
+      "en": "A selection of projects where I turn business challenges into clear, functional and results-driven digital solutions by combining strategy, creativity and technology.",
+      "br": "Uma seleção de projetos nos quais transformo desafios de negócio em soluções digitais claras, funcionais e orientadas a resultados, combinando estratégia, criatividade e tecnologia.",
+      "fr": "Une sélection de projets dans lesquels je transforme des enjeux business en solutions digitales claires, fonctionnelles et orientées vers les résultats, en combinant stratégie, créativité et technologie.",
+      "de": "Eine Auswahl an Projekten, in denen ich geschäftliche Herausforderungen in klare, funktionale und ergebnisorientierte digitale Lösungen verwandle – durch die Verbindung von Strategie, Kreativität und Technologie.",
+      "ar": "مجموعة مختارة من المشاريع التي أحوّل فيها تحديات الأعمال إلى حلول رقمية واضحة وعملية وموجّهة نحو النتائج، من خلال الجمع بين الاستراتيجية والإبداع والتكنولوجيا.",
+      "zh": "精选项目案例，展示我如何融合战略、创意与技术，将业务挑战转化为清晰、实用且以成果为导向的数字解决方案。",
+      "ja": "戦略・クリエイティビティ・テクノロジーを組み合わせ、ビジネス課題を明確で実用的、かつ成果につながるデジタルソリューションへ変えたプロジェクト事例をご紹介します。"
     }
   },
   "projects": [
