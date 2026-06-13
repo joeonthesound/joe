@@ -1,0 +1,2567 @@
+{
+  "settings": {
+    "defaultLanguage": "es",
+    "defaultTheme": "light",
+    "availableLanguages": [
+      "es",
+      "br",
+      "en",
+      "fr",
+      "de",
+      "ar",
+      "zh",
+      "ja"
+    ],
+    "siteName": "Josueth Acevedo Cruz",
+    "whatsappNumber": "50765164741",
+    "rtlLanguages": [
+      "ar"
+    ],
+    "languageLabels": {
+      "es": "ES",
+      "br": "BR",
+      "en": "EN",
+      "fr": "FR",
+      "de": "DE",
+      "ar": "AR",
+      "zh": "ZH",
+      "ja": "JA"
+    },
+    "languageNames": {
+      "es": "Español",
+      "br": "Português Brasil",
+      "en": "English",
+      "fr": "Français",
+      "de": "Deutsch",
+      "ar": "العربية",
+      "zh": "中文",
+      "ja": "日本語"
+    },
+    "languageHtmlCodes": {
+      "es": "es",
+      "br": "pt-BR",
+      "en": "en",
+      "fr": "fr",
+      "de": "de",
+      "ar": "ar",
+      "zh": "zh-Hans",
+      "ja": "ja"
+    },
+    "languagePaths": {
+      "es": "/es/",
+      "br": "/br/",
+      "en": "/en/",
+      "fr": "/fr/",
+      "de": "/de/",
+      "ar": "/ar/",
+      "zh": "/zh/",
+      "ja": "/ja/"
+    },
+    "siteBaseUrl": "https://josuethacevedo.com",
+    "languageAliases": {
+      "pt": "br",
+      "pt-br": "br",
+      "pt_BR": "br",
+      "zh-cn": "zh",
+      "zh-hans": "zh",
+      "zh-tw": "zh"
+    }
+  },
+  "links": {
+    "cv": "https://drive.google.com/file/d/1VlSfw3N7tUHSdt0MARKHVoWal71g5k0C/view?usp=sharing",
+    "portfolioOnline": "https://canva.link/tu11ftw6ochp69x",
+    "portfolioDownload": "https://drive.google.com/file/d/1XKPFh3kHI37a3RtYc-005XqmURrnlqIx/view?usp=sharing",
+    "whatsapp": "https://wa.me/50765164741",
+    "email": "mailto:josueth.acevedo@gmail.com",
+    "emailAddress": "josueth.acevedo@gmail.com",
+    "linkedin": "https://linkedin.com/in/josuethacevedo",
+    "pressArticle": "https://www.prensa.com/Dinamismo-laboral-internet_0_3318418279.html"
+  },
+  "languages": {
+    "es": {
+      "brandSub": "Marketing · IA · Web",
+      "skipLink": "Saltar al contenido principal",
+      "menuOpen": "Abrir menú",
+      "menuClose": "Cerrar menú",
+      "themeLabel": "Cambiar tema",
+      "langLabel": "Cambiar idioma",
+      "footerTagline": "Marketing digital, IA aplicada y diseño web para negocios que necesitan evolucionar.",
+      "footerCopy": "Panamá · LATAM · Remoto — Contenido administrado desde un JSON interno editable.",
+      "viewProject": "Ver proyecto",
+      "placeholderLabel": "Imagen pendiente",
+      "stepOf": "Paso {a} de {b}",
+      "next": "Siguiente",
+      "back": "Atrás",
+      "sendWhatsApp": "Enviar solicitud por WhatsApp",
+      "sendEmail": "Enviar por email",
+      "copySummary": "Copiar resumen de la oportunidad",
+      "copied": "Copiado ✓",
+      "requiredField": "Este campo es necesario para continuar.",
+      "selectOne": "Selecciona una opción para continuar.",
+      "invalidEmail": "Escribe un email válido.",
+      "addResponsibility": "Agregar otra responsabilidad",
+      "removeResponsibility": "Eliminar responsabilidad",
+      "summaryTitle": "Resumen de tu solicitud",
+      "rangeEstimated": "Rango estimado disponible",
+      "projectDetails": "Ver detalles",
+      "closeModal": "Cerrar",
+      "aboutProject": "Sobre el proyecto",
+      "keywordCloud": "Palabras clave",
+      "projectGallery": "Imágenes del proyecto",
+      "projectVideo": "Video del proyecto",
+      "loadError": "No se pudo cargar el contenido del sitio. Si abriste el archivo con doble clic, inicia un servidor local (por ejemplo: python -m http.server 8000) y vuelve a intentarlo."
+    },
+    "en": {
+      "brandSub": "Marketing · AI · Web",
+      "skipLink": "Skip to main content",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu",
+      "themeLabel": "Toggle theme",
+      "langLabel": "Change language",
+      "footerTagline": "Digital marketing, applied AI and web design for businesses that need to evolve.",
+      "footerCopy": "Panama · LATAM · Remote — Content managed from an editable internal JSON.",
+      "viewProject": "View project",
+      "placeholderLabel": "Image pending",
+      "stepOf": "Step {a} of {b}",
+      "next": "Next",
+      "back": "Back",
+      "sendWhatsApp": "Send request via WhatsApp",
+      "sendEmail": "Send by email",
+      "copySummary": "Copy opportunity summary",
+      "copied": "Copied ✓",
+      "requiredField": "This field is required to continue.",
+      "selectOne": "Select an option to continue.",
+      "invalidEmail": "Please enter a valid email.",
+      "addResponsibility": "Add another responsibility",
+      "removeResponsibility": "Remove responsibility",
+      "summaryTitle": "Summary of your request",
+      "rangeEstimated": "Estimated available range",
+      "projectDetails": "View details",
+      "closeModal": "Close",
+      "aboutProject": "About the project",
+      "keywordCloud": "Keywords",
+      "projectGallery": "Project images",
+      "projectVideo": "Project video",
+      "loadError": "The site content could not be loaded. If you opened the file directly, start a local server (e.g.: python -m http.server 8000) and try again."
+    },
+    "br": {
+      "brandSub": "Marketing · IA · Web",
+      "skipLink": "Pular para o conteúdo principal",
+      "menuOpen": "Abrir menu",
+      "menuClose": "Fechar menu",
+      "themeLabel": "Alternar tema",
+      "langLabel": "Alterar idioma",
+      "footerTagline": "Marketing digital, IA aplicada e design web para negócios que precisam evoluir.",
+      "footerCopy": "Panamá · LATAM · Remoto — Conteúdo administrado a partir de um JSON interno editável.",
+      "viewProject": "Ver projeto",
+      "placeholderLabel": "Imagem pendente",
+      "stepOf": "Passo {a} de {b}",
+      "next": "Próximo",
+      "back": "Voltar",
+      "sendWhatsApp": "Enviar solicitação pelo WhatsApp",
+      "sendEmail": "Enviar por email",
+      "copySummary": "Copiar resumo da oportunidade",
+      "copied": "Copiado ✓",
+      "requiredField": "Este campo é necessário para continuar.",
+      "selectOne": "Selecione uma opção para continuar.",
+      "invalidEmail": "Digite um email válido.",
+      "addResponsibility": "Adicionar outra responsabilidade",
+      "removeResponsibility": "Remover responsabilidade",
+      "summaryTitle": "Resumo da sua solicitação",
+      "rangeEstimated": "Faixa estimada disponível",
+      "projectDetails": "Ver detalhes",
+      "closeModal": "Fechar",
+      "aboutProject": "Sobre o projeto",
+      "keywordCloud": "Palavras-chave",
+      "projectGallery": "Imagens do projeto",
+      "projectVideo": "Vídeo do projeto",
+      "loadError": "Não foi possível carregar o conteúdo do site. Se você abriu o arquivo diretamente, inicie um servidor local (ex.: python -m http.server 8000) e tente novamente."
+    },
+    "fr": {
+      "brandSub": "Marketing · IA · Web",
+      "skipLink": "Aller au contenu principal",
+      "menuOpen": "Ouvrir le menu",
+      "menuClose": "Fermer le menu",
+      "themeLabel": "Changer de thème",
+      "langLabel": "Changer de langue",
+      "footerTagline": "Marketing digital, IA appliquée et design web pour les entreprises qui doivent évoluer.",
+      "footerCopy": "Panama · LATAM · Remote — Contenu administré depuis un JSON interne modifiable.",
+      "viewProject": "Voir le projet",
+      "placeholderLabel": "Image en attente",
+      "stepOf": "Étape {a} sur {b}",
+      "next": "Suivant",
+      "back": "Retour",
+      "sendWhatsApp": "Envoyer la demande par WhatsApp",
+      "sendEmail": "Envoyer par email",
+      "copySummary": "Copier le résumé de l’opportunité",
+      "copied": "Copié ✓",
+      "requiredField": "Ce champ est nécessaire pour continuer.",
+      "selectOne": "Sélectionnez une option pour continuer.",
+      "invalidEmail": "Saisissez un email valide.",
+      "addResponsibility": "Ajouter une autre responsabilité",
+      "removeResponsibility": "Supprimer la responsabilité",
+      "summaryTitle": "Résumé de votre demande",
+      "rangeEstimated": "Fourchette estimée disponible",
+      "projectDetails": "Voir les détails",
+      "closeModal": "Fermer",
+      "aboutProject": "À propos du projet",
+      "keywordCloud": "Mots-clés",
+      "projectGallery": "Images du projet",
+      "projectVideo": "Vidéo du projet",
+      "loadError": "Le contenu du site n'a pas pu être chargé. Si vous avez ouvert le fichier directement, lancez un serveur local (ex. : python -m http.server 8000) et réessayez."
+    },
+    "de": {
+      "brandSub": "Marketing · KI · Web",
+      "skipLink": "Zum Hauptinhalt springen",
+      "menuOpen": "Menü öffnen",
+      "menuClose": "Menü schließen",
+      "themeLabel": "Design wechseln",
+      "langLabel": "Sprache ändern",
+      "footerTagline": "Digitales Marketing, angewandte KI und Webdesign für Unternehmen, die sich weiterentwickeln müssen.",
+      "footerCopy": "Panama · LATAM · Remote — Inhalte werden über ein bearbeitbares internes JSON verwaltet.",
+      "viewProject": "Projekt ansehen",
+      "placeholderLabel": "Bild ausstehend",
+      "stepOf": "Schritt {a} von {b}",
+      "next": "Weiter",
+      "back": "Zurück",
+      "sendWhatsApp": "Anfrage per WhatsApp senden",
+      "sendEmail": "Per E-Mail senden",
+      "copySummary": "Zusammenfassung der Gelegenheit kopieren",
+      "copied": "Kopiert ✓",
+      "requiredField": "Dieses Feld ist erforderlich.",
+      "selectOne": "Wählen Sie eine Option aus.",
+      "invalidEmail": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "addResponsibility": "Weitere Verantwortung hinzufügen",
+      "removeResponsibility": "Verantwortung entfernen",
+      "summaryTitle": "Zusammenfassung Ihrer Anfrage",
+      "rangeEstimated": "Geschätzter verfügbarer Bereich",
+      "projectDetails": "Details ansehen",
+      "closeModal": "Schließen",
+      "aboutProject": "Über das Projekt",
+      "keywordCloud": "Schlüsselwörter",
+      "projectGallery": "Projektbilder",
+      "projectVideo": "Projektvideo",
+      "loadError": "Der Inhalt der Website konnte nicht geladen werden. Wenn Sie die Datei direkt geöffnet haben, starten Sie einen lokalen Server (z. B.: python -m http.server 8000) und versuchen Sie es erneut."
+    },
+    "ar": {
+      "brandSub": "تسويق · ذكاء اصطناعي · ويب",
+      "skipLink": "الانتقال إلى المحتوى الرئيسي",
+      "menuOpen": "فتح القائمة",
+      "menuClose": "إغلاق القائمة",
+      "themeLabel": "تغيير المظهر",
+      "langLabel": "تغيير اللغة",
+      "footerTagline": "تسويق رقمي وذكاء اصطناعي تطبيقي وتصميم ويب للأعمال التي تحتاج إلى التطور.",
+      "footerCopy": "بنما · أمريكا اللاتينية · عن بُعد — محتوى يُدار من ملف JSON داخلي قابل للتحرير.",
+      "viewProject": "عرض المشروع",
+      "placeholderLabel": "الصورة قيد الإضافة",
+      "stepOf": "الخطوة {a} من {b}",
+      "next": "التالي",
+      "back": "رجوع",
+      "sendWhatsApp": "إرسال الطلب عبر واتساب",
+      "sendEmail": "إرسال عبر البريد الإلكتروني",
+      "copySummary": "نسخ ملخص الفرصة",
+      "copied": "تم النسخ ✓",
+      "requiredField": "هذا الحقل مطلوب للمتابعة.",
+      "selectOne": "اختر خيارًا للمتابعة.",
+      "invalidEmail": "اكتب بريدًا إلكترونيًا صالحًا.",
+      "addResponsibility": "إضافة مسؤولية أخرى",
+      "removeResponsibility": "حذف المسؤولية",
+      "summaryTitle": "ملخص طلبك",
+      "rangeEstimated": "النطاق التقديري المتاح",
+      "projectDetails": "عرض التفاصيل",
+      "closeModal": "إغلاق",
+      "aboutProject": "عن المشروع",
+      "keywordCloud": "كلمات مفتاحية",
+      "projectGallery": "صور المشروع",
+      "projectVideo": "فيديو المشروع",
+      "loadError": "تعذر تحميل محتوى الموقع. إذا فتحت الملف مباشرة، شغّل خادمًا محليًا (مثال: python -m http.server 8000) ثم حاول مجددًا."
+    },
+    "zh": {
+      "brandSub": "营销 · AI · 网页",
+      "skipLink": "跳到主要内容",
+      "menuOpen": "打开菜单",
+      "menuClose": "关闭菜单",
+      "themeLabel": "切换主题",
+      "langLabel": "切换语言",
+      "footerTagline": "面向需要升级的企业的数字营销、应用 AI 与网页设计。",
+      "footerCopy": "巴拿马 · 拉美 · 远程 — 内容由可编辑的内部 JSON 管理。",
+      "viewProject": "查看项目",
+      "placeholderLabel": "图片待添加",
+      "stepOf": "第 {a} 步，共 {b} 步",
+      "next": "下一步",
+      "back": "返回",
+      "sendWhatsApp": "通过 WhatsApp 发送请求",
+      "sendEmail": "通过邮件发送",
+      "copySummary": "复制机会摘要",
+      "copied": "已复制 ✓",
+      "requiredField": "此字段为必填。",
+      "selectOne": "请选择一个选项。",
+      "invalidEmail": "请输入有效邮箱。",
+      "addResponsibility": "添加另一项职责",
+      "removeResponsibility": "删除职责",
+      "summaryTitle": "请求摘要",
+      "rangeEstimated": "可用预算范围",
+      "projectDetails": "查看详情",
+      "closeModal": "关闭",
+      "aboutProject": "关于项目",
+      "keywordCloud": "关键词",
+      "projectGallery": "项目图片",
+      "projectVideo": "项目视频",
+      "loadError": "无法加载网站内容。如果你是直接双击打开文件，请先启动本地服务器（例如：python -m http.server 8000）后重试。"
+    },
+    "ja": {
+      "brandSub": "マーケティング · AI · Web",
+      "skipLink": "メインコンテンツへ移動",
+      "menuOpen": "メニューを開く",
+      "menuClose": "メニューを閉じる",
+      "themeLabel": "テーマを切り替える",
+      "langLabel": "言語を変更",
+      "footerTagline": "進化が必要なビジネスのためのデジタルマーケティング、応用AI、Webデザイン。",
+      "footerCopy": "パナマ · LATAM · リモート — 編集可能な内部JSONでコンテンツを管理。",
+      "viewProject": "プロジェクトを見る",
+      "placeholderLabel": "画像未設定",
+      "stepOf": "ステップ {a} / {b}",
+      "next": "次へ",
+      "back": "戻る",
+      "sendWhatsApp": "WhatsAppで送信",
+      "sendEmail": "メールで送信",
+      "copySummary": "機会の概要をコピー",
+      "copied": "コピーしました ✓",
+      "requiredField": "この項目は必須です。",
+      "selectOne": "オプションを選択してください。",
+      "invalidEmail": "有効なメールアドレスを入力してください。",
+      "addResponsibility": "別の責任を追加",
+      "removeResponsibility": "責任を削除",
+      "summaryTitle": "リクエスト概要",
+      "rangeEstimated": "想定可能範囲",
+      "projectDetails": "詳細を見る",
+      "closeModal": "閉じる",
+      "aboutProject": "プロジェクトについて",
+      "keywordCloud": "キーワード",
+      "projectGallery": "プロジェクト画像",
+      "projectVideo": "プロジェクト動画",
+      "loadError": "サイトのコンテンツを読み込めませんでした。ファイルを直接開いた場合は、ローカルサーバー（例: python -m http.server 8000）を起動して再試行してください。"
+    }
+  },
+  "navigation": [
+    {
+      "path": "/inicio",
+      "label": {
+        "es": "Inicio",
+        "en": "Home",
+        "br": "Início",
+        "fr": "Accueil",
+        "de": "Start",
+        "ar": "الرئيسية",
+        "zh": "首页",
+        "ja": "ホーム"
+      },
+      "visible": true
+    },
+    {
+      "path": "/perfil",
+      "label": {
+        "es": "Perfil",
+        "en": "Profile",
+        "br": "Perfil",
+        "fr": "Profil",
+        "de": "Profil",
+        "ar": "الملف الشخصي",
+        "zh": "简介",
+        "ja": "プロフィール"
+      },
+      "visible": true
+    },
+    {
+      "path": "/expertise",
+      "label": {
+        "es": "Expertise",
+        "en": "Expertise",
+        "br": "Expertise",
+        "fr": "Expertise",
+        "de": "Expertise",
+        "ar": "الخبرة",
+        "zh": "专长",
+        "ja": "専門分野"
+      },
+      "visible": true
+    },
+    {
+      "path": "/consultoria",
+      "label": {
+        "es": "Consultoría",
+        "en": "Consulting",
+        "br": "Consultoria",
+        "fr": "Conseil",
+        "de": "Beratung",
+        "ar": "استشارات",
+        "zh": "咨询",
+        "ja": "コンサルティング"
+      },
+      "visible": true
+    },
+    {
+      "path": "/planilla",
+      "label": {
+        "es": "Planilla",
+        "en": "In-house",
+        "br": "Contratação",
+        "fr": "Recrutement",
+        "de": "Festanstellung",
+        "ar": "توظيف",
+        "zh": "聘用",
+        "ja": "採用"
+      },
+      "visible": true
+    },
+    {
+      "path": "/proyectos",
+      "label": {
+        "es": "Proyectos",
+        "en": "Projects",
+        "br": "Projetos",
+        "fr": "Projets",
+        "de": "Projekte",
+        "ar": "المشاريع",
+        "zh": "项目",
+        "ja": "プロジェクト"
+      },
+      "visible": true
+    },
+    {
+      "path": "/contacto",
+      "label": {
+        "es": "Contacto",
+        "en": "Contact",
+        "br": "Contato",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "ar": "تواصل",
+        "zh": "联系",
+        "ja": "お問い合わせ"
+      },
+      "visible": true
+    }
+  ],
+  "hero": {
+    "visible": true,
+    "kicker": {
+      "es": "Disponible para nuevas oportunidades",
+      "en": "Available for new opportunities",
+      "br": "Disponível para novas oportunidades",
+      "fr": "Disponible pour de nouvelles opportunités",
+      "de": "Verfügbar für neue Möglichkeiten",
+      "ar": "متاح لفرص جديدة",
+      "zh": "可接受新的合作机会",
+      "ja": "新しい機会に対応可能"
+    },
+    "name": "Josueth Acevedo Cruz",
+    "title": {
+      "es": "Marketing digital, <em>IA aplicada</em> y diseño web para negocios que necesitan evolucionar.",
+      "en": "Digital marketing, <em>applied AI</em> and web design for businesses that need to evolve.",
+      "br": "Marketing digital, <em>IA aplicada</em> e design web para negócios que precisam evoluir.",
+      "fr": "Marketing digital, <em>IA appliquée</em> et design web pour les entreprises qui doivent évoluer.",
+      "de": "Digitales Marketing, <em>angewandte KI</em> und Webdesign für Unternehmen, die sich weiterentwickeln müssen.",
+      "ar": "تسويق رقمي و<em>ذكاء اصطناعي تطبيقي</em> وتصميم ويب للأعمال التي تحتاج إلى التطور.",
+      "zh": "为需要升级的企业提供数字营销、<em>应用 AI</em> 与网页设计。",
+      "ja": "進化が必要なビジネスのためのデジタルマーケティング、<em>応用AI</em>、Webデザイン。"
+    },
+    "subtitle": {
+      "es": "Ayudo a empresas, marcas y equipos a transformar su presencia digital, automatizar procesos, mejorar su posicionamiento y adaptarse a nuevos modelos tecnológicos.",
+      "en": "I help companies, brands and teams transform their digital presence, automate processes, improve their positioning and adapt to new technology models.",
+      "br": "Ajudo empresas, marcas e equipes a transformar sua presença digital, automatizar processos, melhorar seu posicionamento e adaptar-se a novos modelos tecnológicos.",
+      "fr": "J’aide les entreprises, marques et équipes à transformer leur présence digitale, automatiser leurs processus, améliorer leur positionnement et s’adapter aux nouveaux modèles technologiques.",
+      "de": "Ich helfe Unternehmen, Marken und Teams, ihre digitale Präsenz zu transformieren, Prozesse zu automatisieren, ihre Positionierung zu verbessern und sich an neue Technologiemodelle anzupassen.",
+      "ar": "أساعد الشركات والعلامات والفرق على تطوير حضورها الرقمي، وأتمتة العمليات، وتحسين الظهور، والتكيف مع نماذج تقنية جديدة.",
+      "zh": "我帮助企业、品牌和团队转型数字形象，自动化流程，提升定位，并适应新的技术模式。",
+      "ja": "企業、ブランド、チームのデジタルプレゼンスを進化させ、プロセスを自動化し、ポジショニングを高め、新しい技術モデルへの適応を支援します。"
+    },
+    "badges": {
+      "es": [
+        "Disponible para consultoría",
+        "Disponible para planilla",
+        "Disponibilidad para viajar",
+        "Trabajo multicultural",
+        "Panamá / LATAM / Remoto"
+      ],
+      "en": [
+        "Available for consulting",
+        "Available for direct hire",
+        "Available to travel",
+        "Multicultural teamwork",
+        "Panama / LATAM / Remote"
+      ],
+      "br": [
+        "Disponível para consultoria",
+        "Disponível para contratação",
+        "Disponível para viajar",
+        "Trabalho multicultural",
+        "Panamá / LATAM / Remoto"
+      ],
+      "fr": [
+        "Disponible pour conseil",
+        "Disponible pour recrutement",
+        "Disponible pour voyager",
+        "Travail multiculturel",
+        "Panama / LATAM / Remote"
+      ],
+      "de": [
+        "Für Beratung verfügbar",
+        "Für Festanstellung verfügbar",
+        "Reisebereit",
+        "Multikulturelle Arbeit",
+        "Panama / LATAM / Remote"
+      ],
+      "ar": [
+        "متاح للاستشارات",
+        "متاح للتوظيف المباشر",
+        "متاح للسفر",
+        "عمل متعدد الثقافات",
+        "بنما / أمريكا اللاتينية / عن بُعد"
+      ],
+      "zh": [
+        "可提供咨询",
+        "可直接聘用",
+        "可出差",
+        "跨文化协作",
+        "巴拿马 / 拉美 / 远程"
+      ],
+      "ja": [
+        "コンサルティング対応",
+        "直接雇用対応",
+        "出張可能",
+        "多文化チーム対応",
+        "パナマ / LATAM / リモート"
+      ]
+    },
+    "buttons": [
+      {
+        "labelKey": null,
+        "label": {
+          "es": "Solicitar perfil profesional",
+          "en": "Request professional profile",
+          "br": "Solicitar perfil profissional",
+          "fr": "Demander le profil professionnel",
+          "de": "Berufliches Profil anfordern",
+          "ar": "طلب الملف المهني",
+          "zh": "索取专业资料",
+          "ja": "職務プロフィールを依頼"
+        },
+        "href": "#/contacto",
+        "style": "primary",
+        "visible": true
+      },
+      {
+        "label": {
+          "es": "Descargar CV",
+          "en": "Download CV",
+          "br": "Baixar CV",
+          "fr": "Télécharger le CV",
+          "de": "Lebenslauf herunterladen",
+          "ar": "تحميل السيرة الذاتية",
+          "zh": "下载简历",
+          "ja": "履歴書をダウンロード"
+        },
+        "linkRef": "cv",
+        "external": true,
+        "style": "outline",
+        "visible": true
+      },
+      {
+        "label": {
+          "es": "Ver portafolio",
+          "en": "View portfolio",
+          "br": "Ver portfólio",
+          "fr": "Voir le portfolio",
+          "de": "Portfolio ansehen",
+          "ar": "عرض الأعمال",
+          "zh": "查看作品集",
+          "ja": "ポートフォリオを見る"
+        },
+        "linkRef": "portfolioOnline",
+        "external": true,
+        "style": "outline",
+        "visible": true
+      },
+      {
+        "label": {
+          "es": "Contactar por WhatsApp",
+          "en": "Contact via WhatsApp",
+          "br": "Contato pelo WhatsApp",
+          "fr": "Contacter via WhatsApp",
+          "de": "Per WhatsApp kontaktieren",
+          "ar": "التواصل عبر واتساب",
+          "zh": "通过 WhatsApp 联系",
+          "ja": "WhatsAppで連絡"
+        },
+        "linkRef": "whatsapp",
+        "external": true,
+        "style": "copper",
+        "visible": true
+      }
+    ],
+    "ruleLabel": {
+      "es": "Perfil híbrido · Estrategia · Tecnología · Creatividad",
+      "en": "Hybrid profile · Strategy · Technology · Creativity",
+      "br": "Perfil híbrido · Estratégia · Tecnologia · Criatividade",
+      "fr": "Profil hybride · Stratégie · Technologie · Créativité",
+      "de": "Hybrides Profil · Strategie · Technologie · Kreativität",
+      "ar": "ملف هجين · استراتيجية · تقنية · إبداع",
+      "zh": "复合型人才 · 战略 · 技术 · 创意",
+      "ja": "ハイブリッド人材 · 戦略 · 技術 · クリエイティビティ"
+    }
+  },
+  "profile": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Perfil profesional",
+      "en": "Professional profile",
+      "br": "Perfil profissional",
+      "fr": "Profil professionnel",
+      "de": "Berufliches Profil",
+      "ar": "الملف المهني",
+      "zh": "专业简介",
+      "ja": "職務プロフィール"
+    },
+    "heading": {
+      "es": "Un perfil híbrido que conecta negocio, comunicación y tecnología",
+      "en": "A hybrid profile connecting business, communication and technology",
+      "br": "Um perfil híbrido que conecta negócio, comunicação e tecnologia",
+      "fr": "Un profil hybride qui relie business, communication et technologie",
+      "de": "Ein hybrides Profil, das Business, Kommunikation und Technologie verbindet",
+      "ar": "ملف هجين يربط الأعمال والتواصل والتقنية",
+      "zh": "连接商业、传播与技术的复合型人才",
+      "ja": "ビジネス、コミュニケーション、テクノロジーをつなぐハイブリッド人材"
+    },
+    "paragraphs": {
+      "es": [
+        "No soy solo un diseñador, ni solo un marketer, ni solo un productor creativo. Trabajo en la intersección: <strong>visión de negocio, comunicación, diseño, inteligencia artificial y ejecución técnica</strong> en un mismo perfil.",
+        "Eso significa que puedo conversar con dirección sobre objetivos, con el equipo creativo sobre narrativa y con el equipo técnico sobre implementación — y luego convertir esa conversación en algo que funciona: un sitio web, una campaña, un proceso automatizado o un sistema de contenido.",
+        "He acompañado negocios en su adaptación a nuevos modelos tecnológicos, desde la presencia digital y el SEO hasta la incorporación de IA en flujos de trabajo reales: contenido, marketing, productividad y procesos."
+      ],
+      "en": [
+        "I'm not only a designer, only a marketer, or only a creative producer. I work at the intersection: <strong>business vision, communication, design, artificial intelligence and technical execution</strong> in a single profile.",
+        "That means I can talk with leadership about goals, with creative teams about narrative, and with technical teams about implementation — and then turn that conversation into something that works: a website, a campaign, an automated process or a content system.",
+        "I've helped businesses adapt to new technology models, from digital presence and SEO to bringing AI into real workflows: content, marketing, productivity and processes."
+      ]
+    },
+    "valueBlock": {
+      "es": "“Mi valor está en traducir necesidades de negocio en soluciones digitales prácticas: sitios web, campañas, sistemas de contenido, automatizaciones, estrategias SEO, experiencias interactivas y procesos asistidos por IA.”",
+      "en": "“My value is translating business needs into practical digital solutions: websites, campaigns, content systems, automations, SEO strategies, interactive experiences and AI-assisted processes.”",
+      "br": "“Meu valor está em traduzir necessidades de negócio em soluções digitais práticas: sites, campanhas, sistemas de conteúdo, automações, estratégias SEO, experiências interativas e processos assistidos por IA.”",
+      "fr": "« Ma valeur consiste à traduire les besoins business en solutions digitales concrètes : sites web, campagnes, systèmes de contenu, automatisations, stratégies SEO, expériences interactives et processus assistés par IA. »",
+      "de": "„Mein Wert liegt darin, Geschäftsanforderungen in praktische digitale Lösungen zu übersetzen: Websites, Kampagnen, Content-Systeme, Automatisierungen, SEO-Strategien, interaktive Erlebnisse und KI-gestützte Prozesse.“",
+      "ar": "“تكمن قيمتي في تحويل احتياجات الأعمال إلى حلول رقمية عملية: مواقع ويب، حملات، أنظمة محتوى، أتمتة، استراتيجيات SEO، تجارب تفاعلية وعمليات مدعومة بالذكاء الاصطناعي.”",
+      "zh": "“我的价值在于把商业需求转化为实用的数字解决方案：网站、营销活动、内容系统、自动化、SEO 策略、互动体验和 AI 辅助流程。”",
+      "ja": "「私の価値は、ビジネスニーズを実用的なデジタルソリューションへ変換することです。Webサイト、キャンペーン、コンテンツシステム、自動化、SEO戦略、インタラクティブ体験、AI支援プロセスなどです。」"
+    },
+    "facts": {
+      "es": [
+        {
+          "k": "Base",
+          "v": "Panamá"
+        },
+        {
+          "k": "Modalidad",
+          "v": "Remoto · Híbrido · Presencial"
+        },
+        {
+          "k": "Alcance",
+          "v": "Panamá · LATAM · Internacional"
+        },
+        {
+          "k": "Viajes",
+          "v": "Disponible según proyecto"
+        },
+        {
+          "k": "Equipos",
+          "v": "Multiculturales y multidisciplinarios"
+        },
+        {
+          "k": "Idiomas de trabajo",
+          "v": "Español · Inglés"
+        }
+      ],
+      "en": [
+        {
+          "k": "Base",
+          "v": "Panama"
+        },
+        {
+          "k": "Mode",
+          "v": "Remote · Hybrid · On-site"
+        },
+        {
+          "k": "Scope",
+          "v": "Panama · LATAM · International"
+        },
+        {
+          "k": "Travel",
+          "v": "Available per project"
+        },
+        {
+          "k": "Teams",
+          "v": "Multicultural and multidisciplinary"
+        },
+        {
+          "k": "Working languages",
+          "v": "Spanish · English"
+        }
+      ]
+    },
+    "media": {
+      "type": "image",
+      "src": "",
+      "r2Path": "paginahv/me.png",
+      "localSrc": "img/me.png",
+      "alt": {
+        "es": "Josueth Acevedo Cruz, consultor de marketing digital, inteligencia artificial y diseño web en Panamá",
+        "en": "Josueth Acevedo Cruz, digital marketing, applied AI and web design consultant in Panama"
+      },
+      "title": {
+        "es": "Marketing digital e IA aplicada para negocios",
+        "en": "Digital marketing and applied AI for business"
+      },
+      "caption": {
+        "es": "Estrategia digital, automatización y diseño web para empresas",
+        "en": "Digital strategy, automation and web design for companies"
+      },
+      "width": 1200,
+      "height": 800,
+      "loading": "lazy",
+      "placeholder": {
+        "enabled": true,
+        "label": "Imagen pendiente",
+        "seoText": "Imagen representativa de marketing digital, inteligencia artificial aplicada y transformación tecnológica"
+      }
+    }
+  },
+  "expertise": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Áreas de especialidad",
+      "en": "Areas of expertise",
+      "br": "Áreas de especialidade",
+      "fr": "Domaines d’expertise",
+      "de": "Fachgebiete",
+      "ar": "مجالات التخصص",
+      "zh": "专业领域",
+      "ja": "専門領域"
+    },
+    "heading": {
+      "es": "Donde aporto valor",
+      "en": "Where I add value",
+      "br": "Onde agrego valor",
+      "fr": "Où j’apporte de la valeur",
+      "de": "Wo ich Mehrwert schaffe",
+      "ar": "أين أضيف قيمة",
+      "zh": "我能创造价值的领域",
+      "ja": "価値を提供できる領域"
+    },
+    "lead": {
+      "es": "Ocho frentes de trabajo que se combinan según lo que cada empresa o proyecto necesita.",
+      "en": "Eight work fronts combined according to what each company or project needs.",
+      "br": "Oito frentes de trabalho que se combinam conforme o que cada empresa ou projeto precisa.",
+      "fr": "Huit axes de travail combinés selon les besoins de chaque entreprise ou projet.",
+      "de": "Acht Arbeitsfelder, die je nach Bedarf des Unternehmens oder Projekts kombiniert werden.",
+      "ar": "ثمانية محاور عمل تتكامل حسب احتياجات كل شركة أو مشروع.",
+      "zh": "八个工作方向，可根据每家公司或项目的需求组合。",
+      "ja": "企業やプロジェクトのニーズに合わせて組み合わせられる8つの業務領域。"
+    },
+    "cards": [
+      {
+        "visible": true,
+        "title": {
+          "es": "Marketing digital y SEO",
+          "en": "Digital marketing & SEO"
+        },
+        "description": {
+          "es": "Estrategias de posicionamiento, contenido y campañas orientadas a resultados medibles, no a métricas de vanidad.",
+          "en": "Positioning, content and campaign strategies aimed at measurable results, not vanity metrics."
+        },
+        "tools": [
+          "SEO",
+          "SEM",
+          "GA4",
+          "Content Strategy",
+          "Campañas"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Diseño web y landing pages",
+          "en": "Web design & landing pages"
+        },
+        "description": {
+          "es": "Sitios y páginas de aterrizaje pensadas para comunicar, posicionar y convertir, con UX clara y carga rápida.",
+          "en": "Sites and landing pages built to communicate, rank and convert, with clear UX and fast loading."
+        },
+        "tools": [
+          "UX/UI",
+          "HTML/CSS/JS",
+          "WordPress",
+          "Landing Pages",
+          "CRO"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "IA aplicada y automatización",
+          "en": "Applied AI & automation"
+        },
+        "description": {
+          "es": "Incorporación de IA en flujos reales de trabajo: contenido, marketing, productividad y procesos internos.",
+          "en": "Bringing AI into real workflows: content, marketing, productivity and internal processes."
+        },
+        "tools": [
+          "Prompt Engineering",
+          "Automatización",
+          "Flujos con IA",
+          "Productividad"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Transformación digital para negocios",
+          "en": "Digital transformation for business"
+        },
+        "description": {
+          "es": "Acompañamiento a empresas que necesitan adaptar su modelo, sus procesos y su comunicación a nuevos entornos tecnológicos.",
+          "en": "Guidance for companies adapting their model, processes and communication to new technology environments."
+        },
+        "tools": [
+          "Diagnóstico digital",
+          "Procesos",
+          "Adopción tecnológica"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Producción creativa y audiovisual",
+          "en": "Creative & audiovisual production"
+        },
+        "description": {
+          "es": "Dirección y producción de piezas que sostienen la narrativa de marca: video, audio y contenido visual.",
+          "en": "Direction and production of pieces that support brand narrative: video, audio and visual content."
+        },
+        "tools": [
+          "Dirección creativa",
+          "Video",
+          "Audio",
+          "Contenido"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Música, cultura y narrativa de marca",
+          "en": "Music, culture & brand narrative"
+        },
+        "description": {
+          "es": "Experiencia en industrias creativas y culturales: música, proyectos culturales y storytelling con identidad propia.",
+          "en": "Experience in creative and cultural industries: music, cultural projects and storytelling with its own identity."
+        },
+        "tools": [
+          "Branding",
+          "Storytelling",
+          "Industrias creativas"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Analítica y toma de decisiones",
+          "en": "Analytics & decision-making"
+        },
+        "description": {
+          "es": "Lectura de datos para decidir con criterio: qué funciona, qué ajustar y dónde invertir el siguiente esfuerzo.",
+          "en": "Reading data to decide with judgment: what works, what to adjust and where to invest the next effort."
+        },
+        "tools": [
+          "GA4",
+          "Power BI",
+          "Reportes",
+          "KPIs"
+        ]
+      },
+      {
+        "visible": true,
+        "title": {
+          "es": "Estrategia para marcas y proyectos internacionales",
+          "en": "Strategy for international brands & projects"
+        },
+        "description": {
+          "es": "Trabajo con equipos multiculturales y proyectos que cruzan mercados, con disponibilidad para viajar según la oportunidad.",
+          "en": "Work with multicultural teams and cross-market projects, with availability to travel depending on the opportunity."
+        },
+        "tools": [
+          "Equipos multiculturales",
+          "Proyectos internacionales",
+          "Remoto"
+        ]
+      }
+    ]
+  },
+  "collaboration": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Modelos de colaboración",
+      "en": "Ways of working together",
+      "br": "Modelos de colaboração",
+      "fr": "Modes de collaboration",
+      "de": "Formen der Zusammenarbeit",
+      "ar": "نماذج التعاون",
+      "zh": "合作模式",
+      "ja": "協業モデル"
+    },
+    "heading": {
+      "es": "Dos caminos para trabajar conmigo",
+      "en": "Two paths to work with me",
+      "br": "Dois caminhos para trabalhar comigo",
+      "fr": "Deux façons de travailler avec moi",
+      "de": "Zwei Wege der Zusammenarbeit",
+      "ar": "طريقتان للعمل معي",
+      "zh": "两种合作方式",
+      "ja": "一緒に働く2つの方法"
+    },
+    "consulting": {
+      "visible": true,
+      "tag": {
+        "es": "Camino A",
+        "en": "Path A"
+      },
+      "title": {
+        "es": "Consultoría",
+        "en": "Consulting",
+        "br": "Consultoria",
+        "fr": "Conseil",
+        "de": "Beratung",
+        "ar": "استشارات",
+        "zh": "咨询",
+        "ja": "コンサルティング"
+      },
+      "intro": {
+        "es": "Para empresas que necesitan resolver retos concretos con un especialista externo:",
+        "en": "For companies that need to solve specific challenges with an external specialist:"
+      },
+      "items": {
+        "es": [
+          "Diagnóstico digital",
+          "Estrategia de marketing",
+          "Rediseño web",
+          "Implementación de IA",
+          "Optimización SEO",
+          "Automatización de procesos",
+          "Lanzamiento de campañas",
+          "Capacitación de equipos",
+          "Auditoría de presencia digital"
+        ],
+        "en": [
+          "Digital diagnosis",
+          "Marketing strategy",
+          "Website redesign",
+          "AI implementation",
+          "SEO optimization",
+          "Process automation",
+          "Campaign launches",
+          "Team training",
+          "Digital presence audit"
+        ]
+      },
+      "cta": {
+        "label": {
+          "es": "Conversar sobre consultoría",
+          "en": "Talk about consulting"
+        },
+        "href": "#/contacto?tipo=consultor"
+      }
+    },
+    "payroll": {
+      "visible": true,
+      "tag": {
+        "es": "Camino B",
+        "en": "Path B"
+      },
+      "title": {
+        "es": "Planilla / Contratación directa",
+        "en": "In-house / Direct hire",
+        "br": "Contratação direta",
+        "fr": "Recrutement direct",
+        "de": "Festanstellung",
+        "ar": "توظيف مباشر",
+        "zh": "直接聘用",
+        "ja": "直接雇用"
+      },
+      "intro": {
+        "es": "Para empresas que buscan integrar un perfil senior y estratégico en áreas como:",
+        "en": "For companies looking to integrate a senior, strategic profile in areas such as:"
+      },
+      "items": {
+        "es": [
+          "Marketing",
+          "Tecnología",
+          "Comunicación",
+          "Innovación",
+          "Cultura",
+          "Retail",
+          "Música",
+          "Moda",
+          "Ciencia",
+          "Museos",
+          "Educación",
+          "Turismo",
+          "Startups",
+          "Medios",
+          "Proyectos internacionales"
+        ],
+        "en": [
+          "Marketing",
+          "Technology",
+          "Communication",
+          "Innovation",
+          "Culture",
+          "Retail",
+          "Music",
+          "Fashion",
+          "Science",
+          "Museums",
+          "Education",
+          "Tourism",
+          "Startups",
+          "Media",
+          "International projects"
+        ]
+      },
+      "cta": {
+        "label": {
+          "es": "Conversar sobre contratación",
+          "en": "Talk about direct hire"
+        },
+        "href": "#/contacto?tipo=planilla"
+      }
+    }
+  },
+  "availability": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Disponibilidad internacional",
+      "en": "International availability",
+      "br": "Disponibilidade internacional",
+      "fr": "Disponibilité internationale",
+      "de": "Internationale Verfügbarkeit",
+      "ar": "توفر دولي",
+      "zh": "国际可合作性",
+      "ja": "国際対応"
+    },
+    "heading": {
+      "es": "Preparado para contextos internacionales y multiculturales",
+      "en": "Ready for international, multicultural contexts",
+      "br": "Preparado para contextos internacionais e multiculturais",
+      "fr": "Prêt pour des contextes internationaux et multiculturels",
+      "de": "Bereit für internationale und multikulturelle Kontexte",
+      "ar": "جاهز لبيئات دولية ومتعددة الثقافات",
+      "zh": "适合国际化与跨文化环境",
+      "ja": "国際的・多文化な環境に対応"
+    },
+    "items": {
+      "es": [
+        "Disponible para viajar según el proyecto.",
+        "Capacidad de trabajar con equipos multiculturales.",
+        "Adaptación a contextos corporativos, creativos, institucionales y tecnológicos.",
+        "Experiencia comunicándome con perfiles técnicos, creativos y directivos.",
+        "Disponibilidad para proyectos en Panamá, Latinoamérica, Europa u otros mercados según la oportunidad."
+      ],
+      "en": [
+        "Available to travel depending on the project.",
+        "Able to work with multicultural teams.",
+        "Adaptable to corporate, creative, institutional and technology contexts.",
+        "Experienced communicating with technical, creative and executive profiles.",
+        "Available for projects in Panama, Latin America, Europe or other markets depending on the opportunity."
+      ]
+    },
+    "pills": {
+      "es": [
+        "Panamá",
+        "Latinoamérica",
+        "Europa",
+        "Remoto",
+        "Híbrido",
+        "Presencial"
+      ],
+      "en": [
+        "Panama",
+        "Latin America",
+        "Europe",
+        "Remote",
+        "Hybrid",
+        "On-site"
+      ]
+    }
+  },
+  "resources": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Documentos y validación",
+      "en": "Documents & validation",
+      "br": "Documentos e validação",
+      "fr": "Documents et validation",
+      "de": "Dokumente und Validierung",
+      "ar": "المستندات والتحقق",
+      "zh": "文件与验证",
+      "ja": "資料と確認"
+    },
+    "heading": {
+      "es": "Revisa el perfil con calma",
+      "en": "Review the profile at your own pace",
+      "br": "Revise o perfil com calma",
+      "fr": "Consultez le profil à votre rythme",
+      "de": "Prüfen Sie das Profil in Ruhe",
+      "ar": "راجع الملف بهدوء",
+      "zh": "从容查看资料",
+      "ja": "プロフィールをじっくり確認"
+    },
+    "lead": {
+      "es": "CV, portafolio, presencia profesional y prensa, en un solo lugar para facilitar la evaluación.",
+      "en": "CV, portfolio, professional presence and press, in one place to make evaluation easier."
+    },
+    "items": [
+      {
+        "visible": true,
+        "icon": "↧",
+        "title": {
+          "es": "Descargar CV",
+          "en": "Download CV"
+        },
+        "description": {
+          "es": "Currículum actualizado en PDF.",
+          "en": "Updated résumé in PDF."
+        },
+        "linkRef": "cv",
+        "external": true,
+        "cta": {
+          "es": "Abrir CV",
+          "en": "Open CV"
+        }
+      },
+      {
+        "visible": true,
+        "icon": "▦",
+        "title": {
+          "es": "Portafolio online",
+          "en": "Online portfolio"
+        },
+        "description": {
+          "es": "Selección de trabajo y casos en formato interactivo.",
+          "en": "Selected work and cases in interactive format."
+        },
+        "linkRef": "portfolioOnline",
+        "external": true,
+        "cta": {
+          "es": "Ver portafolio",
+          "en": "View portfolio"
+        }
+      },
+      {
+        "visible": true,
+        "icon": "⇣",
+        "title": {
+          "es": "Descargar portafolio PDF",
+          "en": "Download portfolio PDF"
+        },
+        "description": {
+          "es": "Versión descargable para compartir internamente.",
+          "en": "Downloadable version to share internally."
+        },
+        "linkRef": "portfolioDownload",
+        "external": true,
+        "cta": {
+          "es": "Descargar PDF",
+          "en": "Download PDF"
+        }
+      },
+      {
+        "visible": true,
+        "icon": "in",
+        "title": {
+          "es": "LinkedIn",
+          "en": "LinkedIn"
+        },
+        "description": {
+          "es": "Trayectoria, recomendaciones y red profesional.",
+          "en": "Track record, recommendations and professional network."
+        },
+        "linkRef": "linkedin",
+        "external": true,
+        "cta": {
+          "es": "Ver perfil",
+          "en": "View profile"
+        }
+      },
+      {
+        "visible": true,
+        "icon": "❡",
+        "title": {
+          "es": "Artículo en La Prensa",
+          "en": "Article in La Prensa"
+        },
+        "description": {
+          "es": "Cobertura de prensa sobre dinamismo laboral e internet.",
+          "en": "Press coverage on labor dynamism and the internet."
+        },
+        "linkRef": "pressArticle",
+        "external": true,
+        "cta": {
+          "es": "Leer artículo",
+          "en": "Read article"
+        }
+      },
+      {
+        "visible": true,
+        "icon": "✉",
+        "title": {
+          "es": "Solicitar cartas de recomendación",
+          "en": "Request recommendation letters"
+        },
+        "description": {
+          "es": "Disponibles bajo solicitud a través del formulario.",
+          "en": "Available upon request through the form."
+        },
+        "href": "#/contacto?tipo=cartas",
+        "external": false,
+        "cta": {
+          "es": "Solicitar",
+          "en": "Request"
+        }
+      }
+    ]
+  },
+  "projectsSection": {
+    "visible": true,
+    "eyebrow": {
+      "es": "Proyectos y casos de uso",
+      "en": "Projects & use cases",
+      "br": "Projetos e casos de uso",
+      "fr": "Projets et cas d’usage",
+      "de": "Projekte und Anwendungsfälle",
+      "ar": "المشاريع وحالات الاستخدام",
+      "zh": "项目与用例",
+      "ja": "プロジェクトとユースケース"
+    },
+    "heading": {
+      "es": "Cómo se ve mi trabajo en la práctica",
+      "en": "What my work looks like in practice",
+      "br": "Como meu trabalho aparece na prática",
+      "fr": "À quoi ressemble mon travail en pratique",
+      "de": "Wie meine Arbeit in der Praxis aussieht",
+      "ar": "كيف يبدو عملي في التطبيق العملي",
+      "zh": "我的工作如何落地",
+      "ja": "実務での仕事の見え方"
+    },
+    "lead": {
+      "es": "Una muestra de los tipos de proyecto que lidero. Cada tarjeta se administra desde el JSON interno: imágenes, textos, etiquetas y botones.",
+      "en": "A sample of the kinds of projects I lead. Each card is managed from the internal JSON: images, copy, tags and buttons."
+    }
+  },
+  "projects": [
+    {
+      "id": "ai-business-adaptation",
+      "visible": true,
+      "title": {
+        "es": "Adaptación de negocios a nuevos modelos tecnológicos",
+        "en": "Adapting businesses to new technology models"
+      },
+      "category": {
+        "es": "IA aplicada / Transformación digital",
+        "en": "Applied AI / Digital transformation"
+      },
+      "description": {
+        "es": "Implementación de estrategias digitales, automatización con IA y rediseño de procesos para empresas que necesitan evolucionar.",
+        "en": "Implementation of digital strategies, AI automation and process redesign for companies that need to evolve."
+      },
+      "tags": [
+        "IA",
+        "Marketing Digital",
+        "Diseño Web",
+        "Automatización"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Proyecto de inteligencia artificial aplicada a negocios",
+          "en": "Applied AI for business project"
+        },
+        "title": {
+          "es": "IA aplicada para negocios",
+          "en": "IA aplicada para negocios"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Proyecto de transformación digital, marketing e inteligencia artificial aplicada"
+        },
+        "r2Path": "paginahv/projects/ai-business-adaptation/cover.png"
+      },
+      "projectUrl": "",
+      "projectButtonLabel": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "Acompaño a empresas que necesitan incorporar inteligencia artificial sin perder el control de sus procesos. El trabajo empieza con un diagnóstico del negocio: qué tareas consumen tiempo, dónde se pierde información y qué decisiones podrían apoyarse en datos.",
+            "A partir de ahí diseño flujos asistidos por IA: automatización de contenidos, prompts reutilizables para los equipos, integración de herramientas y rediseño de procesos internos. Cada implementación se documenta para que el equipo pueda mantenerla sin depender de terceros.",
+            "El objetivo no es adoptar tecnología por moda, sino que el negocio gane velocidad, consistencia y capacidad de respuesta, con métricas claras antes y después de cada cambio."
+          ],
+          "en": [
+            "I work with companies that need to adopt artificial intelligence without losing control of their processes. The work starts with a business diagnosis: which tasks consume time, where information gets lost and which decisions could be supported by data.",
+            "From there I design AI-assisted workflows: content automation, reusable prompts for teams, tool integration and internal process redesign. Every implementation is documented so the team can maintain it without depending on third parties.",
+            "The goal is not to adopt technology for its own sake, but for the business to gain speed, consistency and responsiveness, with clear metrics before and after each change."
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/projects/ai-business-adaptation/detail-1.png",
+            "alt": {
+              "es": "Proyecto de inteligencia artificial aplicada a negocios — detalle 1",
+              "en": "Applied AI for business project — detail 1"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de inteligencia artificial aplicada a negocios"
+            }
+          },
+          {
+            "r2Path": "paginahv/projects/ai-business-adaptation/detail-2.png",
+            "alt": {
+              "es": "Proyecto de inteligencia artificial aplicada a negocios — detalle 2",
+              "en": "Applied AI for business project — detail 2"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de inteligencia artificial aplicada a negocios"
+            }
+          }
+        ],
+        "keywords": [
+          "IA aplicada",
+          "Automatización",
+          "Prompt engineering",
+          "Transformación digital",
+          "Procesos",
+          "Workflows",
+          "ChatGPT / Claude",
+          "Adopción de IA",
+          "Productividad",
+          "Datos"
+        ],
+        "youtubeId": ""
+      }
+    },
+    {
+      "id": "seo-web-presence",
+      "visible": true,
+      "title": {
+        "es": "Posicionamiento SEO y presencia digital",
+        "en": "SEO positioning & digital presence"
+      },
+      "category": {
+        "es": "SEO / Contenido",
+        "en": "SEO / Content"
+      },
+      "description": {
+        "es": "Estrategias de posicionamiento orgánico, arquitectura de contenido y optimización técnica para mejorar visibilidad y captación.",
+        "en": "Organic positioning strategies, content architecture and technical optimization to improve visibility and acquisition."
+      },
+      "tags": [
+        "SEO",
+        "Contenido",
+        "GA4",
+        "Estrategia"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Proyecto de posicionamiento SEO y estrategia de contenido",
+          "en": "SEO positioning and content strategy project"
+        },
+        "title": {
+          "es": "SEO y presencia digital",
+          "en": "SEO y presencia digital"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Proyecto de posicionamiento SEO, analítica y estrategia de contenidos para empresas"
+        },
+        "r2Path": "paginahv/projects/seo-web-presence/cover.png"
+      },
+      "projectUrl": "",
+      "projectButtonLabel": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "El posicionamiento orgánico se construye sobre tres frentes: una base técnica sana, una arquitectura de contenido pensada para la intención de búsqueda y una medición honesta de resultados.",
+            "Trabajo auditorías técnicas (indexación, rendimiento, datos estructurados, hreflang), defino mapas de contenido por intención y priorizo las páginas que pueden generar tracción real en el corto plazo, sin abandonar la visión de largo plazo.",
+            "Todo se mide con GA4 y Search Console: posiciones, clics, conversiones asistidas y comportamiento del usuario, para que la estrategia se ajuste con datos y no con intuiciones."
+          ],
+          "en": [
+            "Organic positioning is built on three fronts: a healthy technical base, a content architecture designed around search intent, and honest measurement of results.",
+            "I run technical audits (indexing, performance, structured data, hreflang), define intent-based content maps and prioritize the pages that can generate real traction in the short term, without losing the long-term view.",
+            "Everything is measured with GA4 and Search Console: positions, clicks, assisted conversions and user behavior, so the strategy is adjusted with data rather than intuition."
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/projects/seo-web-presence/detail-1.png",
+            "alt": {
+              "es": "Proyecto de posicionamiento SEO y estrategia de contenido — detalle 1",
+              "en": "SEO positioning and content strategy project — detail 1"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de posicionamiento SEO y estrategia de contenido"
+            }
+          },
+          {
+            "r2Path": "paginahv/projects/seo-web-presence/detail-2.png",
+            "alt": {
+              "es": "Proyecto de posicionamiento SEO y estrategia de contenido — detalle 2",
+              "en": "SEO positioning and content strategy project — detail 2"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de posicionamiento SEO y estrategia de contenido"
+            }
+          }
+        ],
+        "keywords": [
+          "SEO técnico",
+          "Search intent",
+          "Arquitectura de contenido",
+          "GA4",
+          "Search Console",
+          "Hreflang",
+          "Datos estructurados",
+          "SEO internacional",
+          "Link earning",
+          "Core Web Vitals"
+        ],
+        "youtubeId": ""
+      }
+    },
+    {
+      "id": "landing-conversion",
+      "visible": true,
+      "title": {
+        "es": "Landing pages orientadas a conversión",
+        "en": "Conversion-focused landing pages"
+      },
+      "category": {
+        "es": "Diseño web / CRO",
+        "en": "Web design / CRO"
+      },
+      "description": {
+        "es": "Diseño y desarrollo de páginas de aterrizaje con narrativa clara, UX cuidada y foco en convertir visitas en conversaciones.",
+        "en": "Design and development of landing pages with clear narrative, careful UX and a focus on turning visits into conversations."
+      },
+      "tags": [
+        "Landing Pages",
+        "UX/UI",
+        "Conversión",
+        "HTML/CSS/JS"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Proyecto de diseño de landing pages orientadas a conversión",
+          "en": "Conversion-focused landing page design project"
+        },
+        "title": {
+          "es": "Landing pages y conversión",
+          "en": "Landing pages y conversión"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Proyecto de diseño web y landing pages orientadas a conversión para marcas y negocios"
+        },
+        "r2Path": "paginahv/projects/landing-conversion/cover.png"
+      },
+      "projectUrl": "",
+      "projectButtonLabel": {
+        "es": "Ver caso",
+        "en": "View case"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "Una landing page no es una página bonita: es un argumento ordenado. Diseño páginas de aterrizaje donde la narrativa, la jerarquía visual y los llamados a la acción trabajan juntos para convertir visitas en conversaciones.",
+            "El proceso incluye investigación del público, redacción persuasiva, prototipo, desarrollo en HTML/CSS/JS ligero y pruebas en dispositivos reales. Cada página se entrega optimizada: rápida, accesible y lista para campañas.",
+            "Después del lanzamiento, analizo el comportamiento (scroll, clics, formularios) para iterar sobre lo que funciona y eliminar lo que estorba."
+          ],
+          "en": [
+            "A landing page is not a pretty page: it is an ordered argument. I design landing pages where narrative, visual hierarchy and calls to action work together to turn visits into conversations.",
+            "The process includes audience research, persuasive copywriting, prototyping, lightweight HTML/CSS/JS development and testing on real devices. Each page ships optimized: fast, accessible and campaign-ready.",
+            "After launch, I analyze behavior (scroll, clicks, forms) to iterate on what works and remove what gets in the way."
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/projects/landing-conversion/detail-1.png",
+            "alt": {
+              "es": "Proyecto de diseño de landing pages orientadas a conversión — detalle 1",
+              "en": "Conversion-focused landing page design project — detail 1"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de diseño de landing pages orientadas a conversión"
+            }
+          },
+          {
+            "r2Path": "paginahv/projects/landing-conversion/detail-2.png",
+            "alt": {
+              "es": "Proyecto de diseño de landing pages orientadas a conversión — detalle 2",
+              "en": "Conversion-focused landing page design project — detail 2"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de diseño de landing pages orientadas a conversión"
+            }
+          }
+        ],
+        "keywords": [
+          "Landing pages",
+          "CRO",
+          "UX writing",
+          "Jerarquía visual",
+          "HTML/CSS/JS",
+          "Velocidad de carga",
+          "Accesibilidad",
+          "A/B testing",
+          "Campañas",
+          "Conversión"
+        ],
+        "youtubeId": ""
+      }
+    },
+    {
+      "id": "creative-culture",
+      "visible": true,
+      "title": {
+        "es": "Narrativa de marca en industrias creativas",
+        "en": "Brand narrative in creative industries"
+      },
+      "category": {
+        "es": "Música / Cultura / Branding",
+        "en": "Music / Culture / Branding"
+      },
+      "description": {
+        "es": "Estrategia y producción para proyectos de música y cultura digital: identidad, contenido y conexión con audiencias.",
+        "en": "Strategy and production for music and digital culture projects: identity, content and audience connection."
+      },
+      "tags": [
+        "Branding",
+        "Música",
+        "Cultura",
+        "Audiovisual"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Proyecto de narrativa de marca para industrias creativas y culturales",
+          "en": "Brand narrative project for creative and cultural industries"
+        },
+        "title": {
+          "es": "Narrativa de marca y cultura digital",
+          "en": "Narrativa de marca y cultura digital"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Proyecto de branding, música y cultura digital con producción creativa y audiovisual"
+        },
+        "r2Path": "paginahv/projects/creative-culture/cover.png"
+      },
+      "projectUrl": "",
+      "projectButtonLabel": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "Las industrias creativas necesitan algo más que difusión: necesitan una narrativa coherente que conecte la identidad del proyecto con su audiencia. Trabajo con músicos, sellos y proyectos culturales en la construcción de esa narrativa.",
+            "El trabajo abarca identidad y posicionamiento, calendarios de contenido, estrategia de lanzamientos, piezas audiovisuales y la presencia digital completa del proyecto, cuidando que cada canal cuente la misma historia.",
+            "La meta es que la marca creativa sea reconocible, sostenible y capaz de crecer su comunidad sin perder autenticidad."
+          ],
+          "en": [
+            "Creative industries need more than promotion: they need a coherent narrative connecting the project's identity with its audience. I work with musicians, labels and cultural projects on building that narrative.",
+            "The work covers identity and positioning, content calendars, release strategy, audiovisual pieces and the project's full digital presence, making sure every channel tells the same story.",
+            "The goal is for the creative brand to be recognizable, sustainable and able to grow its community without losing authenticity."
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/projects/creative-culture/detail-1.png",
+            "alt": {
+              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 1",
+              "en": "Brand narrative project for creative and cultural industries — detail 1"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
+            }
+          },
+          {
+            "r2Path": "paginahv/projects/creative-culture/detail-2.png",
+            "alt": {
+              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 2",
+              "en": "Brand narrative project for creative and cultural industries — detail 2"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
+            }
+          }
+        ],
+        "keywords": [
+          "Branding",
+          "Narrativa de marca",
+          "Música",
+          "Cultura digital",
+          "Lanzamientos",
+          "Contenido audiovisual",
+          "Comunidad",
+          "Identidad",
+          "Storytelling",
+          "Audiencias"
+        ],
+        "youtubeId": ""
+      }
+    }
+  ],
+  "aiClassification": {
+    "visible": true,
+    "sectionTitle": {
+      "es": "Cómo debe entender mi perfil una IA, un reclutador o una empresa",
+      "en": "How an AI, a recruiter or a company should understand my profile",
+      "br": "Como uma IA, um recrutador ou uma empresa deve entender meu perfil",
+      "fr": "Comment une IA, un recruteur ou une entreprise doit comprendre mon profil",
+      "de": "Wie KI, Recruiter oder Unternehmen mein Profil verstehen sollten",
+      "ar": "كيف ينبغي للذكاء الاصطناعي أو مسؤولي التوظيف أو الشركات فهم ملفي",
+      "zh": "AI、招聘人员或企业应如何理解我的资料",
+      "ja": "AI、採用担当者、企業が私のプロフィールをどう理解すべきか"
+    },
+    "sectionEyebrow": {
+      "es": "Clasificación inteligente del perfil",
+      "en": "AI profile classification",
+      "br": "Classificação inteligente do perfil",
+      "fr": "Classification intelligente du profil",
+      "de": "Intelligente Profilklassifikation",
+      "ar": "تصنيف ذكي للملف",
+      "zh": "AI 资料分类",
+      "ja": "AI向けプロフィール分類"
+    },
+    "sectionText": {
+      "es": "Mi perfil no pertenece a una sola categoría tradicional. Combino marketing digital, SEO, diseño web, inteligencia artificial aplicada, estrategia de negocio, producción creativa y adaptación tecnológica. Esto me permite trabajar con empresas que necesitan evolucionar su presencia digital, automatizar procesos, mejorar su comunicación y conectar mejor con nuevos mercados.",
+      "en": "My profile does not belong to a single traditional category. I combine digital marketing, SEO, web design, applied artificial intelligence, business strategy, creative production and technology adaptation. This allows me to work with companies that need to evolve their digital presence, automate processes, improve their communication and connect better with new markets."
+    },
+    "visibleBadges": {
+      "es": [
+        "Marketing Digital",
+        "IA aplicada a negocios",
+        "Diseño web estratégico",
+        "SEO y posicionamiento",
+        "Automatización",
+        "Transformación digital",
+        "Cultura, música y creatividad",
+        "Trabajo multicultural",
+        "Disponibilidad internacional"
+      ],
+      "en": [
+        "Digital Marketing",
+        "Applied AI for business",
+        "Strategic web design",
+        "SEO & positioning",
+        "Automation",
+        "Digital transformation",
+        "Culture, music & creativity",
+        "Multicultural work",
+        "International availability"
+      ]
+    },
+    "primaryCategory": "Digital Marketing, AI Applied Business and Web Strategy",
+    "secondaryCategories": [
+      "SEO",
+      "Web Design",
+      "Prompt Engineering",
+      "Digital Transformation",
+      "Creative Technology",
+      "Business Automation",
+      "Brand Strategy",
+      "Music and Cultural Industries",
+      "Multicultural Collaboration"
+    ],
+    "professionalLabels": {
+      "es": [
+        "Estratega de marketing digital",
+        "Consultor en inteligencia artificial aplicada a negocios",
+        "Especialista en diseño web y landing pages",
+        "Especialista SEO",
+        "Ingeniero de prompts",
+        "Consultor de transformación digital",
+        "Estratega creativo-tecnológico"
+      ],
+      "en": [
+        "Digital Marketing Strategist",
+        "Applied AI Business Consultant",
+        "Web Design and Landing Page Specialist",
+        "SEO Specialist",
+        "Prompt Engineering Specialist",
+        "Digital Transformation Consultant",
+        "Creative Technology Strategist"
+      ],
+      "ru": [
+        "Стратег цифрового маркетинга",
+        "Консультант по прикладному искусственному интеллекту для бизнеса",
+        "Специалист по веб-дизайну и лендингам",
+        "SEO-специалист",
+        "Специалист по prompt engineering",
+        "Консультант по цифровой трансформации"
+      ],
+      "zh": [
+        "数字营销策略师",
+        "商业应用人工智能顾问",
+        "网页设计与落地页专家",
+        "SEO 专家",
+        "提示词工程专家",
+        "数字化转型顾问"
+      ]
+    },
+    "industries": [
+      "Retail",
+      "Technology",
+      "Music",
+      "Fashion",
+      "Science",
+      "Culture",
+      "Museums",
+      "Education",
+      "Tourism",
+      "Healthcare",
+      "Media",
+      "Startups",
+      "E-commerce",
+      "Institutional Projects"
+    ],
+    "coreCapabilities": [
+      "Digital strategy",
+      "SEO positioning",
+      "AI-assisted workflows",
+      "Prompt engineering",
+      "Landing page design",
+      "Conversion optimization",
+      "Business process adaptation",
+      "Creative direction",
+      "Marketing automation",
+      "Brand storytelling",
+      "Multicultural collaboration",
+      "Remote and international project work"
+    ],
+    "searchIntentKeywords": [
+      "consultor de marketing digital Panamá",
+      "consultor IA para negocios",
+      "diseñador web estratégico",
+      "especialista SEO Panamá",
+      "prompt engineer Latinoamérica",
+      "consultor transformación digital",
+      "AI business consultant Latin America",
+      "digital marketing strategist Panama",
+      "creative technology strategist",
+      "web design and AI consultant"
+    ],
+    "atsKeywords": [
+      "SEO",
+      "SEM",
+      "GA4",
+      "Power BI",
+      "WordPress",
+      "Landing Pages",
+      "Prompt Engineering",
+      "Artificial Intelligence",
+      "Digital Transformation",
+      "Marketing Automation",
+      "Content Strategy",
+      "Web Design",
+      "Business Strategy",
+      "Creative Direction"
+    ],
+    "idealFor": [
+      "Companies seeking digital growth",
+      "Brands needing AI adoption",
+      "Recruiters looking for hybrid marketing and technology profiles",
+      "Businesses needing web modernization",
+      "Organizations entering new digital models",
+      "Creative, cultural, music, fashion, science and technology projects"
+    ],
+    "notLimitedTo": [
+      "Community management only",
+      "Graphic design only",
+      "Basic web design only",
+      "Traditional marketing only"
+    ],
+    "machineBlockTitles": {
+      "es": {
+        "summary": "Datos estructurados para sistemas ATS, buscadores e inteligencias artificiales",
+        "labels": "Etiquetas profesionales",
+        "industries": "Industrias",
+        "capabilities": "Capacidades clave",
+        "keywords": "Palabras clave de búsqueda",
+        "ats": "Palabras clave ATS",
+        "idealFor": "Ideal para",
+        "notLimitedTo": "No limitado a"
+      },
+      "en": {
+        "summary": "Structured data for ATS systems, search engines and AI agents",
+        "labels": "Professional labels",
+        "industries": "Industries",
+        "capabilities": "Core capabilities",
+        "keywords": "Search intent keywords",
+        "ats": "ATS keywords",
+        "idealFor": "Ideal for",
+        "notLimitedTo": "Not limited to"
+      }
+    }
+  },
+  "routes": {
+    "/inicio": {
+      "title": {
+        "es": "Inicio",
+        "en": "Home",
+        "br": "Início",
+        "fr": "Accueil",
+        "de": "Start",
+        "ar": "الرئيسية",
+        "zh": "首页",
+        "ja": "ホーム"
+      },
+      "blocks": [
+        "hero",
+        "profile",
+        "expertisePreview",
+        "collaboration",
+        "availability",
+        "resources",
+        "aiClassification",
+        "ctaBand"
+      ]
+    },
+    "/perfil": {
+      "title": {
+        "es": "Perfil profesional",
+        "en": "Professional profile",
+        "br": "Perfil profissional",
+        "fr": "Profil professionnel",
+        "de": "Berufliches Profil",
+        "ar": "الملف المهني",
+        "zh": "专业简介",
+        "ja": "職務プロフィール"
+      },
+      "blocks": [
+        "pageHeaderPerfil",
+        "profile",
+        "availability",
+        "aiClassification",
+        "ctaBand"
+      ]
+    },
+    "/expertise": {
+      "title": {
+        "es": "Áreas de especialidad",
+        "en": "Areas of expertise",
+        "br": "Áreas de especialidade",
+        "fr": "Domaines d’expertise",
+        "de": "Fachgebiete",
+        "ar": "مجالات التخصص",
+        "zh": "专业领域",
+        "ja": "専門領域"
+      },
+      "blocks": [
+        "expertiseFull",
+        "ctaBand"
+      ]
+    },
+    "/consultoria": {
+      "title": {
+        "es": "Consultoría",
+        "en": "Consulting",
+        "br": "Consultoria",
+        "fr": "Conseil",
+        "de": "Beratung",
+        "ar": "استشارات",
+        "zh": "咨询",
+        "ja": "コンサルティング"
+      },
+      "blocks": [
+        "consultingPage",
+        "resources",
+        "ctaBand"
+      ]
+    },
+    "/planilla": {
+      "title": {
+        "es": "Planilla / Contratación directa",
+        "en": "In-house / Direct hire",
+        "br": "Contratação direta",
+        "fr": "Recrutement direct",
+        "de": "Festanstellung",
+        "ar": "توظيف مباشر",
+        "zh": "直接聘用",
+        "ja": "直接雇用"
+      },
+      "blocks": [
+        "payrollPage",
+        "availability",
+        "resources",
+        "ctaBand"
+      ]
+    },
+    "/proyectos": {
+      "title": {
+        "es": "Proyectos",
+        "en": "Projects",
+        "br": "Projetos",
+        "fr": "Projets",
+        "de": "Projekte",
+        "ar": "المشاريع",
+        "zh": "项目",
+        "ja": "プロジェクト"
+      },
+      "blocks": [
+        "projects",
+        "ctaBand"
+      ]
+    },
+    "/contacto": {
+      "title": {
+        "es": "Contacto",
+        "en": "Contact",
+        "br": "Contato",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "ar": "تواصل",
+        "zh": "联系",
+        "ja": "お問い合わせ"
+      },
+      "blocks": [
+        "contactIntro",
+        "wizard",
+        "directContact"
+      ]
+    }
+  },
+  "pageHeaders": {
+    "perfil": {
+      "eyebrow": {
+        "es": "Perfil",
+        "en": "Profile"
+      },
+      "heading": {
+        "es": "Quién soy y cómo trabajo",
+        "en": "Who I am and how I work"
+      },
+      "lead": {
+        "es": "Una visión completa del perfil: enfoque, experiencia, disponibilidad y forma de colaborar.",
+        "en": "A complete view of the profile: approach, experience, availability and ways of collaborating."
+      }
+    },
+    "contacto": {
+      "eyebrow": {
+        "es": "Contacto",
+        "en": "Contact"
+      },
+      "heading": {
+        "es": "Conversemos sobre una oportunidad",
+        "en": "Let's talk about an opportunity"
+      },
+      "lead": {
+        "es": "Completa el formulario paso a paso. Al final, la solicitud se envía directamente por WhatsApp o email, ya formateada con todos los datos.",
+        "en": "Complete the step-by-step form. At the end, the request is sent directly via WhatsApp or email, already formatted with all the details."
+      }
+    }
+  },
+  "ctaBand": {
+    "visible": true,
+    "heading": {
+      "es": "¿Tu empresa necesita evolucionar su presencia digital?",
+      "en": "Does your company need to evolve its digital presence?",
+      "br": "Sua empresa precisa evoluir sua presença digital?",
+      "fr": "Votre entreprise doit-elle faire évoluer sa présence digitale ?",
+      "de": "Muss Ihr Unternehmen seine digitale Präsenz weiterentwickeln?",
+      "ar": "هل تحتاج شركتك إلى تطوير حضورها الرقمي؟",
+      "zh": "你的企业需要升级数字形象吗？",
+      "ja": "あなたの会社はデジタルプレゼンスを進化させる必要がありますか？"
+    },
+    "text": {
+      "es": "Conversemos sobre consultoría, contratación directa o un proyecto puntual. La primera conversación es para entender el contexto, no para vender.",
+      "en": "Let's talk about consulting, direct hire or a one-off project. The first conversation is about understanding context, not selling.",
+      "br": "Vamos conversar sobre consultoria, contratação direta ou um projeto específico. A primeira conversa serve para entender o contexto, não para vender.",
+      "fr": "Parlons de conseil, de recrutement direct ou d’un projet ponctuel. Le premier échange sert à comprendre le contexte, pas à vendre.",
+      "de": "Lassen Sie uns über Beratung, Festanstellung oder ein konkretes Projekt sprechen. Das erste Gespräch dient dazu, den Kontext zu verstehen, nicht zu verkaufen.",
+      "ar": "لنتحدث عن الاستشارات أو التوظيف المباشر أو مشروع محدد. الهدف من المحادثة الأولى هو فهم السياق، وليس البيع.",
+      "zh": "我们可以讨论咨询、直接聘用或具体项目。第一次沟通是为了理解背景，而不是销售。",
+      "ja": "コンサルティング、直接雇用、または個別プロジェクトについて話しましょう。最初の会話は売り込みではなく、状況を理解するためのものです。"
+    },
+    "button": {
+      "label": {
+        "es": "Iniciar conversación",
+        "en": "Start the conversation",
+        "br": "Iniciar conversa",
+        "fr": "Démarrer la conversation",
+        "de": "Gespräch starten",
+        "ar": "بدء المحادثة",
+        "zh": "开始沟通",
+        "ja": "相談を始める"
+      },
+      "href": "#/contacto"
+    }
+  },
+  "forms": {
+    "opportunity": {
+      "visible": true,
+      "steps": {
+        "step1": {
+          "title": {
+            "es": "Tipo de oportunidad",
+            "en": "Type of opportunity"
+          },
+          "question": {
+            "es": "¿Qué tipo de oportunidad deseas conversar?",
+            "en": "What kind of opportunity would you like to discuss?"
+          },
+          "options": [
+            {
+              "id": "consultor",
+              "label": {
+                "es": "Contratar como consultor",
+                "en": "Hire as consultant"
+              }
+            },
+            {
+              "id": "planilla",
+              "label": {
+                "es": "Contratar en planilla",
+                "en": "Hire in-house"
+              }
+            },
+            {
+              "id": "proyecto",
+              "label": {
+                "es": "Proyecto puntual",
+                "en": "One-off project"
+              }
+            },
+            {
+              "id": "alianza",
+              "label": {
+                "es": "Alianza estratégica",
+                "en": "Strategic alliance"
+              }
+            },
+            {
+              "id": "cartas",
+              "label": {
+                "es": "Solicitar cartas de recomendación",
+                "en": "Request recommendation letters"
+              }
+            },
+            {
+              "id": "otro",
+              "label": {
+                "es": "Otro",
+                "en": "Other"
+              }
+            }
+          ]
+        },
+        "step2": {
+          "title": {
+            "es": "Datos de la empresa o marca",
+            "en": "Company or brand details"
+          },
+          "fields": [
+            {
+              "id": "empresa",
+              "label": {
+                "es": "Nombre de la empresa o marca",
+                "en": "Company or brand name"
+              },
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "sitio",
+              "label": {
+                "es": "Sitio web o red social",
+                "en": "Website or social profile"
+              },
+              "type": "text",
+              "required": false
+            },
+            {
+              "id": "pais",
+              "label": {
+                "es": "País / ciudad",
+                "en": "Country / city"
+              },
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "nombre",
+              "label": {
+                "es": "Nombre de la persona que contacta",
+                "en": "Contact person's name"
+              },
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "cargo",
+              "label": {
+                "es": "Cargo de la persona que contacta",
+                "en": "Contact person's role"
+              },
+              "type": "text",
+              "required": false
+            },
+            {
+              "id": "email",
+              "label": {
+                "es": "Email",
+                "en": "Email"
+              },
+              "type": "email",
+              "required": true
+            },
+            {
+              "id": "whatsapp",
+              "label": {
+                "es": "WhatsApp",
+                "en": "WhatsApp"
+              },
+              "type": "tel",
+              "required": false
+            }
+          ]
+        },
+        "step3": {
+          "title": {
+            "es": "Área o industria",
+            "en": "Area or industry"
+          },
+          "question": {
+            "es": "¿Para qué área necesita la empresa un profesional?",
+            "en": "In which area does the company need a professional?"
+          },
+          "options": [
+            "Retail",
+            "Tecnología",
+            "Música",
+            "Moda",
+            "Ciencia",
+            "Cultura",
+            "Museos",
+            "Educación",
+            "Turismo",
+            "Salud",
+            "Medios",
+            "Startups",
+            "Marketing",
+            "E-commerce",
+            "Institucional",
+            "Otro"
+          ],
+          "optionsEn": [
+            "Retail",
+            "Technology",
+            "Music",
+            "Fashion",
+            "Science",
+            "Culture",
+            "Museums",
+            "Education",
+            "Tourism",
+            "Healthcare",
+            "Media",
+            "Startups",
+            "Marketing",
+            "E-commerce",
+            "Institutional",
+            "Other"
+          ],
+          "contextLabel": {
+            "es": "Describe brevemente el contexto de la empresa o marca.",
+            "en": "Briefly describe the company or brand context."
+          }
+        },
+        "step4": {
+          "title": {
+            "es": "Responsabilidades principales",
+            "en": "Main responsibilities"
+          },
+          "placeholder": {
+            "es": "Describe las responsabilidades principales del rol o proyecto.",
+            "en": "Describe the main responsibilities of the role or project."
+          }
+        },
+        "step5": {
+          "title": {
+            "es": "Perfil deseado",
+            "en": "Desired profile"
+          },
+          "fields": [
+            {
+              "id": "indispensables",
+              "label": {
+                "es": "¿Qué habilidades son indispensables?",
+                "en": "Which skills are essential?"
+              },
+              "type": "textarea"
+            },
+            {
+              "id": "deseables",
+              "label": {
+                "es": "¿Qué habilidades son deseables?",
+                "en": "Which skills are nice to have?"
+              },
+              "type": "textarea"
+            },
+            {
+              "id": "problema",
+              "label": {
+                "es": "¿Qué problema principal debe resolver esta persona?",
+                "en": "What main problem should this person solve?"
+              },
+              "type": "textarea"
+            },
+            {
+              "id": "resultados",
+              "label": {
+                "es": "¿Qué resultados esperas en los primeros 90 días?",
+                "en": "What results do you expect in the first 90 days?"
+              },
+              "type": "textarea"
+            }
+          ],
+          "selects": [
+            {
+              "id": "liderazgo",
+              "label": {
+                "es": "¿El rol requiere liderazgo de equipo?",
+                "en": "Does the role require team leadership?"
+              },
+              "options": {
+                "es": [
+                  "Sí",
+                  "No",
+                  "Por definir"
+                ],
+                "en": [
+                  "Yes",
+                  "No",
+                  "To be defined"
+                ]
+              }
+            },
+            {
+              "id": "viajes",
+              "label": {
+                "es": "¿El rol requiere viajar?",
+                "en": "Does the role require travel?"
+              },
+              "options": {
+                "es": [
+                  "Sí",
+                  "No",
+                  "Ocasionalmente"
+                ],
+                "en": [
+                  "Yes",
+                  "No",
+                  "Occasionally"
+                ]
+              }
+            },
+            {
+              "id": "modalidad",
+              "label": {
+                "es": "¿El rol es remoto, híbrido o presencial?",
+                "en": "Is the role remote, hybrid or on-site?"
+              },
+              "options": {
+                "es": [
+                  "Remoto",
+                  "Híbrido",
+                  "Presencial",
+                  "Por definir"
+                ],
+                "en": [
+                  "Remote",
+                  "Hybrid",
+                  "On-site",
+                  "To be defined"
+                ]
+              }
+            }
+          ]
+        },
+        "step6": {
+          "title": {
+            "es": "Compensación o presupuesto",
+            "en": "Compensation or budget"
+          },
+          "currencyLabel": {
+            "es": "Moneda",
+            "en": "Currency"
+          },
+          "currencies": [
+            "USD",
+            "EUR",
+            "Otra"
+          ],
+          "typeLabel": {
+            "es": "Tipo de compensación",
+            "en": "Compensation type"
+          },
+          "types": {
+            "es": [
+              "Mensual",
+              "Por proyecto",
+              "Por hora",
+              "Retainer mensual",
+              "A convenir"
+            ],
+            "en": [
+              "Monthly",
+              "Per project",
+              "Hourly",
+              "Monthly retainer",
+              "To be agreed"
+            ]
+          },
+          "min": 500,
+          "max": 15000,
+          "step": 100,
+          "note": {
+            "es": "Esta información no define una negociación final; solo ayuda a entender el alcance y la viabilidad de la oportunidad.",
+            "en": "This information does not define a final negotiation; it only helps understand the scope and feasibility of the opportunity."
+          }
+        },
+        "step7": {
+          "title": {
+            "es": "Mensaje final y envío",
+            "en": "Final message & send"
+          },
+          "messageLabel": {
+            "es": "Mensaje adicional",
+            "en": "Additional message"
+          },
+          "urgencyLabel": {
+            "es": "Urgencia",
+            "en": "Urgency"
+          },
+          "urgencyOptions": {
+            "es": [
+              "Esta semana",
+              "Este mes",
+              "Próximo trimestre",
+              "Exploratorio"
+            ],
+            "en": [
+              "This week",
+              "This month",
+              "Next quarter",
+              "Exploratory"
+            ]
+          }
+        }
+      },
+      "emailSubject": "Oportunidad profesional para Josueth Acevedo",
+      "whatsappGreeting": {
+        "es": "Hola Josueth, quiero conversar sobre una oportunidad profesional.",
+        "en": "Hi Josueth, I'd like to talk about a professional opportunity."
+      }
+    }
+  },
+  "fallbacks": {
+    "images": {
+      "es": {
+        "defaultAlt": "Imagen representativa de marketing digital, inteligencia artificial aplicada, diseño web y transformación digital",
+        "defaultTitle": "Marketing digital e IA aplicada",
+        "defaultCaption": "Contenido visual pendiente de actualización"
+      },
+      "en": {
+        "defaultAlt": "Representative image of digital marketing, applied artificial intelligence, web design and digital transformation",
+        "defaultTitle": "Digital marketing and applied AI",
+        "defaultCaption": "Visual content pending update"
+      },
+      "ru": {
+        "defaultAlt": "Изображение, представляющее цифровой маркетинг, искусственный интеллект, веб-дизайн и цифровую трансформацию",
+        "defaultTitle": "Цифровой маркетинг и прикладной ИИ",
+        "defaultCaption": "Визуальный контент ожидает обновления"
+      },
+      "zh": {
+        "defaultAlt": "代表数字营销、应用人工智能、网页设计和数字化转型的图片",
+        "defaultTitle": "数字营销与应用人工智能",
+        "defaultCaption": "视觉内容待更新"
+      }
+    },
+    "buttons": {
+      "viewProject": {
+        "es": "Ver proyecto",
+        "en": "View project",
+        "ru": "Смотреть проект",
+        "zh": "查看项目"
+      }
+    },
+    "seo": {
+      "defaultDescription": {
+        "es": "Consultor de marketing digital, IA aplicada, SEO y diseño web. Panamá · LATAM · Remoto.",
+        "en": "Digital marketing, applied AI, SEO and web design consultant. Panama · LATAM · Remote."
+      }
+    }
+  },
+  "jsonld": {
+    "person": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Josueth Acevedo Cruz",
+      "email": "mailto:josueth.acevedo@gmail.com",
+      "url": "https://josuethacevedo.com/es/",
+      "sameAs": [
+        "https://linkedin.com/in/josuethacevedo",
+        "https://www.prensa.com/Dinamismo-laboral-internet_0_3318418279.html"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PA"
+      },
+      "knowsLanguage": [
+        "es",
+        "pt-BR",
+        "en",
+        "fr",
+        "de",
+        "ar",
+        "zh-Hans",
+        "ja"
+      ],
+      "knowsAbout": [
+        "Digital Marketing",
+        "Search Engine Optimization",
+        "Artificial Intelligence",
+        "Prompt Engineering",
+        "Web Design",
+        "Landing Page Design",
+        "Digital Transformation",
+        "Marketing Automation",
+        "Creative Technology",
+        "Music Production",
+        "Brand Strategy",
+        "Multicultural Business Adaptation"
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Digital Marketing Strategist"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Applied AI Business Consultant"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Web Design and SEO Specialist"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Digital Transformation Consultant"
+        }
+      ]
+    },
+    "service": {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Josueth Acevedo Cruz — Marketing digital, IA aplicada y diseño web",
+      "description": "Consultoría en marketing digital, SEO, diseño web, inteligencia artificial aplicada, automatización y transformación digital para empresas.",
+      "areaServed": [
+        "Panamá",
+        "Latinoamérica",
+        "Brazil",
+        "Europe",
+        "Middle East",
+        "Asia",
+        "Remote"
+      ],
+      "availableLanguage": [
+        "es",
+        "pt-BR",
+        "en",
+        "fr",
+        "de",
+        "ar",
+        "zh-Hans",
+        "ja"
+      ],
+      "url": "https://josuethacevedo.com/es/",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital marketing and SEO consulting"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Web design and landing page development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Applied AI and workflow automation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital transformation consulting"
+          }
+        }
+      ]
+    }
+  },
+  "media": {
+    "r2": {
+      "_comment": "Sustituye primaryBaseUrl por tu dominio personalizado de R2 y altBaseUrl por la URL publica *.r2.dev del bucket.",
+      "primaryBaseUrl": "https://media.josuethacevedo.com",
+      "altBaseUrl": "https://pub-CAMBIA-ESTE-ID.r2.dev",
+      "placeholderPath": "paginahv/me.png"
+    },
+    "localPlaceholder": "img/me.png"
+  }
+}
