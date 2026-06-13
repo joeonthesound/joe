@@ -1,0 +1,76 @@
+refactor: migra rutas a History API y unifica SEO en .online
+
+Migra el sistema de navegación basado en fragmentos hash a URLs reales
+gestionadas mediante la History API. Cada ruta pasa a representar un
+estado rastreable e independiente, conservando compatibilidad con enlaces
+antiguos y hosting estático.
+
+Routing:
+
+- Reescribe assets/js/core/router.js para leer location.pathname y
+  location.search mediante parsePath().
+- Mantiene parseHash() como alias de compatibilidad.
+- Añade toUrl() para convertir enlaces internos en rutas reales con el
+  prefijo del idioma.
+- Evita volver a prefijar URLs que ya incluyen un idioma.
+- Mantiene intactos enlaces externos, mailto: y tel:.
+- Implementa navigate(), pushState, popstate y start().
+- Actualiza title, canonical y meta description mediante
+  updateCanonical() y data.seoByRoute.
+- Elimina hashchange y la redirección forzada a #/inicio desde app.js.
+- Conserva la ruta actual al cambiar de idioma.
+- Actualiza renderer.js para emitir enlaces rastreables como
+  /es/proyectos en menús, footer, hero y llamadas a la acción.
+- Conserva data-path para identificar la navegación activa.
+- Añade 404.html como fallback para rutas directas en GitHub Pages.
+
+Dominio:
+
+- Unifica el dominio principal en josuethacevedo.online.
+- Actualiza canonical y los nueve hreflang del index raíz de .com a
+  .online.
+
+SEO:
+
+- Añade sitemap.xml con 56 URLs correspondientes a siete rutas en ocho
+  idiomas.
+- Incluye hreflang completo y x-default para cada grupo de páginas.
+- Mantiene slugs constantes entre idiomas.
+- Añade robots.txt para permitir el rastreo general, bloquear /archive/
+  y declarar la ubicación del sitemap.
+
+Imágenes y CDN:
+
+- Cambia media.r2.primaryBaseUrl a
+  https://cdn.josuethacevedo.online.
+- Migra las imágenes definidas mediante r2Path al CDN personalizado.
+- Actualiza la foto de perfil a paginahv/joe.webp.
+
+Archivos nuevos:
+
+- 404.html
+- sitemap.xml
+- robots.txt
+
+Archivos reescritos:
+
+- assets/js/core/router.js
+- assets/js/core/renderer.js
+- assets/js/app.js
+
+Archivos editados:
+
+- index.html
+- data/site-content.json
+
+Seguimiento:
+
+- Reemplazar josuethacevedo.com por .online en las ocho carcasas de
+  idioma, incluyendo canonical, hreflang y Open Graph.
+- Actualizar la clave jsonld de data/site-content.json.
+- Añadir en las ocho carcasas el puente para restaurar rutas procedentes
+  del fallback 404 y convertir enlaces antiguos #/ruta.
+- Verificar que los slugs definidos en routes coincidan con sitemap.xml.
+- Registrar sitemap.xml en Google Search Console.
+- Configurar una redirección 301 de .com a .online si el dominio existe.
+- Validar el fallback 404 directamente en GitHub Pages.
