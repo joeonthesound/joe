@@ -1278,22 +1278,35 @@
       "visible": true,
       "title": {
         "es": "Adaptación de negocios a nuevos modelos tecnológicos",
-        "en": "Adapting businesses to new technology models"
+        "en": "Adapting businesses to new technology models",
+        "br": "Adaptação de empresas a novos modelos tecnológicos",
+        "fr": "Adaptation des entreprises aux nouveaux modèles technologiques",
+        "de": "Anpassung von Unternehmen an neue Technologiemodelle",
+        "ar": "تكييف الأعمال مع النماذج التكنولوجية الجديدة",
+        "zh": "帮助企业适应新的技术模式",
+        "ja": "新しいテクノロジーモデルへの企業適応"
       },
       "category": {
         "es": "IA aplicada / Transformación digital",
-        "en": "Applied AI / Digital transformation"
+        "en": "Applied AI / Digital transformation",
+        "br": "IA aplicada / Transformação digital",
+        "fr": "IA appliquée / Transformation numérique",
+        "de": "Angewandte KI / Digitale Transformation",
+        "ar": "الذكاء الاصطناعي التطبيقي / التحول الرقمي",
+        "zh": "应用人工智能 / 数字化转型",
+        "ja": "応用AI / デジタルトランスフォーメーション"
       },
       "description": {
         "es": "Implementación de estrategias digitales, automatización con IA y rediseño de procesos para empresas que necesitan evolucionar.",
-        "en": "Implementation of digital strategies, AI automation and process redesign for companies that need to evolve."
+        "en": "Implementation of digital strategies, AI automation and process redesign for companies that need to evolve.",
+        "br": "Implementação de estratégias digitais, automação com IA e redesenho de processos para empresas que precisam evoluir.",
+        "fr": "Mise en œuvre de stratégies numériques, automatisation par l’IA et refonte des processus pour les entreprises qui doivent évoluer.",
+        "de": "Umsetzung digitaler Strategien, KI-gestützte Automatisierung und Neugestaltung von Prozessen für Unternehmen, die sich weiterentwickeln müssen.",
+        "ar": "تنفيذ استراتيجيات رقمية، وأتمتة مدعومة بالذكاء الاصطناعي، وإعادة تصميم العمليات للشركات التي تحتاج إلى التطور.",
+        "zh": "为需要转型升级的企业实施数字战略、人工智能自动化与流程再设计。",
+        "ja": "進化を必要とする企業に向けて、デジタル戦略の導入、AIによる自動化、業務プロセスの再設計を行います。"
       },
-      "tags": [
-        "IA",
-        "Marketing Digital",
-        "Diseño Web",
-        "Automatización"
-      ],
+      "tags": ["IA", "Marketing Digital", "Diseño Web", "Automatización"],
       "media": {
         "src": "",
         "alt": {
