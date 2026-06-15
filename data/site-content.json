@@ -1658,6 +1658,101 @@
         ],
         "youtubeId": ""
       }
+    },
+    {
+      "id": "creative-culture",
+      "visible": true,
+      "title": {
+        "es": "Narrativa de marca en industrias creativas",
+        "en": "Brand narrative in creative industries"
+      },
+      "category": {
+        "es": "Música / Cultura / Branding",
+        "en": "Music / Culture / Branding"
+      },
+      "description": {
+        "es": "Estrategia y producción para proyectos de música y cultura digital: identidad, contenido y conexión con audiencias.",
+        "en": "Strategy and production for music and digital culture projects: identity, content and audience connection."
+      },
+      "tags": [
+        "Branding",
+        "Música",
+        "Cultura",
+        "Audiovisual"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Proyecto de narrativa de marca para industrias creativas y culturales",
+          "en": "Brand narrative project for creative and cultural industries"
+        },
+        "title": {
+          "es": "Narrativa de marca y cultura digital",
+          "en": "Narrativa de marca y cultura digital"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Proyecto de branding, música y cultura digital con producción creativa y audiovisual"
+        },
+        "r2Path": "paginahv/music-branding-workshop-real-studio-2.webp"
+      },
+      "projectUrl": "",
+      "projectButtonLabel": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "Las industrias creativas necesitan algo más que difusión: necesitan una narrativa coherente que conecte la identidad del proyecto con su audiencia. Trabajo con músicos, sellos y proyectos culturales en la construcción de esa narrativa.",
+            "El trabajo abarca identidad y posicionamiento, calendarios de contenido, estrategia de lanzamientos, piezas audiovisuales y la presencia digital completa del proyecto, cuidando que cada canal cuente la misma historia.",
+            "La meta es que la marca creativa sea reconocible, sostenible y capaz de crecer su comunidad sin perder autenticidad."
+          ],
+          "en": [
+            "Creative industries need more than promotion: they need a coherent narrative connecting the project's identity with its audience. I work with musicians, labels and cultural projects on building that narrative.",
+            "The work covers identity and positioning, content calendars, release strategy, audiovisual pieces and the project's full digital presence, making sure every channel tells the same story.",
+            "The goal is for the creative brand to be recognizable, sustainable and able to grow its community without losing authenticity."
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/music-branding-workshop-real-studio-1.webp",
+            "alt": {
+              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 1",
+              "en": "Brand narrative project for creative and cultural industries — detail 1"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
+            }
+          },
+          {
+            "r2Path": "paginahv/music-branding-workshop-real-studio-.webp",
+            "alt": {
+              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 2",
+              "en": "Brand narrative project for creative and cultural industries — detail 2"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
+            }
+          }
+        ],
+        "keywords": [
+          "Branding",
+          "Narrativa de marca",
+          "Música",
+          "Cultura digital",
+          "Lanzamientos",
+          "Contenido audiovisual",
+          "Comunidad",
+          "Identidad",
+          "Storytelling",
+          "Audiencias"
+        ],
+        "youtubeId": ""
+      }
     }
   ],
   "aiClassification": {
