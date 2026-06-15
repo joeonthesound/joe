@@ -1284,8 +1284,8 @@
       "id": "ai-business-adaptation",
       "visible": true,
       "title": {
-        "es": "Adaptación de negocios a nuevos modelos tecnológicos",
-        "en": "Adapting businesses to new technology models"
+        "es": "Adaptación de negocios a nuevos modelos tecnológicos (Ai Workflow Designer)",
+        "en": "Adapting businesses to new technology models (Ai Workflow Designer)"
       },
       "category": {
         "es": "IA aplicada / Transformación digital",
@@ -1361,7 +1361,7 @@
           }
         ],
         "keywords": [
-          "IA aplicada",
+          "Ai Workflow Designer",
           "Automatización",
           "Prompt engineering",
           "Transformación digital",
