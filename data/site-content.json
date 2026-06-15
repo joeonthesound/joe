@@ -1599,7 +1599,7 @@
           "enabled": true,
           "seoText": "Proyecto de branding, música y cultura digital con producción creativa y audiovisual"
         },
-        "r2Path": "paginahv/projects/creative-culture/cover.png"
+        "r2Path": "paginahv/music-branding-workshop-real-studio-2.webp"
       },
       "projectUrl": "",
       "projectButtonLabel": {
@@ -1622,7 +1622,7 @@
         },
         "images": [
           {
-            "r2Path": "paginahv/projects/creative-culture/detail-1.png",
+            "r2Path": "paginahv/music-branding-workshop-real-studio-1.webp",
             "alt": {
               "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 1",
               "en": "Brand narrative project for creative and cultural industries — detail 1"
@@ -1633,7 +1633,7 @@
             }
           },
           {
-            "r2Path": "paginahv/projects/creative-culture/detail-2.png",
+            "r2Path": "paginahv/music-branding-workshop-real-studio-.webp",
             "alt": {
               "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 2",
               "en": "Brand narrative project for creative and cultural industries — detail 2"
