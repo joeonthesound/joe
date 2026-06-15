@@ -1504,7 +1504,7 @@
           "enabled": true,
           "seoText": "Proyecto de diseño web y landing pages orientadas a conversión para marcas y negocios"
         },
-        "r2Path": "paginahv/projects/landing-conversion/cover.png"
+        "r2Path": "paginahv/landing%20page%20wireframe%20workshop%20real%20office.webp"
       },
       "projectUrl": "",
       "projectButtonLabel": {
@@ -1527,7 +1527,7 @@
         },
         "images": [
           {
-            "r2Path": "paginahv/projects/landing-conversion/detail-1.png",
+            "r2Path": "paginahv/landing%20page%20wireframe%20workshop%20real%20office%201.webp",
             "alt": {
               "es": "Proyecto de diseño de landing pages orientadas a conversión — detalle 1",
               "en": "Conversion-focused landing page design project — detail 1"
@@ -1538,7 +1538,7 @@
             }
           },
           {
-            "r2Path": "paginahv/projects/landing-conversion/detail-2.png",
+            "r2Path": "paginahv/landing%20page%20wireframe%20workshop%20real%20office%202.webp",
             "alt": {
               "es": "Proyecto de diseño de landing pages orientadas a conversión — detalle 2",
               "en": "Conversion-focused landing page design project — detail 2"
