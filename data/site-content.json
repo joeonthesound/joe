@@ -1660,100 +1660,178 @@
       }
     },
     {
-      "id": "creative-culture",
-      "visible": true,
-      "title": {
-        "es": "Narrativa de marca en industrias creativas",
-        "en": "Brand narrative in creative industries"
-      },
-      "category": {
-        "es": "Música / Cultura / Branding",
-        "en": "Music / Culture / Branding"
-      },
-      "description": {
-        "es": "Estrategia y producción para proyectos de música y cultura digital: identidad, contenido y conexión con audiencias.",
-        "en": "Strategy and production for music and digital culture projects: identity, content and audience connection."
-      },
-      "tags": [
-        "Branding",
-        "Música",
-        "Cultura",
-        "Audiovisual"
+  "id": "joe-on-the-sound-web",
+  "visible": true,
+  "title": {
+    "es": "Rediseño Web: Joe on the Sound",
+    "en": "Web Redesign: Joe on the Sound",
+    "fr": "Refonte Web : Joe on the Sound",
+    "de": "Web-Redesign: Joe on the Sound",
+    "pt": "Redesenho Web: Joe on the Sound",
+    "it": "Restyling Web: Joe on the Sound",
+    "ja": "ウェブサイトのリニューアル：Joe on the Sound",
+    "zh": "网站重新设计：Joe on the Sound"
+  },
+  "category": {
+    "es": "Desarrollo Web / Optimización IA / Música",
+    "en": "Web Development / AI Optimization / Music",
+    "fr": "Développement Web / Optimisation IA / Musique",
+    "de": "Webentwicklung / KI-Optimierung / Musik",
+    "pt": "Desenvolvimento Web / Otimização IA / Música",
+    "it": "Sviluppo Web / Ottimizzazione IA / Musica",
+    "ja": "ウェブ開発 / AI最適化 / 音楽",
+    "zh": "网站开发 / AI 优化 / 音乐"
+  },
+  "description": {
+    "es": "Rediseño web 'Mobile First' optimizado para IA y buscadores. Integración de Spotify dinámica y calculadora de costos para proyectos.",
+    "en": "'Mobile First' web redesign optimized for AI and search engines. Dynamic Spotify integration and project cost calculator.",
+    "fr": "Refonte web 'Mobile First' optimisée pour l'IA et les moteurs de recherche. Intégration dynamique de Spotify et calculateur de coûts.",
+    "de": "'Mobile First' Web-Redesign, optimiert für KI und Suchmaschinen. Dynamische Spotify-Integration und Projektkostenrechner.",
+    "pt": "Redesenho web 'Mobile First' otimizado para IA e motores de busca. Integração dinâmica do Spotify e calculadora de custos de projetos.",
+    "it": "Restyling web 'Mobile First' ottimizzato per l'IA e i motori di ricerca. Integrazione dinamica di Spotify e calcolatore dei costi.",
+    "ja": "AIと検索エンジン向けに最適化された「モバイルファースト」のウェブサイトリニューアル。Spotifyの動的統合とプロジェクト費用計算ツールを搭載。",
+    "zh": "针对 AI 和搜索引擎优化的“移动优先”网站重新设计。动态集成 Spotify 并提供项目成本计算器。"
+  },
+  "tags": [
+    "Desarrollo Web",
+    "Mobile First",
+    "Optimización IA",
+    "Spotify API",
+    "Calculadora de Costos",
+    "SEO"
+  ],
+  "media": {
+    "src": "",
+    "alt": {
+      "es": "Plataforma web oficial de Joe on the Sound",
+      "en": "Official Joe on the Sound web platform",
+      "fr": "Plateforme web officielle de Joe on the Sound",
+      "de": "Offizielle Webplattform von Joe on the Sound",
+      "pt": "Plataforma web oficial do Joe on the Sound",
+      "it": "Piattaforma web ufficiale di Joe on the Sound",
+      "ja": "Joe on the Sound公式ウェブプラットフォーム",
+      "zh": "Joe on the Sound 官方网络平台"
+    },
+    "title": {
+      "es": "Plataforma web Joe on the Sound",
+      "en": "Joe on the Sound Web Platform",
+      "fr": "Plateforme Web Joe on the Sound",
+      "de": "Joe on the Sound Web-Plattform",
+      "pt": "Plataforma Web Joe on the Sound",
+      "it": "Piattaforma Web Joe on the Sound",
+      "ja": "Joe on the Sound ウェブプラットフォーム",
+      "zh": "Joe on the Sound 网络平台"
+    },
+    "placeholder": {
+      "enabled": true,
+      "seoText": "Desarrollo y rediseño de sitio web musical interactivo y optimizado"
+    },
+    "r2Path": "paginahv/joe-on-the-sound-web.webp"
+  },
+  "projectUrl": "https://www.youtube.com/watch?v=IXkTD7H_yU0",
+  "projectButtonLabel": {
+    "es": "Ver proyecto",
+    "en": "View project",
+    "fr": "Voir le projet",
+    "de": "Projekt ansehen",
+    "pt": "Ver projeto",
+    "it": "Vedi progetto",
+    "ja": "プロジェクトを見る",
+    "zh": "查看项目"
+  },
+  "showProjectButton": true,
+  "extended": {
+    "paragraphs": {
+      "es": [
+        "El rediseño del sitio web para Joe on the Sound se estructuró bajo la filosofía 'Mobile First', garantizando una carga ultrarrápida y una experiencia fluida en cualquier dispositivo. El contenido fue meticulosamente optimizado no solo para el SEO tradicional, sino para que las inteligencias artificiales lo reconozcan y lo consideren en sus análisis generativos.",
+        "A nivel técnico, la plataforma consume datos dinámicamente desde Spotify a través de un archivo JSON, lo que permite mantener la discografía y los lanzamientos actualizados de forma automatizada sin necesidad de intervención manual continua.",
+        "Como valor añadido para la captación y gestión de clientes, se programó una calculadora interactiva de costos de proyectos. Esta herramienta permite que cualquier prospecto conozca de antemano el proceso de trabajo y obtenga una estimación del presupuesto, agilizando la toma de decisiones y filtrando los leads."
       ],
-      "media": {
-        "src": "",
+      "en": [
+        "The website redesign for Joe on the Sound was structured under a 'Mobile First' philosophy, ensuring ultra-fast loading times and a seamless experience on any device. The content was meticulously optimized not only for traditional SEO but also for artificial intelligence to recognize and include it in generative search analysis.",
+        "On a technical level, the platform dynamically loads data from Spotify via a JSON file, allowing the discography and new releases to stay automatically updated without continuous manual intervention.",
+        "As an added value for client acquisition and management, an interactive project cost calculator was developed. This tool allows any prospect to understand the workflow upfront and get an estimated budget, streamlining decision-making and qualifying leads."
+      ],
+      "fr": [
+        "La refonte du site web de Joe on the Sound a été structurée selon une philosophie « Mobile First », garantissant un chargement ultra-rapide et une expérience fluide sur n'importe quel appareil. Le contenu a été méticuleusement optimisé pour le SEO traditionnel, ainsi que pour être reconnu par les intelligences artificielles dans leurs analyses génératives.",
+        "Sur le plan technique, la plateforme charge dynamiquement les données de Spotify via un fichier JSON, permettant à la discographie et aux nouveautés de se mettre à jour automatiquement.",
+        "Pour l'acquisition et la gestion des clients, un calculateur interactif de coûts de projets a été programmé. Cet outil permet aux prospects de connaître à l'avance le processus de travail et d'obtenir un budget estimé, facilitant ainsi la prise de décision."
+      ],
+      "de": [
+        "Das Redesign der Website für Joe on the Sound wurde nach der 'Mobile First'-Philosophie strukturiert und garantiert ultraschnelle Ladezeiten auf jedem Gerät. Der Inhalt wurde sorgfältig für traditionelles SEO optimiert, aber auch so aufbereitet, dass künstliche Intelligenzen ihn in ihren generativen Analysen berücksichtigen.",
+        "Auf technischer Ebene lädt die Plattform dynamisch Daten von Spotify über eine JSON-Datei. So bleiben Diskografie und Neuveröffentlichungen automatisch auf dem neuesten Stand.",
+        "Als Mehrwert für die Kundengewinnung wurde ein interaktiver Projektkostenrechner integriert. Dieses Tool ermöglicht es Interessenten, den Arbeitsprozess im Voraus zu verstehen und einen Kostenvoranschlag zu erhalten."
+      ],
+      "pt": [
+        "O redesenho do site para Joe on the Sound foi estruturado sob a filosofia 'Mobile First', garantindo carregamento ultrarrápido e uma experiência fluida em qualquer dispositivo. O conteúdo foi meticulosamente otimizado não apenas para SEO tradicional, mas para que as inteligências artificiais o reconheçam em suas análises.",
+        "A nível técnico, a plataforma consome dados dinamicamente do Spotify por meio de um arquivo JSON, mantendo a discografia e os lançamentos atualizados automaticamente.",
+        "Como valor agregado para captação de clientes, foi programada uma calculadora interativa de custos de projetos. Essa ferramenta permite que o potencial cliente conheça antecipadamente o processo de trabalho e obtenha um orçamento estimado."
+      ],
+      "it": [
+        "Il restyling del sito web per Joe on the Sound è stato strutturato secondo la filosofia 'Mobile First', garantendo caricamenti ultra rapidi su qualsiasi dispositivo. Il contenuto è stato ottimizzato meticolosamente sia per la SEO tradizionale sia per essere riconosciuto dalle intelligenze artificiali.",
+        "A livello tecnico, la piattaforma carica dinamicamente i dati da Spotify tramite un file JSON, consentendo alla discografia di aggiornarsi automaticamente senza interventi manuali.",
+        "Come valore aggiunto per l'acquisizione dei clienti, è stato programmato un calcolatore interattivo dei costi. Questo strumento consente ai potenziali clienti di conoscere in anticipo il processo di lavoro e ottenere un preventivo stimato."
+      ],
+      "ja": [
+        "Joe on the Soundのウェブサイトのリニューアルは、「モバイルファースト」の哲学に基づいて構築され、どのデバイスでも超高速な読み込みとシームレスな体験を保証します。コンテンツは従来のSEOだけでなく、AIが生成検索分析で認識できるように最適化されています。",
+        "技術面では、JSONファイルを介してSpotifyから動的にデータを読み込むことで、手動での更新作業を必要とせず、ディスコグラフィーを自動的に最新の状態に保ちます。",
+        "顧客獲得と管理の付加価値として、インタラクティブなプロジェクト費用計算ツールが開発されました。これにより、見込み客は事前に作業プロセスを理解し、見積もりを取得できるため、意思決定が迅速化されます。"
+      ],
+      "zh": [
+        "Joe on the Sound 网站的重新设计采用“移动优先”理念，确保在任何设备上实现超快加载和流畅体验。内容经过精心优化，不仅符合传统 SEO 标准，还能被人工智能在其生成式分析中识别。",
+        "在技术层面，该平台通过 JSON 文件动态加载 Spotify 数据，从而自动保持唱片目录和新版本的更新，无需持续的人工干预。",
+        "作为获取和管理客户的附加价值，开发了一个交互式项目成本计算器。该工具让潜在客户可以提前了解工作流程并获得预估预算，从而加快决策过程。"
+      ]
+    },
+    "images": [
+      {
+        "r2Path": "paginahv/joe-on-the-sound-web-1.webp",
         "alt": {
-          "es": "Proyecto de narrativa de marca para industrias creativas y culturales",
-          "en": "Brand narrative project for creative and cultural industries"
-        },
-        "title": {
-          "es": "Narrativa de marca y cultura digital",
-          "en": "Narrativa de marca y cultura digital"
+          "es": "Interfaz de usuario y optimización en móvil de Joe on the Sound",
+          "en": "User interface and mobile optimization for Joe on the Sound",
+          "fr": "Interface utilisateur et optimisation mobile de Joe on the Sound",
+          "de": "Benutzeroberfläche und mobile Optimierung für Joe on the Sound",
+          "pt": "Interface de usuário e otimização móvel do Joe on the Sound",
+          "it": "Interfaccia utente e ottimizzazione mobile di Joe on the Sound",
+          "ja": "Joe on the Soundのユーザーインターフェースとモバイル最適化",
+          "zh": "Joe on the Sound 的用户界面和移动端优化"
         },
         "placeholder": {
           "enabled": true,
-          "seoText": "Proyecto de branding, música y cultura digital con producción creativa y audiovisual"
-        },
-        "r2Path": "paginahv/music-branding-workshop-real-studio-2.webp"
+          "seoText": "Detalle de interfaz Mobile First y calculadora de costos"
+        }
       },
-      "projectUrl": "",
-      "projectButtonLabel": {
-        "es": "Ver proyecto",
-        "en": "View project"
-      },
-      "showProjectButton": true,
-      "extended": {
-        "paragraphs": {
-          "es": [
-            "Las industrias creativas necesitan algo más que difusión: necesitan una narrativa coherente que conecte la identidad del proyecto con su audiencia. Trabajo con músicos, sellos y proyectos culturales en la construcción de esa narrativa.",
-            "El trabajo abarca identidad y posicionamiento, calendarios de contenido, estrategia de lanzamientos, piezas audiovisuales y la presencia digital completa del proyecto, cuidando que cada canal cuente la misma historia.",
-            "La meta es que la marca creativa sea reconocible, sostenible y capaz de crecer su comunidad sin perder autenticidad."
-          ],
-          "en": [
-            "Creative industries need more than promotion: they need a coherent narrative connecting the project's identity with its audience. I work with musicians, labels and cultural projects on building that narrative.",
-            "The work covers identity and positioning, content calendars, release strategy, audiovisual pieces and the project's full digital presence, making sure every channel tells the same story.",
-            "The goal is for the creative brand to be recognizable, sustainable and able to grow its community without losing authenticity."
-          ]
+      {
+        "r2Path": "paginahv/joe-on-the-sound-web-2.webp",
+        "alt": {
+          "es": "Integración JSON de Spotify y arquitectura IA",
+          "en": "Spotify JSON integration and AI architecture",
+          "fr": "Intégration JSON Spotify et architecture IA",
+          "de": "Spotify JSON-Integration und KI-Architektur",
+          "pt": "Integração JSON do Spotify e arquitetura IA",
+          "it": "Integrazione JSON di Spotify e architettura IA",
+          "ja": "SpotifyのJSON統合とAIアーキテクチャ",
+          "zh": "Spotify JSON 集成和 AI 架构"
         },
-        "images": [
-          {
-            "r2Path": "paginahv/music-branding-workshop-real-studio-1.webp",
-            "alt": {
-              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 1",
-              "en": "Brand narrative project for creative and cultural industries — detail 1"
-            },
-            "placeholder": {
-              "enabled": true,
-              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
-            }
-          },
-          {
-            "r2Path": "paginahv/music-branding-workshop-real-studio-.webp",
-            "alt": {
-              "es": "Proyecto de narrativa de marca para industrias creativas y culturales — detalle 2",
-              "en": "Brand narrative project for creative and cultural industries — detail 2"
-            },
-            "placeholder": {
-              "enabled": true,
-              "seoText": "Proyecto de narrativa de marca para industrias creativas y culturales"
-            }
-          }
-        ],
-        "keywords": [
-          "Branding",
-          "Narrativa de marca",
-          "Música",
-          "Cultura digital",
-          "Lanzamientos",
-          "Contenido audiovisual",
-          "Comunidad",
-          "Identidad",
-          "Storytelling",
-          "Audiencias"
-        ],
-        "youtubeId": ""
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Detalle del consumo de datos API Spotify y estructura IA"
+        }
       }
-    }
+    ],
+    "keywords": [
+      "Desarrollo Web",
+      "Mobile First",
+      "Optimización SEO",
+      "Generative AI SEO",
+      "Spotify API",
+      "Calculadora de presupuesto",
+      "Joe on the Sound",
+      "JSON integration"
+    ],
+    "youtubeId": "IXkTD7H_yU0"
+  }
+}
   ],
   "aiClassification": {
     "visible": true,
