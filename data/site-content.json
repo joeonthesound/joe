@@ -1659,179 +1659,182 @@
         "youtubeId": ""
       }
     },
+
     {
-  "id": "exagon-labs-web-redesign",
-  "visible": true,
-  "title": {
-    "es": "Rediseño Web: Exagon Labs",
-    "en": "Web Redesign: Exagon Labs",
-    "fr": "Refonte Web : Exagon Labs",
-    "de": "Web-Redesign: Exagon Labs",
-    "pt": "Redesenho Web: Exagon Labs",
-    "it": "Restyling Web: Exagon Labs",
-    "ja": "ウェブサイトのリニューアル：Exagon Labs",
-    "zh": "网站重新设计：Exagon Labs"
-  },
-  "category": {
-    "es": "Desarrollo Web / UI-UX / Lead Generation",
-    "en": "Web Development / UI-UX / Lead Generation",
-    "fr": "Développement Web / UI-UX / Génération de Leads",
-    "de": "Webentwicklung / UI-UX / Lead-Generierung",
-    "pt": "Desenvolvimento Web / UI-UX / Geração de Leads",
-    "it": "Sviluppo Web / UI-UX / Lead Generation",
-    "ja": "ウェブ開発 / UI-UX / リードジェネレーション",
-    "zh": "网站开发 / UI-UX / 潜在客户挖掘"
-  },
-  "description": {
-    "es": "Rediseño web multilingüe (4 idiomas) con modo oscuro/claro y formulario internacional integrado con WhatsApp.",
-    "en": "Multilingual web redesign (4 languages) with dark/light mode and international form integrated with WhatsApp.",
-    "fr": "Refonte web multilingue (4 langues) avec mode sombre/clair et formulaire international intégré à WhatsApp.",
-    "de": "Mehrsprachiges Web-Redesign (4 Sprachen) mit Dark/Light-Modus und internationalem, in WhatsApp integriertem Formular.",
-    "pt": "Redesenho web multilíngue (4 idiomas) com modo escuro/claro e formulário internacional integrado ao WhatsApp.",
-    "it": "Restyling web multilingue (4 lingue) con modalità scura/chiara e modulo internazionale integrato con WhatsApp.",
-    "ja": "ダーク/ライトモードとWhatsApp統合の国際フォームを備えた多言語（4か国語）ウェブサイトリニューアル。",
-    "zh": "具有深色/浅色模式以及与 WhatsApp 集成的国际表单的多语言（4 种语言）网站重新设计。"
-  },
-  "tags": [
-    "Desarrollo Web",
-    "UI / UX",
-    "Dark Mode",
-    "Multilingüe",
-    "WhatsApp Integration",
-    "Lead Generation"
-  ],
-  "media": {
-    "src": "",
-    "alt": {
-      "es": "Plataforma web oficial de Exagon Labs",
-      "en": "Official Exagon Labs web platform",
-      "fr": "Plateforme web officielle d'Exagon Labs",
-      "de": "Offizielle Webplattform von Exagon Labs",
-      "pt": "Plataforma web oficial da Exagon Labs",
-      "it": "Piattaforma web ufficiale di Exagon Labs",
-      "ja": "Exagon Labs公式ウェブプラットフォーム",
-      "zh": "Exagon Labs 官方网络平台"
-    },
-    "title": {
-      "es": "Sitio web de Exagon Labs",
-      "en": "Exagon Labs Website",
-      "fr": "Site web d'Exagon Labs",
-      "de": "Exagon Labs Website",
-      "pt": "Site da Exagon Labs",
-      "it": "Sito web di Exagon Labs",
-      "ja": "Exagon Labs ウェブサイト",
-      "zh": "Exagon Labs 网站"
-    },
-    "placeholder": {
-      "enabled": true,
-      "seoText": "Rediseño de sitio web corporativo con integración de captación de leads"
-    },
-    "r2Path": "paginahv/web-design-.webp"
-  },
-  "projectUrl": "https://www.exagonlabs.com/",
-  "projectButtonLabel": {
-    "es": "Visitar sitio",
-    "en": "Visit website",
-    "fr": "Visiter le site",
-    "de": "Website besuchen",
-    "pt": "Visitar site",
-    "it": "Visita il sito",
-    "ja": "ウェブサイトを見る",
-    "zh": "访问网站"
-  },
-  "showProjectButton": true,
-  "extended": {
-    "paragraphs": {
-      "es": [
-        "El proyecto consistió en un rediseño completo del sitio web de Exagon Labs, enfocado en mejorar la experiencia del usuario y escalar su accesibilidad global. Se implementó un sistema de diseño dinámico con versiones en modo oscuro y claro, adaptándose a las preferencias del usuario, y se expandió toda la arquitectura de contenido para soportar 4 idiomas de manera nativa.",
-        "Para potenciar la estrategia de conversión, se desarrolló un formulario altamente optimizado destinado a la captación de prospectos internacionales. Este componente fue diseñado para reducir la fricción en la entrada de datos, garantizando una experiencia de usuario fluida sin importar la ubicación geográfica del cliente.",
-        "El mayor valor técnico de esta captación es su integración directa. Los datos recogidos por el formulario se envían instantáneamente a través de WhatsApp, permitiendo al equipo de ventas tener tiempos de respuesta inmediatos y establecer una comunicación directa y personalizada con los leads internacionales."
-      ],
-      "en": [
-        "The project consisted of a complete redesign of the Exagon Labs website, focused on improving the user experience and scaling its global accessibility. A dynamic design system was implemented with dark and light mode versions, adapting to user preferences, and the entire content architecture was expanded to natively support 4 languages.",
-        "To boost the conversion strategy, a highly optimized form was developed to capture international prospects. This component was designed to reduce friction during data entry, ensuring a seamless user experience regardless of the client's geographical location.",
-        "The greatest technical value of this lead generation system is its direct integration. The data collected by the form is instantly sent via WhatsApp, allowing the sales team to have immediate response times and establish direct, personalized communication with international leads."
-      ],
-      "fr": [
-        "Le projet consistait en une refonte complète du site web d'Exagon Labs, axée sur l'amélioration de l'expérience utilisateur et l'élargissement de son accessibilité mondiale. Un système de conception dynamique a été mis en œuvre avec des versions en mode sombre et clair, s'adaptant aux préférences de l'utilisateur, et l'architecture du contenu a été étendue pour prendre en charge 4 langues nativement.",
-        "Pour stimuler la stratégie de conversion, un formulaire hautement optimisé a été développé pour capturer des prospects internationaux. Ce composant a été conçu pour réduire les frictions lors de la saisie des données, garantissant une expérience fluide quelle que soit la localisation géographique.",
-        "La plus grande valeur technique de cette capture de leads est son intégration directe. Les données recueillies par le formulaire sont instantanément envoyées via WhatsApp, permettant à l'équipe de vente d'avoir des temps de réponse immédiats et d'établir une communication personnalisée avec les prospects."
-      ],
-      "de": [
-        "Das Projekt bestand aus einem kompletten Redesign der Exagon Labs Website mit dem Ziel, die Benutzererfahrung zu verbessern und die globale Zugänglichkeit zu skalieren. Es wurde ein dynamisches Designsystem mit Dark- und Light-Mode-Versionen implementiert, und die gesamte Content-Architektur wurde erweitert, um 4 Sprachen nativ zu unterstützen.",
-        "Um die Konversionsstrategie voranzutreiben, wurde ein hochgradig optimiertes Formular entwickelt, um internationale Interessenten zu gewinnen. Diese Komponente wurde entwickelt, um Reibungsverluste bei der Dateneingabe zu reduzieren und eine nahtlose Benutzererfahrung zu gewährleisten.",
-        "Der größte technische Mehrwert dieser Lead-Generierung ist ihre direkte Integration. Die vom Formular gesammelten Daten werden sofort über WhatsApp gesendet, sodass das Vertriebsteam sofort reagieren und eine direkte, personalisierte Kommunikation mit internationalen Leads aufbauen kann."
-      ],
-      "pt": [
-        "O projeto consistiu num redesenho completo do site da Exagon Labs, focado na melhoria da experiência do utilizador e na expansão da sua acessibilidade global. Foi implementado um sistema de design dinâmico com versões em modo escuro e claro, e toda a arquitetura de conteúdo foi expandida para suportar 4 idiomas nativamente.",
-        "Para impulsionar a estratégia de conversão, foi desenvolvido um formulário altamente otimizado para captar potenciais clientes internacionais. Este componente foi desenhado para reduzir o atrito na entrada de dados, garantindo uma experiência fluida independentemente da localização geográfica do cliente.",
-        "O maior valor técnico desta captação de leads é a sua integração direta. Os dados recolhidos pelo formulário são instantaneamente enviados via WhatsApp, permitindo à equipa de vendas ter tempos de resposta imediatos e estabelecer uma comunicação direta com os leads internacionais."
-      ],
-      "it": [
-        "Il progetto è consistito in un restyling completo del sito web di Exagon Labs, incentrato sul miglioramento dell'esperienza utente e sull'ampliamento della sua accessibilità globale. È stato implementato un sistema di design dinamico con modalità scura e chiara e l'intera architettura dei contenuti è stata espansa per supportare nativamente 4 lingue.",
-        "Per potenziare la strategia di conversione, è stato sviluppato un modulo altamente ottimizzato per catturare potenziali clienti internazionali. Questo componente è stato progettato per ridurre gli attriti durante l'inserimento dei dati, garantendo un'esperienza utente fluida.",
-        "Il più grande valore tecnico di questa generazione di lead è la sua integrazione diretta. I dati raccolti dal modulo vengono inviati istantaneamente tramite WhatsApp, consentendo al team di vendita di avere tempi di risposta immediati e di stabilire una comunicazione diretta con i lead internazionali."
-      ],
-      "ja": [
-        "このプロジェクトは、ユーザーエクスペリエンスの向上とグローバルなアクセシビリティの拡大に焦点を当てたExagon Labsウェブサイトの完全なリニューアルでした。ユーザーの好みに適応するダークモードとライトモードを備えた動的なデザインシステムが導入され、4か国語をネイティブにサポートするようにコンテンツアーキテクチャ全体が拡張されました。",
-        "コンバージョン戦略を高めるために、国際的な見込み客を獲得するための高度に最適化されたフォームが開発されました。このコンポーネントは、データ入力時の摩擦を減らすように設計されており、クライアントの地理的な場所に関係なくシームレスな体験を保証します。",
-        "このリード獲得システムの最大の技術的価値は、その直接的な統合にあります。フォームによって収集されたデータはWhatsApp経由で即座に送信されるため、営業チームは即座に対応し、国際的な見込み客と直接かつパーソナライズされたコミュニケーションを確立できます。"
-      ],
-      "zh": [
-        "该项目包括对 Exagon Labs 网站的彻底重新设计，重点是改善用户体验并扩展其全球可访问性。实施了具有深色和浅色模式版本的动态设计系统，并且整个内容架构得到了扩展，以原生支持 4 种语言。",
-        "为了推动转化策略，开发了一个高度优化的表单以吸引国际潜在客户。该组件旨在减少数据输入过程中的摩擦，确保无论客户身处何地，都能获得无缝的用户体验。",
-        "这种潜在客户生成系统的最大技术价值在于其直接集成。通过表单收集的数据可通过 WhatsApp 即时发送，使销售团队能够立即响应并与国际潜在客户建立直接、个性化的沟通。"
-      ]
-    },
-    "images": [
-      {
-        "r2Path": "paginahv/web-design-1.webp",
-        "alt": {
-          "es": "Interfaz de usuario en modo oscuro y claro de Exagon Labs",
-          "en": "Dark and light mode user interface of Exagon Labs",
-          "fr": "Interface utilisateur en mode sombre et clair d'Exagon Labs",
-          "de": "Benutzeroberfläche im Dark- und Light-Modus von Exagon Labs",
-          "pt": "Interface de usuário em modo escuro e claro da Exagon Labs",
-          "it": "Interfaccia utente in modalità scura e chiara di Exagon Labs",
-          "ja": "Exagon Labsのダークモードとライトモードのユーザーインターフェース",
-          "zh": "Exagon Labs 的深色和浅色模式用户界面"
-        },
-        "placeholder": {
-          "enabled": true,
-          "seoText": "Detalle de interfaz UI con soporte de tema oscuro y claro"
-        }
+      "_comment_start": "========== INICIO DEL PROYECTO: CIRUGÍA GINECOLÓGICA ==========",
+      "id": "cirugia-ginecologica-web",
+      "visible": true,
+      "title": {
+        "es": "Desarrollo Web: Cirugía Ginecológica",
+        "en": "Web Development: Gynecological Surgery",
+        "fr": "Développement Web : Chirurgie Gynécologique",
+        "de": "Webentwicklung: Gynäkologische Chirurgie",
+        "pt": "Desenvolvimento Web: Cirurgia Ginecológica",
+        "it": "Sviluppo Web: Chirurgia Ginecologica",
+        "ja": "ウェブ開発：婦人科外科",
+        "zh": "网站开发：妇科手术"
       },
-      {
-        "r2Path": "paginahv/web-design-2.webp",
+      "category": {
+        "es": "Desarrollo Web / Sector Médico / WordPress",
+        "en": "Web Development / Medical Sector / WordPress",
+        "fr": "Développement Web / Secteur Médical / WordPress",
+        "de": "Webentwicklung / Medizinischer Sektor / WordPress",
+        "pt": "Desenvolvimento Web / Setor Médico / WordPress",
+        "it": "Sviluppo Web / Settore Medico / WordPress",
+        "ja": "ウェブ開発 / 医療セクター / WordPress",
+        "zh": "网站开发 / 医疗行业 / WordPress"
+      },
+      "description": {
+        "es": "Sitio web corporativo desarrollado en WordPress para el sector salud, enfocado en la confianza del paciente y accesibilidad de la información.",
+        "en": "Corporate website developed in WordPress for the healthcare sector, focused on patient trust and information accessibility.",
+        "fr": "Site web d'entreprise développé sur WordPress pour le secteur de la santé, axé sur la confiance des patients et l'accessibilité de l'information.",
+        "de": "In WordPress entwickelte Corporate Website für den Gesundheitssektor, mit Fokus auf Patientenvertrauen und Informationszugänglichkeit.",
+        "pt": "Site corporativo desenvolvido em WordPress para o setor de saúde, focado na confiança do paciente e acessibilidade da informação.",
+        "it": "Sito web aziendale sviluppato in WordPress per il settore sanitario, incentrato sulla fiducia dei pazienti e sull'accessibilità delle informazioni.",
+        "ja": "患者の信頼と情報のアクセシビリティに焦点を当てた、医療セクター向けにWordPressで開発された企業ウェブサイト。",
+        "zh": "为医疗保健行业开发的 WordPress 企业网站，专注于患者信任和信息的无障碍获取。"
+      },
+      "tags": [
+        "Desarrollo Web",
+        "WordPress",
+        "Sector Médico",
+        "Salud y Bienestar",
+        "UI / UX Médico",
+        "Arquitectura de la Información"
+      ],
+      "media": {
+        "src": "",
         "alt": {
-          "es": "Formulario internacional con integración a WhatsApp",
-          "en": "International form with WhatsApp integration",
-          "fr": "Formulaire international avec intégration WhatsApp",
-          "de": "Internationales Formular mit WhatsApp-Integration",
-          "pt": "Formulário internacional com integração ao WhatsApp",
-          "it": "Modulo internazionale con integrazione WhatsApp",
-          "ja": "WhatsApp統合を備えた国際フォーム",
-          "zh": "带有 WhatsApp 集成的国际表单"
+          "es": "Sitio web de servicios médicos y cirugía ginecológica",
+          "en": "Medical services and gynecological surgery website",
+          "fr": "Site web de services médicaux et chirurgie gynécologique",
+          "de": "Website für medizinische Dienstleistungen und gynäkologische Chirurgie",
+          "pt": "Site de serviços médicos e cirurgia ginecológica",
+          "it": "Sito web di servizi medici e chirurgia ginecologica",
+          "ja": "医療サービスと婦人科外科のウェブサイト",
+          "zh": "医疗服务和妇科手术网站"
+        },
+        "title": {
+          "es": "Plataforma Web Sector Médico",
+          "en": "Medical Sector Web Platform",
+          "fr": "Plateforme Web Secteur Médical",
+          "de": "Webplattform für den medizinischen Sektor",
+          "pt": "Plataforma Web Setor Médico",
+          "it": "Piattaforma Web Settore Medico",
+          "ja": "医療セクター ウェブプラットフォーム",
+          "zh": "医疗行业网络平台"
         },
         "placeholder": {
           "enabled": true,
-          "seoText": "Formulario de captación de leads conectado a API de mensajería"
-        }
-      }
-    ],
-    "keywords": [
-      "Desarrollo Web",
-      "Multilingüe",
-      "Dark Mode",
-      "Light Mode",
-      "WhatsApp API",
-      "Captación de prospectos",
-      "UI/UX Design",
-      "Exagon Labs"
-    ],
-    "youtubeId": ""
-  }
-}
+          "seoText": "Desarrollo de sitio web corporativo para clínica médica y doctores"
+        },
+        "r2Path": "paginahv/web.webp"
+      },
+      "projectUrl": "https://www.cirugiaginecologica.net/",
+      "projectButtonLabel": {
+        "es": "Visitar sitio",
+        "en": "Visit website",
+        "fr": "Visiter le site",
+        "de": "Website besuchen",
+        "pt": "Visitar site",
+        "it": "Visita il sito",
+        "ja": "ウェブサイトを見る",
+        "zh": "访问网站"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "El desarrollo de productos digitales para el sector médico requiere un enfoque particular: la arquitectura de la información y el diseño deben transmitir profesionalidad, pulcritud y, sobre todo, confianza al paciente. Este proyecto para Cirugía Ginecológica se construyó con esa premisa como pilar fundamental.",
+            "A nivel técnico, el sitio fue desarrollado utilizando WordPress para proporcionar al personal médico una plataforma robusta, escalable y de fácil gestión. Esto permitió estructurar adecuadamente los servicios, perfiles de los especialistas y canales de contacto directo, optimizando el viaje del paciente desde la primera búsqueda hasta la reserva de una consulta.",
+            "Este proyecto representa una base sólida en la experiencia de creación de interfaces para la industria de la salud, demostrando capacidad para adaptar soluciones digitales a nichos profesionales estrictos donde la claridad y la accesibilidad son críticas para el éxito."
+          ],
+          "en": [
+            "Developing digital products for the medical sector requires a particular approach: the information architecture and design must convey professionalism, cleanliness, and above all, patient trust. This project for Gynecological Surgery was built with this premise as a fundamental pillar.",
+            "On a technical level, the site was developed using WordPress to provide the medical staff with a robust, scalable, and easily manageable platform. This allowed for the proper structuring of services, specialist profiles, and direct contact channels, optimizing the patient journey from the initial search to booking a consultation.",
+            "This project represents a solid foundation in the experience of creating interfaces for the healthcare industry, demonstrating the ability to adapt digital solutions to strict professional niches where clarity and accessibility are critical to success."
+          ],
+          "fr": [
+            "Le développement de produits numériques pour le secteur médical nécessite une approche particulière : l'architecture de l'information et le design doivent transmettre professionnalisme, propreté et, surtout, la confiance des patients. Ce projet a été construit avec cette prémisse.",
+            "Sur le plan technique, le site a été développé avec WordPress pour fournir au personnel médical une plateforme robuste, évolutive et facile à gérer. Cela a permis de structurer les services et d'optimiser le parcours du patient jusqu'à la prise de rendez-vous.",
+            "Ce projet représente une base solide dans l'expérience de création d'interfaces pour l'industrie de la santé, démontrant la capacité d'adapter des solutions numériques à des niches professionnelles strictes où la clarté est essentielle."
+          ],
+          "de": [
+            "Die Entwicklung digitaler Produkte für den medizinischen Sektor erfordert einen besonderen Ansatz: Die Informationsarchitektur und das Design müssen Professionalität, Sauberkeit und vor allem Patientenvertrauen vermitteln. Dieses Projekt wurde mit dieser Prämisse als Grundpfeiler entwickelt.",
+            "Auf technischer Ebene wurde die Website mit WordPress entwickelt, um dem medizinischen Personal eine robuste, skalierbare und leicht zu verwaltende Plattform zu bieten. Dies ermöglichte die Strukturierung von Dienstleistungen und die Optimierung der Patientenreise.",
+            "Dieses Projekt stellt eine solide Grundlage in der Erfahrung mit der Erstellung von Schnittstellen für die Gesundheitsbranche dar und zeigt die Fähigkeit, digitale Lösungen an strenge professionelle Nischen anzupassen."
+          ],
+          "pt": [
+            "O desenvolvimento de produtos digitais para o setor médico exige uma abordagem particular: a arquitetura da informação e o design devem transmitir profissionalismo, limpeza e, acima de tudo, a confiança do paciente. Este projeto foi construído com essa premissa.",
+            "A nível técnico, o site foi desenvolvido em WordPress para fornecer à equipe médica uma plataforma robusta, escalável e de fácil gestão. Isso permitiu estruturar adequadamente os serviços e otimizar a jornada do paciente até a marcação da consulta.",
+            "Este projeto representa uma base sólida na experiência de criação de interfaces para o setor de saúde, demonstrando a capacidade de adaptar soluções digitais a nichos profissionais rigorosos, onde a clareza é crítica."
+          ],
+          "it": [
+            "Lo sviluppo di prodotti digitali per il settore medico richiede un approccio particolare: l'architettura dell'informazione e il design devono trasmettere professionalità, pulizia e, soprattutto, la fiducia dei pazienti. Questo progetto è stato costruito con questa premessa.",
+            "A livello tecnico, il sito è stato sviluppato utilizzando WordPress per fornire al personale medico una piattaforma robusta, scalabile e facilmente gestibile. Ciò ha permesso di strutturare i servizi e ottimizzare il percorso del paziente.",
+            "Questo progetto rappresenta una solida base nell'esperienza di creazione di interfacce per l'industria sanitaria, dimostrando la capacità di adattare soluzioni digitali a nicchie professionali rigorose in cui la chiarezza è fondamentale."
+          ],
+          "ja": [
+            "医療セクター向けのデジタル製品の開発には、特別なアプローチが必要です。情報アーキテクチャとデザインは、プロフェッショナリズム、清潔さ、そして何よりも患者の信頼を伝えなければなりません。このプロジェクトは、この前提を基本的な柱として構築されました。",
+            "技術面では、医療スタッフに堅牢でスケーラブル、かつ管理が容易なプラットフォームを提供するために、WordPressを使用してサイトが開発されました。これにより、サービスを適切に構築し、患者のカスタマージャーニーを最適化することができました。",
+            "このプロジェクトは、ヘルスケア業界向けのインターフェース作成の経験における強固な基盤を表しており、明確さが成功に不可欠な厳格な専門分野にデジタルソリューションを適応させる能力を示しています。"
+          ],
+          "zh": [
+            "为医疗领域开发数字产品需要一种特殊的方法：信息架构和设计必须传达专业精神、整洁，最重要的是患者的信任。这个项目就是以这一前提作为基本支柱构建的。",
+            "在技术层面，该网站使用 WordPress 开发，为医务人员提供了一个强大、可扩展且易于管理的平台。这使得服务得以合理构建，并优化了患者从初步搜索到预约咨询的整个过程。",
+            "该项目代表了在为医疗保健行业创建界面方面的坚实基础，展示了将数字解决方案适应于清晰度至关重要的严格专业细分市场的能力。"
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/web-design-1.webp",
+            "alt": {
+              "es": "Diseño de interfaz para clínica médica",
+              "en": "Interface design for medical clinic",
+              "fr": "Conception d'interface pour clinique médicale",
+              "de": "Schnittstellendesign für medizinische Klinik",
+              "pt": "Design de interface para clínica médica",
+              "it": "Progettazione dell'interfaccia per clinica medica",
+              "ja": "医療クリニックのインターフェースデザイン",
+              "zh": "医疗诊所的界面设计"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Estructura de servicios médicos y perfiles de doctores"
+            }
+          },
+          {
+            "r2Path": "paginahv/web-design-2.webp",
+            "alt": {
+              "es": "Arquitectura de información para sector salud",
+              "en": "Information architecture for healthcare sector",
+              "fr": "Architecture de l'information pour le secteur de la santé",
+              "de": "Informationsarchitektur für den Gesundheitssektor",
+              "pt": "Arquitetura de informação para o setor de saúde",
+              "it": "Architettura dell'informazione per il settore sanitario",
+              "ja": "ヘルスケアセクターの情報アーキテクチャ",
+              "zh": "医疗保健行业的信息架构"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Optimización de experiencia de usuario en sitios web médicos"
+            }
+          }
+        ],
+        "keywords": [
+          "Desarrollo Web",
+          "WordPress",
+          "Sector Médico",
+          "Healthcare UI/UX",
+          "Web Médica",
+          "Arquitectura de Información",
+          "Diseño Clínico"
+        ],
+        "youtubeId": ""
+      },
+      "_comment_end": "========== FIN DEL PROYECTO: CIRUGÍA GINECOLÓGICA =========="
+    }
+
     ,{
       "id": "joe-on-the-sound-web",
       "visible": true,
@@ -2004,180 +2007,6 @@
         ],
         "youtubeId": "IXkTD7H_yU0"
       }
-    },
-    {
-      "_comment_start": "========== INICIO DEL PROYECTO: CIRUGÍA GINECOLÓGICA ==========",
-      "id": "cirugia-ginecologica-web",
-      "visible": true,
-      "title": {
-        "es": "Desarrollo Web: Cirugía Ginecológica",
-        "en": "Web Development: Gynecological Surgery",
-        "fr": "Développement Web : Chirurgie Gynécologique",
-        "de": "Webentwicklung: Gynäkologische Chirurgie",
-        "pt": "Desenvolvimento Web: Cirurgia Ginecológica",
-        "it": "Sviluppo Web: Chirurgia Ginecologica",
-        "ja": "ウェブ開発：婦人科外科",
-        "zh": "网站开发：妇科手术"
-      },
-      "category": {
-        "es": "Desarrollo Web / Sector Médico / WordPress",
-        "en": "Web Development / Medical Sector / WordPress",
-        "fr": "Développement Web / Secteur Médical / WordPress",
-        "de": "Webentwicklung / Medizinischer Sektor / WordPress",
-        "pt": "Desenvolvimento Web / Setor Médico / WordPress",
-        "it": "Sviluppo Web / Settore Medico / WordPress",
-        "ja": "ウェブ開発 / 医療セクター / WordPress",
-        "zh": "网站开发 / 医疗行业 / WordPress"
-      },
-      "description": {
-        "es": "Sitio web corporativo desarrollado en WordPress para el sector salud, enfocado en la confianza del paciente y accesibilidad de la información.",
-        "en": "Corporate website developed in WordPress for the healthcare sector, focused on patient trust and information accessibility.",
-        "fr": "Site web d'entreprise développé sur WordPress pour le secteur de la santé, axé sur la confiance des patients et l'accessibilité de l'information.",
-        "de": "In WordPress entwickelte Corporate Website für den Gesundheitssektor, mit Fokus auf Patientenvertrauen und Informationszugänglichkeit.",
-        "pt": "Site corporativo desenvolvido em WordPress para o setor de saúde, focado na confiança do paciente e acessibilidade da informação.",
-        "it": "Sito web aziendale sviluppato in WordPress per il settore sanitario, incentrato sulla fiducia dei pazienti e sull'accessibilità delle informazioni.",
-        "ja": "患者の信頼と情報のアクセシビリティに焦点を当てた、医療セクター向けにWordPressで開発された企業ウェブサイト。",
-        "zh": "为医疗保健行业开发的 WordPress 企业网站，专注于患者信任和信息的无障碍获取。"
-      },
-      "tags": [
-        "Desarrollo Web",
-        "WordPress",
-        "Sector Médico",
-        "Salud y Bienestar",
-        "UI / UX Médico",
-        "Arquitectura de la Información"
-      ],
-      "media": {
-        "src": "",
-        "alt": {
-          "es": "Sitio web de servicios médicos y cirugía ginecológica",
-          "en": "Medical services and gynecological surgery website",
-          "fr": "Site web de services médicaux et chirurgie gynécologique",
-          "de": "Website für medizinische Dienstleistungen und gynäkologische Chirurgie",
-          "pt": "Site de serviços médicos e cirurgia ginecológica",
-          "it": "Sito web di servizi medici e chirurgia ginecologica",
-          "ja": "医療サービスと婦人科外科のウェブサイト",
-          "zh": "医疗服务和妇科手术网站"
-        },
-        "title": {
-          "es": "Plataforma Web Sector Médico",
-          "en": "Medical Sector Web Platform",
-          "fr": "Plateforme Web Secteur Médical",
-          "de": "Webplattform für den medizinischen Sektor",
-          "pt": "Plataforma Web Setor Médico",
-          "it": "Piattaforma Web Settore Medico",
-          "ja": "医療セクター ウェブプラットフォーム",
-          "zh": "医疗行业网络平台"
-        },
-        "placeholder": {
-          "enabled": true,
-          "seoText": "Desarrollo de sitio web corporativo para clínica médica y doctores"
-        },
-        "r2Path": "paginahv/web-design.webp"
-      },
-      "projectUrl": "https://www.cirugiaginecologica.net/",
-      "projectButtonLabel": {
-        "es": "Visitar sitio",
-        "en": "Visit website",
-        "fr": "Visiter le site",
-        "de": "Website besuchen",
-        "pt": "Visitar site",
-        "it": "Visita il sito",
-        "ja": "ウェブサイトを見る",
-        "zh": "访问网站"
-      },
-      "showProjectButton": true,
-      "extended": {
-        "paragraphs": {
-          "es": [
-            "El desarrollo de productos digitales para el sector médico requiere un enfoque particular: la arquitectura de la información y el diseño deben transmitir profesionalidad, pulcritud y, sobre todo, confianza al paciente. Este proyecto para Cirugía Ginecológica se construyó con esa premisa como pilar fundamental.",
-            "A nivel técnico, el sitio fue desarrollado utilizando WordPress para proporcionar al personal médico una plataforma robusta, escalable y de fácil gestión. Esto permitió estructurar adecuadamente los servicios, perfiles de los especialistas y canales de contacto directo, optimizando el viaje del paciente desde la primera búsqueda hasta la reserva de una consulta.",
-            "Este proyecto representa una base sólida en la experiencia de creación de interfaces para la industria de la salud, demostrando capacidad para adaptar soluciones digitales a nichos profesionales estrictos donde la claridad y la accesibilidad son críticas para el éxito."
-          ],
-          "en": [
-            "Developing digital products for the medical sector requires a particular approach: the information architecture and design must convey professionalism, cleanliness, and above all, patient trust. This project for Gynecological Surgery was built with this premise as a fundamental pillar.",
-            "On a technical level, the site was developed using WordPress to provide the medical staff with a robust, scalable, and easily manageable platform. This allowed for the proper structuring of services, specialist profiles, and direct contact channels, optimizing the patient journey from the initial search to booking a consultation.",
-            "This project represents a solid foundation in the experience of creating interfaces for the healthcare industry, demonstrating the ability to adapt digital solutions to strict professional niches where clarity and accessibility are critical to success."
-          ],
-          "fr": [
-            "Le développement de produits numériques pour le secteur médical nécessite une approche particulière : l'architecture de l'information et le design doivent transmettre professionnalisme, propreté et, surtout, la confiance des patients. Ce projet a été construit avec cette prémisse.",
-            "Sur le plan technique, le site a été développé avec WordPress pour fournir au personnel médical une plateforme robuste, évolutive et facile à gérer. Cela a permis de structurer les services et d'optimiser le parcours du patient jusqu'à la prise de rendez-vous.",
-            "Ce projet représente une base solide dans l'expérience de création d'interfaces pour l'industrie de la santé, démontrant la capacité d'adapter des solutions numériques à des niches professionnelles strictes où la clarté est essentielle."
-          ],
-          "de": [
-            "Die Entwicklung digitaler Produkte für den medizinischen Sektor erfordert einen besonderen Ansatz: Die Informationsarchitektur und das Design müssen Professionalität, Sauberkeit und vor allem Patientenvertrauen vermitteln. Dieses Projekt wurde mit dieser Prämisse als Grundpfeiler entwickelt.",
-            "Auf technischer Ebene wurde die Website mit WordPress entwickelt, um dem medizinischen Personal eine robuste, skalierbare und leicht zu verwaltende Plattform zu bieten. Dies ermöglichte die Strukturierung von Dienstleistungen und die Optimierung der Patientenreise.",
-            "Dieses Projekt stellt eine solide Grundlage in der Erfahrung mit der Erstellung von Schnittstellen für die Gesundheitsbranche dar und zeigt die Fähigkeit, digitale Lösungen an strenge professionelle Nischen anzupassen."
-          ],
-          "pt": [
-            "O desenvolvimento de produtos digitais para o setor médico exige uma abordagem particular: a arquitetura da informação e o design devem transmitir profissionalismo, limpeza e, acima de tudo, a confiança do paciente. Este projeto foi construído com essa premissa.",
-            "A nível técnico, o site foi desenvolvido em WordPress para fornecer à equipe médica uma plataforma robusta, escalável e de fácil gestão. Isso permitiu estruturar adequadamente os serviços e otimizar a jornada do paciente até a marcação da consulta.",
-            "Este projeto representa uma base sólida na experiência de criação de interfaces para o setor de saúde, demonstrando a capacidade de adaptar soluções digitais a nichos profissionais rigorosos, onde a clareza é crítica."
-          ],
-          "it": [
-            "Lo sviluppo di prodotti digitali per il settore medico richiede un approccio particolare: l'architettura dell'informazione e il design devono trasmettere professionalità, pulizia e, soprattutto, la fiducia dei pazienti. Questo progetto è stato costruito con questa premessa.",
-            "A livello tecnico, il sito è stato sviluppato utilizzando WordPress per fornire al personale medico una piattaforma robusta, scalabile e facilmente gestibile. Ciò ha permesso di strutturare i servizi e ottimizzare il percorso del paziente.",
-            "Questo progetto rappresenta una solida base nell'esperienza di creazione di interfacce per l'industria sanitaria, dimostrando la capacità di adattare soluzioni digitali a nicchie professionali rigorose in cui la chiarezza è fondamentale."
-          ],
-          "ja": [
-            "医療セクター向けのデジタル製品の開発には、特別なアプローチが必要です。情報アーキテクチャとデザインは、プロフェッショナリズム、清潔さ、そして何よりも患者の信頼を伝えなければなりません。このプロジェクトは、この前提を基本的な柱として構築されました。",
-            "技術面では、医療スタッフに堅牢でスケーラブル、かつ管理が容易なプラットフォームを提供するために、WordPressを使用してサイトが開発されました。これにより、サービスを適切に構築し、患者のカスタマージャーニーを最適化することができました。",
-            "このプロジェクトは、ヘルスケア業界向けのインターフェース作成の経験における強固な基盤を表しており、明確さが成功に不可欠な厳格な専門分野にデジタルソリューションを適応させる能力を示しています。"
-          ],
-          "zh": [
-            "为医疗领域开发数字产品需要一种特殊的方法：信息架构和设计必须传达专业精神、整洁，最重要的是患者的信任。这个项目就是以这一前提作为基本支柱构建的。",
-            "在技术层面，该网站使用 WordPress 开发，为医务人员提供了一个强大、可扩展且易于管理的平台。这使得服务得以合理构建，并优化了患者从初步搜索到预约咨询的整个过程。",
-            "该项目代表了在为医疗保健行业创建界面方面的坚实基础，展示了将数字解决方案适应于清晰度至关重要的严格专业细分市场的能力。"
-          ]
-        },
-        "images": [
-          {
-            "r2Path": "paginahv/web-design-1.webp",
-            "alt": {
-              "es": "Diseño de interfaz para clínica médica",
-              "en": "Interface design for medical clinic",
-              "fr": "Conception d'interface pour clinique médicale",
-              "de": "Schnittstellendesign für medizinische Klinik",
-              "pt": "Design de interface para clínica médica",
-              "it": "Progettazione dell'interfaccia per clinica medica",
-              "ja": "医療クリニックのインターフェースデザイン",
-              "zh": "医疗诊所的界面设计"
-            },
-            "placeholder": {
-              "enabled": true,
-              "seoText": "Estructura de servicios médicos y perfiles de doctores"
-            }
-          },
-          {
-            "r2Path": "paginahv/web-design-2.webp",
-            "alt": {
-              "es": "Arquitectura de información para sector salud",
-              "en": "Information architecture for healthcare sector",
-              "fr": "Architecture de l'information pour le secteur de la santé",
-              "de": "Informationsarchitektur für den Gesundheitssektor",
-              "pt": "Arquitetura de informação para o setor de saúde",
-              "it": "Architettura dell'informazione per il settore sanitario",
-              "ja": "ヘルスケアセクターの情報アーキテクチャ",
-              "zh": "医疗保健行业的信息架构"
-            },
-            "placeholder": {
-              "enabled": true,
-              "seoText": "Optimización de experiencia de usuario en sitios web médicos"
-            }
-          }
-        ],
-        "keywords": [
-          "Desarrollo Web",
-          "WordPress",
-          "Sector Médico",
-          "Healthcare UI/UX",
-          "Web Médica",
-          "Arquitectura de Información",
-          "Diseño Clínico"
-        ],
-        "youtubeId": ""
-      },
-      "_comment_end": "========== FIN DEL PROYECTO: CIRUGÍA GINECOLÓGICA =========="
     }
   ],
   "aiClassification": {
