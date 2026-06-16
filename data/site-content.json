@@ -2004,6 +2004,180 @@
         ],
         "youtubeId": "IXkTD7H_yU0"
       }
+    },
+    {
+      "_comment_start": "========== INICIO DEL PROYECTO: CIRUGÍA GINECOLÓGICA ==========",
+      "id": "cirugia-ginecologica-web",
+      "visible": true,
+      "title": {
+        "es": "Desarrollo Web: Cirugía Ginecológica",
+        "en": "Web Development: Gynecological Surgery",
+        "fr": "Développement Web : Chirurgie Gynécologique",
+        "de": "Webentwicklung: Gynäkologische Chirurgie",
+        "pt": "Desenvolvimento Web: Cirurgia Ginecológica",
+        "it": "Sviluppo Web: Chirurgia Ginecologica",
+        "ja": "ウェブ開発：婦人科外科",
+        "zh": "网站开发：妇科手术"
+      },
+      "category": {
+        "es": "Desarrollo Web / Sector Médico / WordPress",
+        "en": "Web Development / Medical Sector / WordPress",
+        "fr": "Développement Web / Secteur Médical / WordPress",
+        "de": "Webentwicklung / Medizinischer Sektor / WordPress",
+        "pt": "Desenvolvimento Web / Setor Médico / WordPress",
+        "it": "Sviluppo Web / Settore Medico / WordPress",
+        "ja": "ウェブ開発 / 医療セクター / WordPress",
+        "zh": "网站开发 / 医疗行业 / WordPress"
+      },
+      "description": {
+        "es": "Sitio web corporativo desarrollado en WordPress para el sector salud, enfocado en la confianza del paciente y accesibilidad de la información.",
+        "en": "Corporate website developed in WordPress for the healthcare sector, focused on patient trust and information accessibility.",
+        "fr": "Site web d'entreprise développé sur WordPress pour le secteur de la santé, axé sur la confiance des patients et l'accessibilité de l'information.",
+        "de": "In WordPress entwickelte Corporate Website für den Gesundheitssektor, mit Fokus auf Patientenvertrauen und Informationszugänglichkeit.",
+        "pt": "Site corporativo desenvolvido em WordPress para o setor de saúde, focado na confiança do paciente e acessibilidade da informação.",
+        "it": "Sito web aziendale sviluppato in WordPress per il settore sanitario, incentrato sulla fiducia dei pazienti e sull'accessibilità delle informazioni.",
+        "ja": "患者の信頼と情報のアクセシビリティに焦点を当てた、医療セクター向けにWordPressで開発された企業ウェブサイト。",
+        "zh": "为医疗保健行业开发的 WordPress 企业网站，专注于患者信任和信息的无障碍获取。"
+      },
+      "tags": [
+        "Desarrollo Web",
+        "WordPress",
+        "Sector Médico",
+        "Salud y Bienestar",
+        "UI / UX Médico",
+        "Arquitectura de la Información"
+      ],
+      "media": {
+        "src": "",
+        "alt": {
+          "es": "Sitio web de servicios médicos y cirugía ginecológica",
+          "en": "Medical services and gynecological surgery website",
+          "fr": "Site web de services médicaux et chirurgie gynécologique",
+          "de": "Website für medizinische Dienstleistungen und gynäkologische Chirurgie",
+          "pt": "Site de serviços médicos e cirurgia ginecológica",
+          "it": "Sito web di servizi medici e chirurgia ginecologica",
+          "ja": "医療サービスと婦人科外科のウェブサイト",
+          "zh": "医疗服务和妇科手术网站"
+        },
+        "title": {
+          "es": "Plataforma Web Sector Médico",
+          "en": "Medical Sector Web Platform",
+          "fr": "Plateforme Web Secteur Médical",
+          "de": "Webplattform für den medizinischen Sektor",
+          "pt": "Plataforma Web Setor Médico",
+          "it": "Piattaforma Web Settore Medico",
+          "ja": "医療セクター ウェブプラットフォーム",
+          "zh": "医疗行业网络平台"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Desarrollo de sitio web corporativo para clínica médica y doctores"
+        },
+        "r2Path": "paginahv/web-design.webp"
+      },
+      "projectUrl": "https://www.cirugiaginecologica.net/",
+      "projectButtonLabel": {
+        "es": "Visitar sitio",
+        "en": "Visit website",
+        "fr": "Visiter le site",
+        "de": "Website besuchen",
+        "pt": "Visitar site",
+        "it": "Visita il sito",
+        "ja": "ウェブサイトを見る",
+        "zh": "访问网站"
+      },
+      "showProjectButton": true,
+      "extended": {
+        "paragraphs": {
+          "es": [
+            "El desarrollo de productos digitales para el sector médico requiere un enfoque particular: la arquitectura de la información y el diseño deben transmitir profesionalidad, pulcritud y, sobre todo, confianza al paciente. Este proyecto para Cirugía Ginecológica se construyó con esa premisa como pilar fundamental.",
+            "A nivel técnico, el sitio fue desarrollado utilizando WordPress para proporcionar al personal médico una plataforma robusta, escalable y de fácil gestión. Esto permitió estructurar adecuadamente los servicios, perfiles de los especialistas y canales de contacto directo, optimizando el viaje del paciente desde la primera búsqueda hasta la reserva de una consulta.",
+            "Este proyecto representa una base sólida en la experiencia de creación de interfaces para la industria de la salud, demostrando capacidad para adaptar soluciones digitales a nichos profesionales estrictos donde la claridad y la accesibilidad son críticas para el éxito."
+          ],
+          "en": [
+            "Developing digital products for the medical sector requires a particular approach: the information architecture and design must convey professionalism, cleanliness, and above all, patient trust. This project for Gynecological Surgery was built with this premise as a fundamental pillar.",
+            "On a technical level, the site was developed using WordPress to provide the medical staff with a robust, scalable, and easily manageable platform. This allowed for the proper structuring of services, specialist profiles, and direct contact channels, optimizing the patient journey from the initial search to booking a consultation.",
+            "This project represents a solid foundation in the experience of creating interfaces for the healthcare industry, demonstrating the ability to adapt digital solutions to strict professional niches where clarity and accessibility are critical to success."
+          ],
+          "fr": [
+            "Le développement de produits numériques pour le secteur médical nécessite une approche particulière : l'architecture de l'information et le design doivent transmettre professionnalisme, propreté et, surtout, la confiance des patients. Ce projet a été construit avec cette prémisse.",
+            "Sur le plan technique, le site a été développé avec WordPress pour fournir au personnel médical une plateforme robuste, évolutive et facile à gérer. Cela a permis de structurer les services et d'optimiser le parcours du patient jusqu'à la prise de rendez-vous.",
+            "Ce projet représente une base solide dans l'expérience de création d'interfaces pour l'industrie de la santé, démontrant la capacité d'adapter des solutions numériques à des niches professionnelles strictes où la clarté est essentielle."
+          ],
+          "de": [
+            "Die Entwicklung digitaler Produkte für den medizinischen Sektor erfordert einen besonderen Ansatz: Die Informationsarchitektur und das Design müssen Professionalität, Sauberkeit und vor allem Patientenvertrauen vermitteln. Dieses Projekt wurde mit dieser Prämisse als Grundpfeiler entwickelt.",
+            "Auf technischer Ebene wurde die Website mit WordPress entwickelt, um dem medizinischen Personal eine robuste, skalierbare und leicht zu verwaltende Plattform zu bieten. Dies ermöglichte die Strukturierung von Dienstleistungen und die Optimierung der Patientenreise.",
+            "Dieses Projekt stellt eine solide Grundlage in der Erfahrung mit der Erstellung von Schnittstellen für die Gesundheitsbranche dar und zeigt die Fähigkeit, digitale Lösungen an strenge professionelle Nischen anzupassen."
+          ],
+          "pt": [
+            "O desenvolvimento de produtos digitais para o setor médico exige uma abordagem particular: a arquitetura da informação e o design devem transmitir profissionalismo, limpeza e, acima de tudo, a confiança do paciente. Este projeto foi construído com essa premissa.",
+            "A nível técnico, o site foi desenvolvido em WordPress para fornecer à equipe médica uma plataforma robusta, escalável e de fácil gestão. Isso permitiu estruturar adequadamente os serviços e otimizar a jornada do paciente até a marcação da consulta.",
+            "Este projeto representa uma base sólida na experiência de criação de interfaces para o setor de saúde, demonstrando a capacidade de adaptar soluções digitais a nichos profissionais rigorosos, onde a clareza é crítica."
+          ],
+          "it": [
+            "Lo sviluppo di prodotti digitali per il settore medico richiede un approccio particolare: l'architettura dell'informazione e il design devono trasmettere professionalità, pulizia e, soprattutto, la fiducia dei pazienti. Questo progetto è stato costruito con questa premessa.",
+            "A livello tecnico, il sito è stato sviluppato utilizzando WordPress per fornire al personale medico una piattaforma robusta, scalabile e facilmente gestibile. Ciò ha permesso di strutturare i servizi e ottimizzare il percorso del paziente.",
+            "Questo progetto rappresenta una solida base nell'esperienza di creazione di interfacce per l'industria sanitaria, dimostrando la capacità di adattare soluzioni digitali a nicchie professionali rigorose in cui la chiarezza è fondamentale."
+          ],
+          "ja": [
+            "医療セクター向けのデジタル製品の開発には、特別なアプローチが必要です。情報アーキテクチャとデザインは、プロフェッショナリズム、清潔さ、そして何よりも患者の信頼を伝えなければなりません。このプロジェクトは、この前提を基本的な柱として構築されました。",
+            "技術面では、医療スタッフに堅牢でスケーラブル、かつ管理が容易なプラットフォームを提供するために、WordPressを使用してサイトが開発されました。これにより、サービスを適切に構築し、患者のカスタマージャーニーを最適化することができました。",
+            "このプロジェクトは、ヘルスケア業界向けのインターフェース作成の経験における強固な基盤を表しており、明確さが成功に不可欠な厳格な専門分野にデジタルソリューションを適応させる能力を示しています。"
+          ],
+          "zh": [
+            "为医疗领域开发数字产品需要一种特殊的方法：信息架构和设计必须传达专业精神、整洁，最重要的是患者的信任。这个项目就是以这一前提作为基本支柱构建的。",
+            "在技术层面，该网站使用 WordPress 开发，为医务人员提供了一个强大、可扩展且易于管理的平台。这使得服务得以合理构建，并优化了患者从初步搜索到预约咨询的整个过程。",
+            "该项目代表了在为医疗保健行业创建界面方面的坚实基础，展示了将数字解决方案适应于清晰度至关重要的严格专业细分市场的能力。"
+          ]
+        },
+        "images": [
+          {
+            "r2Path": "paginahv/web-design-1.webp",
+            "alt": {
+              "es": "Diseño de interfaz para clínica médica",
+              "en": "Interface design for medical clinic",
+              "fr": "Conception d'interface pour clinique médicale",
+              "de": "Schnittstellendesign für medizinische Klinik",
+              "pt": "Design de interface para clínica médica",
+              "it": "Progettazione dell'interfaccia per clinica medica",
+              "ja": "医療クリニックのインターフェースデザイン",
+              "zh": "医疗诊所的界面设计"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Estructura de servicios médicos y perfiles de doctores"
+            }
+          },
+          {
+            "r2Path": "paginahv/web-design-2.webp",
+            "alt": {
+              "es": "Arquitectura de información para sector salud",
+              "en": "Information architecture for healthcare sector",
+              "fr": "Architecture de l'information pour le secteur de la santé",
+              "de": "Informationsarchitektur für den Gesundheitssektor",
+              "pt": "Arquitetura de informação para o setor de saúde",
+              "it": "Architettura dell'informazione per il settore sanitario",
+              "ja": "ヘルスケアセクターの情報アーキテクチャ",
+              "zh": "医疗保健行业的信息架构"
+            },
+            "placeholder": {
+              "enabled": true,
+              "seoText": "Optimización de experiencia de usuario en sitios web médicos"
+            }
+          }
+        ],
+        "keywords": [
+          "Desarrollo Web",
+          "WordPress",
+          "Sector Médico",
+          "Healthcare UI/UX",
+          "Web Médica",
+          "Arquitectura de Información",
+          "Diseño Clínico"
+        ],
+        "youtubeId": ""
+      },
+      "_comment_end": "========== FIN DEL PROYECTO: CIRUGÍA GINECOLÓGICA =========="
     }
   ],
   "aiClassification": {
