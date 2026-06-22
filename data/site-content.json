@@ -1280,179 +1280,7 @@
    }
   },
   "projects": [
-    {
-  "id": "mimo-senior-geo-platform",
-  "visible": true,
-  "title": {
-    "es": "Plataforma web estática y optimización GEO (Mimo Senior)",
-    "br": "Plataforma web estática e otimização GEO (Mimo Senior)",
-    "en": "Static web platform and GEO optimization (Mimo Senior)",
-    "fr": "Plateforme web statique et optimisation GEO (Mimo Senior)",
-    "de": "Statische Webplattform und GEO-Optimierung (Mimo Senior)",
-    "ar": "منصة ويب ثابتة وتحسين محركات البحث التوليدية GEO (Mimo Senior)",
-    "zh": "静态Web平台与GEO生成式引擎优化 (Mimo Senior)",
-    "ja": "静的WebプラットフォームとGEO生成AI最適化 (Mimo Senior)"
-  },
-  "category": {
-    "es": "Desarrollo Web / IA aplicada",
-    "br": "Desenvolvimento Web / IA aplicada",
-    "en": "Web Development / Applied AI",
-    "fr": "Développement Web / IA appliquée",
-    "de": "Webentwicklung / Angewandte KI",
-    "ar": "تطوير الويب / الذكاء الاصطناعي التطبيقي",
-    "zh": "Web开发 / 应用人工智能",
-    "ja": "Web開発 / 応用AI"
-  },
-  "description": {
-    "es": "Desarrollo de un sitio bilingüe mobile-first de alto rendimiento y optimización para motores de búsqueda generativos (IA) con conversión directa.",
-    "br": "Desenvolvimento de um site bilíngue mobile-first de alta performance e otimização para motores de busca generativos (IA) com conversão direta.",
-    "en": "Development of a high-performance bilingual mobile-first website and optimization for generative search engines (AI) with direct conversion.",
-    "fr": "Développement d'un site bilingue mobile-first de haute performance et optimisation pour les moteurs de recherche génératifs (IA) avec conversion directe.",
-    "de": "Entwicklung einer leistungsstarken, zweisprachigen Mobile-First-Website und Optimierung für generative Suchmaschinen (KI) mit direkter Konversion.",
-    "ar": "تطوير موقع ويب ثنائي اللغة ومتوافق أولاً مع الهواتف المحمولة وعالي الأداء، مع تحسينه لمحركات البحث التوليدية (الذكاء الاصطناعي) لتحقيق تحويل مباشر.",
-    "zh": "开发高性能、移动优先的双语静态网站，并针对生成式AI搜索引擎（GEO）进行优化以实现直接转化。",
-    "ja": "高性能なモバイルファースト・バイリンガル静的サイトの開発、および直接的なコンバージョンを実現する生成AI検索エンジン（GEO）への最適化。"
-  },
-  "tags": [
-    "Vanilla JS",
-    "GEO (Generative Engine Optimization)",
-    "Node.js Build",
-    "Data-Driven Architecture"
-  ],
-  "media": {
-    "src": "",
-    "alt": {
-      "es": "Interfaz de la plataforma web mobile-first de Mimo Senior",
-      "br": "Interface da plataforma web mobile-first da Mimo Senior",
-      "en": "Mimo Senior mobile-first web platform interface",
-      "fr": "Interface de la plateforme web mobile-first de Mimo Senior",
-      "de": "Schnittstelle der Mobile-First-Webplattform von Mimo Senior",
-      "ar": "واجهة منصة الويب المتوافقة أولاً مع الهواتف المحمولة لـ Mimo Senior",
-      "zh": "Mimo Senior 移动优先Web平台界面",
-      "ja": "Mimo Senior モバイルファーストWebプラットフォームのインターフェース"
-    },
-    "title": {
-      "es": "Plataforma Web Mimo Senior",
-      "br": "Plataforma Web Mimo Senior",
-      "en": "Mimo Senior Web Platform",
-      "fr": "Plateforme Web Mimo Senior",
-      "de": "Mimo Senior Webplattform",
-      "ar": "منصة الويب Mimo Senior",
-      "zh": "Mimo Senior Web平台",
-      "ja": "Mimo Senior Webプラットフォーム"
-    },
-    "placeholder": {
-      "enabled": true,
-      "seoText": "Desarrollo web estático bilingüe y optimización para respuestas de inteligencia artificial (GEO)"
-    },
-    "r2Path": "paginahv/sr-0.webp"
-  },
-  "projectUrl": "https://mimosenior.com/",
-  "projectButtonLabel": {
-    "es": "Ver sitio web",
-    "br": "Ver site",
-    "en": "View website",
-    "fr": "Voir le site web",
-    "de": "Website anzeigen",
-    "ar": "عرض الموقع الإلكتروني",
-    "zh": "访问网站",
-    "ja": "Webサイトを見る"
-  },
-  "showProjectButton": true,
-  "extended": {
-    "paragraphs": {
-      "es": [
-        "Mimo Senior requería una plataforma web bilingüe (español/inglés) y optimizada para dispositivos móviles que pudiera actualizarse de forma masiva sin la sobrecarga, vulnerabilidades ni costes de mantenimiento de un CMS tradicional o una base de datos. Para resolverlo, diseñé una arquitectura a medida basada en una 'fuente única de verdad': un solo archivo estructurado en JSON (site-data.json). Mediante un script de construcción personalizado en Node.js, todo el contenido, el SEO y las traducciones se validan y se prerenderizan en un build que genera código HTML, CSS y Vanilla JS puramente estático, garantizando la máxima velocidad de carga y una seguridad infranqueable.",
-        "A pesar de carecer de frameworks pesados en producción, el sitio web ofrece una experiencia dinámica altamente interactiva para el usuario final. Desarrollé herramientas nativas y ligeras integradas en el flujo de navegación, incluyendo formularios estructurados por pasos, asistentes de selección condicionales basados en las necesidades del cliente y una calculadora de consumos automatizada. Todo este ecosistema converge de forma fluida hacia la generación de resúmenes de pedidos listos para ser enviados mediante la API nativa de WhatsApp, acortando drásticamente la brecha de conversión en el canal de atención al cliente.",
-        "La ligereza del código y una rigurosa estructura de datos estructurados (Schema.org) no solo optimizaron el rendimiento técnico, sino que desbloquearon un rendimiento comercial extraordinario. A solo 6 días de su lanzamiento, la plataforma logró integrarse con éxito en las búsquedas avanzadas de Google y en los nuevos resultados generativos de Inteligencia Artificial mediante técnicas de GEO (Generative Engine Optimization). El impacto directo de esta estrategia se tradujo en una captación orgánica inmediata, registrando nuevas ventas para el cliente en menos de una semana desde la publicación del proyecto."
-      ],
-      "br": [
-        "A Mimo Senior exigia uma plataforma web bilíngue (espanhol/inglês) e otimizada para dispositivos móveis que pudesse ser atualizada massivamente sem a sobrecarga, vulnerabilidades ou custos de manutenção de um CMS tradicional ou banco de dados. Para resolver isso, desenvolvi uma arquitetura sob medida baseada em uma 'fonte única da verdade': um único arquivo JSON estruturado (site-data.json). Por meio de um script de compilação personalizado em Node.js, todo o conteúdo, SEO e traduções são validados e pré-renderizados em um build que gera código HTML, CSS e Vanilla JS puramente estático, garantindo máxima velocidade de carregamento e segurança blindada.",
-        "Apesar da ausência de frameworks pesados em produção, o site oferece uma experiência dinâmica altamente interativa para o usuário final. Desenvolvi ferramentas nativas e leves integradas ao fluxo de navegação, incluindo formulários estruturados em etapas, assistentes de seleção condicionais baseados nas necessidades do cliente e uma calculadora de consumo automatizada. Todo esse ecossistema converge de forma fluida para a geração de resumos de pedidos prontos para serem enviados via API nativa do WhatsApp, reduzindo drasticamente a lacuna de conversão no canal de atendimento ao cliente.",
-        "A leveza do código e uma estrutura rigorosa de dados estruturados (Schema.org) não apenas otimizaram o desempenho técnico, mas também desbloquearam um resultado comercial extraordinário. Apenas 6 dias após o seu lançamento, a plataforma integrou-se com sucesso nas buscas avançadas do Google e nos novos resultados generativos de Inteligência Artificial por meio de técnicas de GEO (Generative Engine Optimization). O impacto direto dessa estratégia traduziu-se em captação orgânica imediata, registrando novas vendas para o cliente em menos de uma semana desde a publicação do projeto."
-      ],
-      "en": [
-        "Mimo Senior required a bilingual (Spanish/English) and mobile-optimized web platform that could be updated massively without the overhead, vulnerabilities, or maintenance costs of a traditional CMS or database. To solve this, I designed a custom architecture based on a 'single source of truth': a single structured JSON file (site-data.json). Using a custom build script in Node.js, all content, SEO, and translations are validated and pre-rendered into a build that generates purely static HTML, CSS, and Vanilla JS, ensuring maximum loading speed and bulletproof security.",
-        "Despite lacking heavy frameworks in production, the website delivers a highly interactive and dynamic experience for the end user. I developed native, lightweight tools integrated into the navigation flow, including multi-step structured forms, conditional selection assistants based on user needs, and an automated consumption calculator. This entire ecosystem converges seamlessly toward generating order summaries ready to be sent via the native WhatsApp API, drastically shortening the conversion gap in the customer service channel.",
-        "The lightweight code and a rigorous structured data implementation (Schema.org) not only optimized technical performance but also unlocked extraordinary commercial results. Just 6 days after its launch, the platform successfully integrated into Google advanced searches and the new AI generative results through GEO (Generative Engine Optimization) techniques. The direct impact of this strategy translated into immediate organic acquisition, driving new sales for the client in less than a week since the project was published."
-      ],
-      "fr": [
-        "Mimo Senior exigeait une plateforme web bilingue (espagnol/anglais) et optimisée pour les mobiles qui puisse être mise à jour massivement sans les lourdeurs, vulnérabilités ou coûts de maintenance d'un CMS traditionnel ou d'une base de données. Pour y répondre, j'ai conçu une architecture sur mesure basée sur une 'source unique de vérité' : un seul fichier JSON structuré (site-data.json). Grâce à un script de construction personnalisé en Node.js, tout le contenu, le référencement (SEO) et les traductions sont validés et pré-rendus dans un build qui génère du code HTML, CSS et Vanilla JS purement statique, garantissant une vitesse de chargement maximale et une sécurité absolue.",
-        "Bien que la production soit exempte de frameworks lourds, le site web offre une expérience dynamique et hautement interactive pour l'utilisateur final. J'ai développé des outils natifs et légers intégrés au flux de navigation, notamment des formulaires structurés par étapes, des assistants de sélection conditionnels basés sur les besoins des clients et un calculateur de consommation automatisé. Tout cet écosystème converge de manière fluide vers la génération de résumés de commandes prêts à être envoyés via l'API native de WhatsApp, réduisant considérablement le délai de conversion dans le canal de service client.",
-        "La légèreté du code et une implémentation rigoureuse des données structurées (Schema.org) ont non seulement optimisé les performances techniques, mais ont également généré des résultats commerciaux extraordinaires. À peine 6 jours après son lancement, la plateforme s'est intégrée avec succès dans les recherches avancées de Google et dans les nouveaux résultats génératifs de l'Intelligence Artificielle grâce aux techniques de GEO (Generative Engine Optimization). L'impact direct de cette stratégie s'est traduit par une acquisition organique immédiate, enregistrant de nouvelles ventes pour le client en moins d'une semaine après la publication du projet."
-      ],
-      "de": [
-        "Mimo Senior benötigte eine zweisprachige (Spanisch/Englisch) und für Mobilgeräte optimierte Webplattform, die ohne den Overhead, die Schwachstellen oder die Wartungskosten eines traditionellen CMS oder einer Datenbank massiv aktualisiert werden konnte. Um dies zu lösen, habe ich eine maßgeschneiderte Architektur entwickelt, die auf einer 'Single Source of Truth' basiert: einer einzigen strukturierten JSON-Datei (site-data.json). Über ein benutzerdefiniertes Build-Skript in Node.js werden alle Inhalte, SEO-Daten und Übersetzungen validiert und in einem Build vorgerendert, der rein statischen HTML-, CSS- und Vanilla-JS-Code erzeugt. Dies garantiert maximale Ladegeschwindigkeit und absolute Sicherheit.",
-        "Obwohl in der Produktionsumgebung auf schwere Frameworks verzichtet wurde, bietet die Website dem Endnutzer ein hochgradig interaktives und dynamisches Erlebnis. Ich habe native, leichtgewichtige Tools entwickelt, die in den Navigationsfluss integriert sind, darunter mehrstufige strukturierte Formulare, bedingte Auswahlassistenten basierend auf den Kundenbedürfnissen und ein automatisierter Verbrauchsrechner. Dieses gesamte Ökosystem führt nahtlos zur Erstellung von Bestellzusammenfassungen, die über die native WhatsApp-API versendet werden können, wodurch die Konversionslücke im Kundenservice-Kanal drastisch verkürzt wird.",
-        "Der schlanke Code und eine konsequente Implementierung strukturierter Daten (Schema.org) optimierten nicht nur die technische Performance, sondern führten auch zu außergewöhnlichen kommerziellen Ergebnissen. Nur 6 Tage nach dem Start wurde die Plattform durch GEO-Techniken (Generative Engine Optimization) erfolgreich in die erweiterten Google-Suchen und die neuen generativen KI-Ergebnisse integriert. Die direkte Auswirkung dieser Strategie zeigte sich in einer sofortigen organischen Nutzergewinnung, die dem Kunden in weniger als einer Woche nach Veröffentlichung des Projekts neue Umsätze einbrachte."
-      ],
-      "ar": [
-        "كان مشروع Mimo Senior يتطلب منصة ويب ثنائية اللغة (الإسبانية/الإنجليزية) ومحسنة للهواتف المحمولة تتيح تحديث المحتوى بشكل شامل دون أعباء أو ثغرات أو تكاليف صيانة أنظمة إدارة المحتوى التقليدية (CMS) أو قواعد البيانات. ولحل هذه المشكلة، قمت بتصميم بنية مخصصة تعتمد على 'مصدر واحد للحقيقة': ملف JSON مهيكل واحد (site-data.json). ومن خلال برنامج نصي مخصص للبناء في Node.js، يتم التحقق من صحة المحتوى بالكامل وتحسين محركات البحث والترجمات، ثم يتم عرضها مسبقًا لإنتاج أكواد HTML وCSS وVanilla JS استاتيكية تمامًا، مما يضمن أقصى سرعة تحميل وأمانًا مطلقًا.",
-        "على الرغم من خلو الموقع من أطر العمل الثقيلة في مرحلة الإنتاج، إلا أنه يقدم تجربة ديناميكية وتفاعلية للغاية للمستخدم النهائي. لقد قمت بتطوير أدوات مدمجة وخفيفة الوزن داخل مسار التصفح، بما في ذلك نماذج منظمة ومقسمة إلى خطوات، ومساعدي اختيار مشروطين يعتمدون على احتياجات العميل، وحاسبة استهلاك مؤتمتة. يتقارب هذا النظام البيئي بأكمله بسلاسة نحو إنشاء ملخصات طلبات جاهزة للإرسال عبر واجهة برمجة تطبيقات WhatsApp الأصلية، مما يقلص فجوة التحويل في قنوات خدمة العملاء بشكل كبير.",
-        "إن خفة الكود والالتزام الصارم ببنية البيانات المنظمة (Schema.org) لم تقتصر على تحسين الأداء التقني فحسب، بل حققت أيضًا نتائج تجارية استثنائية. فبعد 6 أيام فقط من إطلاقها، نجحت المنصة في الاندماد ضمن عمليات البحث المتقدمة في Google وفي نتائج الذكاء الاصطناعي التوليدي الجديدة باستخدام تقنيات GEO (تحسين محركات البحث التوليدية). وقد تُرجم الأثر المباشر لهذه الاستراتيجية إلى جذب فوري للعملاء بشكل طبيعي، ومبيعات جديدة لصالح العميل في أقل من أسبوع من نشر المشروع."
-      ],
-      "zh": [
-        "Mimo Senior 需要一个双语（西班牙语/英语）且移动优先的Web平台，能够进行大规模内容更新，同时免受传统CMS或数据库带来的系统冗余、安全漏洞或高昂维护成本的困扰。为此，我设计了一种基于“单一事实来源”的定制架构：一个结构化的JSON文件（site-data.json）。通过Node.js编写的自定义构建脚本，所有内容、SEO和翻译在构建阶段即完成验证和预渲染，最终生成纯静态的HTML、CSS和Vanilla JS代码，从而确保了极速的加载响应和坚不可摧的安全性。",
-        "尽管在生产环境中没有使用任何笨重的第三方框架，该网站依然为最终用户提供了高度互动和动态的流畅体验。我开发了深度整合在导航流程中的原生轻量化工具，包括分步式结构化表单、基于用户需求的条件分支选择助手以及自动化消耗计算器。整个生态系统无缝对接，最终生成可直接通过本地WhatsApp API发送的订单摘要，大幅缩短了客户服务渠道中的转化路径。",
-        "轻量化的代码和严谨的结构化数据（Schema.org）不仅最大化了技术性能，更解锁了惊人的商业表现。在网站上线仅6天后，该平台便通过GEO（生成式引擎优化）技术成功切入Google高级搜索及全新的人工智能生成式搜索结果中。这一策略的直接影响迅速转化为即时性的自然流量获取，在项目发布不到一周的时间内便为客户带来了全新的实质性销售转化。"
-      ],
-      "ja": [
-        "Mimo Seniorは、従来のCMSやデータベースがもたらすシステム負荷、脆弱性、メンテナンスコストを排除しつつ、大量のコンテンツを更新できる、バイリンガル（スペイン語/英語）かつモバイルに最適化されたWebプラットフォームを必要としていました。これを解決するため、「単一の真実のソース」となる1つの構造化されたJSONファイル（site-data.json）をベースにしたカスタムアーキテクチャを設計しました。Node.jsによる独自のビルドスクリプトを用いて、すべてのコンテンツ、SEO、翻訳をビルド時に検証・プリレンダリングし、純粋な静的HTML、CSS、Vanilla JSコードを出力することで、圧倒的な表示速度 feather と強固なセキュリティを担保しました。",
-        "本番環境に重いフレームワークを一切導入していないにもかかわらず、エンドユーザーに高度なインタラクティブ性とダイナミックな体験を提供します。ナビゲーションフローにシームレスに組み込まれた、ステップ型フォーム、ユーザーのニーズに応じた条件分岐型選択アシスタント、自動消費量計算ツールなどの軽量なネイティブ機能を開発しました。このエコシステム全体が、WhatsAppのネイティブAPIを介して即座に送信できる注文サマリーの生成へとスムーズに繋がり、カスタマーサービスにおけるコンバージョンへの障壁を劇的に短縮しています。",
-        "コードの軽量化と構造化データ（Schema.org）の厳格な設計は、技術的パフォーマンスを最適化しただけでなく、驚異的な商業成果をもたらしました。ローンチからわずか6日後、このプラットフォームはGEO（生成AI検索エンジン最適化）技術を通じて、Googleの高度な検索や新しいAIの生成結果へのインデックスに成功しました。この戦略の直接的な効果は、即座のオーガニック獲得へと繋がり、プロジェクト公開から1週間足らずでクライアントに新しい売上をもたらしました。"
-      ]
-    },
-    "images": [
-      {
-        "r2Path": "paginahv/sr-1.webp",
-        "alt": {
-          "es": "Resultados de búsqueda generativa por IA (GEO) para Mimo Senior — Captura 1",
-          "br": "Resultados de busca generativa por IA (GEO) para Mimo Senior — Captura 1",
-          "en": "Generative AI search results (GEO) for Mimo Senior — Screenshot 1",
-          "fr": "Résultats de recherche générative par IA (GEO) pour Mimo Senior — Capture 1",
-          "de": "Generative KI-Suchergebnisse (GEO) für Mimo Senior — Screenshot 1",
-          "ar": "نتائج البحث التوليدي بالذكاء الاصطناعي (GEO) لـ Mimo Senior - لقطة شاشة 1",
-          "zh": "Mimo Senior 生成式AI搜索结果 (GEO) — 截图 1",
-          "ja": "Mimo Senior 生成AI検索結果 (GEO) — スクリーンショット 1"
-        },
-        "placeholder": {
-          "enabled": true,
-          "seoText": "Optimización GEO para posicionamiento en respuestas de Inteligencia Artificial"
-        }
-      },
-      {
-        "r2Path": "paginahv/sr-2.webp",
-        "alt": {
-          "es": "Resultados de búsqueda generativa por IA (GEO) para Mimo Senior — Captura 2",
-          "br": "Resultados de busca generativa por IA (GEO) para Mimo Senior — Captura 2",
-          "en": "Generative AI search results (GEO) for Mimo Senior — Screenshot 2",
-          "fr": "Résultats de recherche générative par IA (GEO) pour Mimo Senior — Capture 2",
-          "de": "Generative KI-Suchergebnisse (GEO) für Mimo Senior — Screenshot 2",
-          "ar": "نتائج البحث التوليدي بالذكاء الاصطناعي (GEO) لـ Mimo Senior - لقطة شاشة 2",
-          "zh": "Mimo Senior 生成式AI搜索结果 (GEO) — 截图 2",
-          "ja": "Mimo Senior 生成AI検索結果 (GEO) — スクリーンショット 2"
-        },
-        "placeholder": {
-          "enabled": true,
-          "seoText": "Indexación exitosa del proyecto web en motores generativos de IA"
-        }
-      }
-    ],
-    "keywords": [
-      "GEO",
-      "Generative Engine Optimization",
-      "Vanilla JS",
-      "Node.js build",
-      "Data-driven web",
-      "WhatsApp Conversion",
-      "Static Site Generation",
-      "SEO",
-      "Schema.org",
-      "Bilingual Web"
-    ],
-    "youtubeId": ""
-  }
-}
+    
     {
       "id": "ai-business-adaptation",
       "visible": true,
@@ -2178,7 +2006,181 @@
         "youtubeId": ""
       },
       "_comment_end": "========== FIN DEL PROYECTO: CIRUGÍA GINECOLÓGICA =========="
-    }
+    },
+    {
+  "id": "mimo-senior-geo-platform",
+  "visible": true,
+  "title": {
+    "es": "Plataforma web estática y optimización GEO (Mimo Senior)",
+    "br": "Plataforma web estática e otimização GEO (Mimo Senior)",
+    "en": "Static web platform and GEO optimization (Mimo Senior)",
+    "fr": "Plateforme web statique et optimisation GEO (Mimo Senior)",
+    "de": "Statische Webplattform und GEO-Optimierung (Mimo Senior)",
+    "ar": "منصة ويب ثابتة وتحسين محركات البحث التوليدية GEO (Mimo Senior)",
+    "zh": "静态Web平台与GEO生成式引擎优化 (Mimo Senior)",
+    "ja": "静的WebプラットフォームとGEO生成AI最適化 (Mimo Senior)"
+  },
+  "category": {
+    "es": "Desarrollo Web / IA aplicada",
+    "br": "Desenvolvimento Web / IA aplicada",
+    "en": "Web Development / Applied AI",
+    "fr": "Développement Web / IA appliquée",
+    "de": "Webentwicklung / Angewandte KI",
+    "ar": "تطوير الويب / الذكاء الاصطناعي التطبيقي",
+    "zh": "Web开发 / 应用人工智能",
+    "ja": "Web開発 / 応用AI"
+  },
+  "description": {
+    "es": "Desarrollo de un sitio bilingüe mobile-first de alto rendimiento y optimización para motores de búsqueda generativos (IA) con conversión directa.",
+    "br": "Desenvolvimento de um site bilíngue mobile-first de alta performance e otimização para motores de busca generativos (IA) com conversão direta.",
+    "en": "Development of a high-performance bilingual mobile-first website and optimization for generative search engines (AI) with direct conversion.",
+    "fr": "Développement d'un site bilingue mobile-first de haute performance et optimisation pour les moteurs de recherche génératifs (IA) avec conversion directe.",
+    "de": "Entwicklung einer leistungsstarken, zweisprachigen Mobile-First-Website und Optimierung für generative Suchmaschinen (KI) mit direkter Konversion.",
+    "ar": "تطوير موقع ويب ثنائي اللغة ومتوافق أولاً مع الهواتف المحمولة وعالي الأداء، مع تحسينه لمحركات البحث التوليدية (الذكاء الاصطناعي) لتحقيق تحويل مباشر.",
+    "zh": "开发高性能、移动优先的双语静态网站，并针对生成式AI搜索引擎（GEO）进行优化以实现直接转化。",
+    "ja": "高性能なモバイルファースト・バイリンガル静的サイトの開発、および直接的なコンバージョンを実現する生成AI検索エンジン（GEO）への最適化。"
+  },
+  "tags": [
+    "Vanilla JS",
+    "GEO (Generative Engine Optimization)",
+    "Node.js Build",
+    "Data-Driven Architecture"
+  ],
+  "media": {
+    "src": "",
+    "alt": {
+      "es": "Interfaz de la plataforma web mobile-first de Mimo Senior",
+      "br": "Interface da plataforma web mobile-first da Mimo Senior",
+      "en": "Mimo Senior mobile-first web platform interface",
+      "fr": "Interface de la plateforme web mobile-first de Mimo Senior",
+      "de": "Schnittstelle der Mobile-First-Webplattform von Mimo Senior",
+      "ar": "واجهة منصة الويب المتوافقة أولاً مع الهواتف المحمولة لـ Mimo Senior",
+      "zh": "Mimo Senior 移动优先Web平台界面",
+      "ja": "Mimo Senior モバイルファーストWebプラットフォームのインターフェース"
+    },
+    "title": {
+      "es": "Plataforma Web Mimo Senior",
+      "br": "Plataforma Web Mimo Senior",
+      "en": "Mimo Senior Web Platform",
+      "fr": "Plateforme Web Mimo Senior",
+      "de": "Mimo Senior Webplattform",
+      "ar": "منصة الويب Mimo Senior",
+      "zh": "Mimo Senior Web平台",
+      "ja": "Mimo Senior Webプラットフォーム"
+    },
+    "placeholder": {
+      "enabled": true,
+      "seoText": "Desarrollo web estático bilingüe y optimización para respuestas de inteligencia artificial (GEO)"
+    },
+    "r2Path": "paginahv/sr-0.webp"
+  },
+  "projectUrl": "https://mimosenior.com/",
+  "projectButtonLabel": {
+    "es": "Ver sitio web",
+    "br": "Ver site",
+    "en": "View website",
+    "fr": "Voir le site web",
+    "de": "Website anzeigen",
+    "ar": "عرض الموقع الإلكتروني",
+    "zh": "访问网站",
+    "ja": "Webサイトを見る"
+  },
+  "showProjectButton": true,
+  "extended": {
+    "paragraphs": {
+      "es": [
+        "Mimo Senior requería una plataforma web bilingüe (español/inglés) y optimizada para dispositivos móviles que pudiera actualizarse de forma masiva sin la sobrecarga, vulnerabilidades ni costes de mantenimiento de un CMS tradicional o una base de datos. Para resolverlo, diseñé una arquitectura a medida basada en una 'fuente única de verdad': un solo archivo estructurado en JSON (site-data.json). Mediante un script de construcción personalizado en Node.js, todo el contenido, el SEO y las traducciones se validan y se prerenderizan en un build que genera código HTML, CSS y Vanilla JS puramente estático, garantizando la máxima velocidad de carga y una seguridad infranqueable.",
+        "A pesar de carecer de frameworks pesados en producción, el sitio web ofrece una experiencia dinámica altamente interactiva para el usuario final. Desarrollé herramientas nativas y ligeras integradas en el flujo de navegación, incluyendo formularios estructurados por pasos, asistentes de selección condicionales basados en las necesidades del cliente y una calculadora de consumos automatizada. Todo este ecosistema converge de forma fluida hacia la generación de resúmenes de pedidos listos para ser enviados mediante la API nativa de WhatsApp, acortando drásticamente la brecha de conversión en el canal de atención al cliente.",
+        "La ligereza del código y una rigurosa estructura de datos estructurados (Schema.org) no solo optimizaron el rendimiento técnico, sino que desbloquearon un rendimiento comercial extraordinario. A solo 6 días de su lanzamiento, la plataforma logró integrarse con éxito en las búsquedas avanzadas de Google y en los nuevos resultados generativos de Inteligencia Artificial mediante técnicas de GEO (Generative Engine Optimization). El impacto directo de esta estrategia se tradujo en una captación orgánica inmediata, registrando nuevas ventas para el cliente en menos de una semana desde la publicación del proyecto."
+      ],
+      "br": [
+        "A Mimo Senior exigia uma plataforma web bilíngue (espanhol/inglês) e otimizada para dispositivos móveis que pudesse ser atualizada massivamente sem a sobrecarga, vulnerabilidades ou custos de manutenção de um CMS tradicional ou banco de dados. Para resolver isso, desenvolvi uma arquitetura sob medida baseada em uma 'fonte única da verdade': um único arquivo JSON estruturado (site-data.json). Por meio de um script de compilação personalizado em Node.js, todo o conteúdo, SEO e traduções são validados e pré-renderizados em um build que gera código HTML, CSS e Vanilla JS puramente estático, garantindo máxima velocidade de carregamento e segurança blindada.",
+        "Apesar da ausência de frameworks pesados em produção, o site oferece uma experiência dinâmica altamente interativa para o usuário final. Desenvolvi ferramentas nativas e leves integradas ao fluxo de navegação, incluindo formulários estruturados em etapas, assistentes de seleção condicionais baseados nas necessidades do cliente e uma calculadora de consumo automatizada. Todo esse ecossistema converge de forma fluida para a geração de resumos de pedidos prontos para serem enviados via API nativa do WhatsApp, reduzindo drasticamente a lacuna de conversão no canal de atendimento ao cliente.",
+        "A leveza do código e uma estrutura rigorosa de dados estruturados (Schema.org) não apenas otimizaram o desempenho técnico, mas também desbloquearam um resultado comercial extraordinário. Apenas 6 dias após o seu lançamento, a plataforma integrou-se com sucesso nas buscas avançadas do Google e nos novos resultados generativos de Inteligência Artificial por meio de técnicas de GEO (Generative Engine Optimization). O impacto direto dessa estratégia traduziu-se em captação orgânica imediata, registrando novas vendas para o cliente em menos de uma semana desde a publicação do projeto."
+      ],
+      "en": [
+        "Mimo Senior required a bilingual (Spanish/English) and mobile-optimized web platform that could be updated massively without the overhead, vulnerabilities, or maintenance costs of a traditional CMS or database. To solve this, I designed a custom architecture based on a 'single source of truth': a single structured JSON file (site-data.json). Using a custom build script in Node.js, all content, SEO, and translations are validated and pre-rendered into a build that generates purely static HTML, CSS, and Vanilla JS, ensuring maximum loading speed and bulletproof security.",
+        "Despite lacking heavy frameworks in production, the website delivers a highly interactive and dynamic experience for the end user. I developed native, lightweight tools integrated into the navigation flow, including multi-step structured forms, conditional selection assistants based on user needs, and an automated consumption calculator. This entire ecosystem converges seamlessly toward generating order summaries ready to be sent via the native WhatsApp API, drastically shortening the conversion gap in the customer service channel.",
+        "The lightweight code and a rigorous structured data implementation (Schema.org) not only optimized technical performance but also unlocked extraordinary commercial results. Just 6 days after its launch, the platform successfully integrated into Google advanced searches and the new AI generative results through GEO (Generative Engine Optimization) techniques. The direct impact of this strategy translated into immediate organic acquisition, driving new sales for the client in less than a week since the project was published."
+      ],
+      "fr": [
+        "Mimo Senior exigeait une plateforme web bilingue (espagnol/anglais) et optimisée pour les mobiles qui puisse être mise à jour massivement sans les lourdeurs, vulnérabilités ou coûts de maintenance d'un CMS traditionnel ou d'une base de données. Pour y répondre, j'ai conçu une architecture sur mesure basée sur une 'source unique de vérité' : un seul fichier JSON structuré (site-data.json). Grâce à un script de construction personnalisé en Node.js, tout le contenu, le référencement (SEO) et les traductions sont validés et pré-rendus dans un build qui génère du code HTML, CSS et Vanilla JS purement statique, garantissant une vitesse de chargement maximale et une sécurité absolue.",
+        "Bien que la production soit exempte de frameworks lourds, le site web offre une expérience dynamique et hautement interactive pour l'utilisateur final. J'ai développé des outils natifs et légers intégrés au flux de navigation, notamment des formulaires structurés par étapes, des assistants de sélection conditionnels basés sur les besoins des clients et un calculateur de consommation automatisé. Tout cet écosystème converge de manière fluide vers la génération de résumés de commandes prêts à être envoyés via l'API native de WhatsApp, réduisant considérablement le délai de conversion dans le canal de service client.",
+        "La légèreté du code et une implémentation rigoureuse des données structurées (Schema.org) ont non seulement optimisé les performances techniques, mais ont également généré des résultats commerciaux extraordinaires. À peine 6 jours après son lancement, la plateforme s'est intégrée avec succès dans les recherches avancées de Google et dans les nouveaux résultats génératifs de l'Intelligence Artificielle grâce aux techniques de GEO (Generative Engine Optimization). L'impact direct de cette stratégie s'est traduit par une acquisition organique immédiate, enregistrant de nouvelles ventes pour le client en moins d'une semaine après la publication du projet."
+      ],
+      "de": [
+        "Mimo Senior benötigte eine zweisprachige (Spanisch/Englisch) und für Mobilgeräte optimierte Webplattform, die ohne den Overhead, die Schwachstellen oder die Wartungskosten eines traditionellen CMS oder einer Datenbank massiv aktualisiert werden konnte. Um dies zu lösen, habe ich eine maßgeschneiderte Architektur entwickelt, die auf einer 'Single Source of Truth' basiert: einer einzigen strukturierten JSON-Datei (site-data.json). Über ein benutzerdefiniertes Build-Skript in Node.js werden alle Inhalte, SEO-Daten und Übersetzungen validiert und in einem Build vorgerendert, der rein statischen HTML-, CSS- und Vanilla-JS-Code erzeugt. Dies garantiert maximale Ladegeschwindigkeit und absolute Sicherheit.",
+        "Obwohl in der Produktionsumgebung auf schwere Frameworks verzichtet wurde, bietet die Website dem Endnutzer ein hochgradig interaktives und dynamisches Erlebnis. Ich habe native, leichtgewichtige Tools entwickelt, die in den Navigationsfluss integriert sind, darunter mehrstufige strukturierte Formulare, bedingte Auswahlassistenten basierend auf den Kundenbedürfnissen und ein automatisierter Verbrauchsrechner. Dieses gesamte Ökosystem führt nahtlos zur Erstellung von Bestellzusammenfassungen, die über die native WhatsApp-API versendet werden können, wodurch die Konversionslücke im Kundenservice-Kanal drastisch verkürzt wird.",
+        "Der schlanke Code und eine konsequente Implementierung strukturierter Daten (Schema.org) optimierten nicht nur die technische Performance, sondern führten auch zu außergewöhnlichen kommerziellen Ergebnissen. Nur 6 Tage nach dem Start wurde die Plattform durch GEO-Techniken (Generative Engine Optimization) erfolgreich in die erweiterten Google-Suchen und die neuen generativen KI-Ergebnisse integriert. Die direkte Auswirkung dieser Strategie zeigte sich in einer sofortigen organischen Nutzergewinnung, die dem Kunden in weniger als einer Woche nach Veröffentlichung des Projekts neue Umsätze einbrachte."
+      ],
+      "ar": [
+        "كان مشروع Mimo Senior يتطلب منصة ويب ثنائية اللغة (الإسبانية/الإنجليزية) ومحسنة للهواتف المحمولة تتيح تحديث المحتوى بشكل شامل دون أعباء أو ثغرات أو تكاليف صيانة أنظمة إدارة المحتوى التقليدية (CMS) أو قواعد البيانات. ولحل هذه المشكلة، قمت بتصميم بنية مخصصة تعتمد على 'مصدر واحد للحقيقة': ملف JSON مهيكل واحد (site-data.json). ومن خلال برنامج نصي مخصص للبناء في Node.js، يتم التحقق من صحة المحتوى بالكامل وتحسين محركات البحث والترجمات، ثم يتم عرضها مسبقًا لإنتاج أكواد HTML وCSS وVanilla JS استاتيكية تمامًا، مما يضمن أقصى سرعة تحميل وأمانًا مطلقًا.",
+        "على الرغم من خلو الموقع من أطر العمل الثقيلة في مرحلة الإنتاج، إلا أنه يقدم تجربة ديناميكية وتفاعلية للغاية للمستخدم النهائي. لقد قمت بتطوير أدوات مدمجة وخفيفة الوزن داخل مسار التصفح، بما في ذلك نماذج منظمة ومقسمة إلى خطوات، ومساعدي اختيار مشروطين يعتمدون على احتياجات العميل، وحاسبة استهلاك مؤتمتة. يتقارب هذا النظام البيئي بأكمله بسلاسة نحو إنشاء ملخصات طلبات جاهزة للإرسال عبر واجهة برمجة تطبيقات WhatsApp الأصلية، مما يقلص فجوة التحويل في قنوات خدمة العملاء بشكل كبير.",
+        "إن خفة الكود والالتزام الصارم ببنية البيانات المنظمة (Schema.org) لم تقتصر على تحسين الأداء التقني فحسب، بل حققت أيضًا نتائج تجارية استثنائية. فبعد 6 أيام فقط من إطلاقها، نجحت المنصة في الاندماد ضمن عمليات البحث المتقدمة في Google وفي نتائج الذكاء الاصطناعي التوليدي الجديدة باستخدام تقنيات GEO (تحسين محركات البحث التوليدية). وقد تُرجم الأثر المباشر لهذه الاستراتيجية إلى جذب فوري للعملاء بشكل طبيعي، ومبيعات جديدة لصالح العميل في أقل من أسبوع من نشر المشروع."
+      ],
+      "zh": [
+        "Mimo Senior 需要一个双语（西班牙语/英语）且移动优先的Web平台，能够进行大规模内容更新，同时免受传统CMS或数据库带来的系统冗余、安全漏洞或高昂维护成本的困扰。为此，我设计了一种基于“单一事实来源”的定制架构：一个结构化的JSON文件（site-data.json）。通过Node.js编写的自定义构建脚本，所有内容、SEO和翻译在构建阶段即完成验证和预渲染，最终生成纯静态的HTML、CSS和Vanilla JS代码，从而确保了极速的加载响应和坚不可摧的安全性。",
+        "尽管在生产环境中没有使用任何笨重的第三方框架，该网站依然为最终用户提供了高度互动和动态的流畅体验。我开发了深度整合在导航流程中的原生轻量化工具，包括分步式结构化表单、基于用户需求的条件分支选择助手以及自动化消耗计算器。整个生态系统无缝对接，最终生成可直接通过本地WhatsApp API发送的订单摘要，大幅缩短了客户服务渠道中的转化路径。",
+        "轻量化的代码和严谨的结构化数据（Schema.org）不仅最大化了技术性能，更解锁了惊人的商业表现。在网站上线仅6天后，该平台便通过GEO（生成式引擎优化）技术成功切入Google高级搜索及全新的人工智能生成式搜索结果中。这一策略的直接影响迅速转化为即时性的自然流量获取，在项目发布不到一周的时间内便为客户带来了全新的实质性销售转化。"
+      ],
+      "ja": [
+        "Mimo Seniorは、従来のCMSやデータベースがもたらすシステム負荷、脆弱性、メンテナンスコストを排除しつつ、大量のコンテンツを更新できる、バイリンガル（スペイン語/英語）かつモバイルに最適化されたWebプラットフォームを必要としていました。これを解決するため、「単一の真実のソース」となる1つの構造化されたJSONファイル（site-data.json）をベースにしたカスタムアーキテクチャを設計しました。Node.jsによる独自のビルドスクリプトを用いて、すべてのコンテンツ、SEO、翻訳をビルド時に検証・プリレンダリングし、純粋な静的HTML、CSS、Vanilla JSコードを出力することで、圧倒的な表示速度 feather と強固なセキュリティを担保しました。",
+        "本番環境に重いフレームワークを一切導入していないにもかかわらず、エンドユーザーに高度なインタラクティブ性とダイナミックな体験を提供します。ナビゲーションフローにシームレスに組み込まれた、ステップ型フォーム、ユーザーのニーズに応じた条件分岐型選択アシスタント、自動消費量計算ツールなどの軽量なネイティブ機能を開発しました。このエコシステム全体が、WhatsAppのネイティブAPIを介して即座に送信できる注文サマリーの生成へとスムーズに繋がり、カスタマーサービスにおけるコンバージョンへの障壁を劇的に短縮しています。",
+        "コードの軽量化と構造化データ（Schema.org）の厳格な設計は、技術的パフォーマンスを最適化しただけでなく、驚異的な商業成果をもたらしました。ローンチからわずか6日後、このプラットフォームはGEO（生成AI検索エンジン最適化）技術を通じて、Googleの高度な検索や新しいAIの生成結果へのインデックスに成功しました。この戦略の直接的な効果は、即座のオーガニック獲得へと繋がり、プロジェクト公開から1週間足らずでクライアントに新しい売上をもたらしました。"
+      ]
+    },
+    "images": [
+      {
+        "r2Path": "paginahv/sr-1.webp",
+        "alt": {
+          "es": "Resultados de búsqueda generativa por IA (GEO) para Mimo Senior — Captura 1",
+          "br": "Resultados de busca generativa por IA (GEO) para Mimo Senior — Captura 1",
+          "en": "Generative AI search results (GEO) for Mimo Senior — Screenshot 1",
+          "fr": "Résultats de recherche générative par IA (GEO) pour Mimo Senior — Capture 1",
+          "de": "Generative KI-Suchergebnisse (GEO) für Mimo Senior — Screenshot 1",
+          "ar": "نتائج البحث التوليدي بالذكاء الاصطناعي (GEO) لـ Mimo Senior - لقطة شاشة 1",
+          "zh": "Mimo Senior 生成式AI搜索结果 (GEO) — 截图 1",
+          "ja": "Mimo Senior 生成AI検索結果 (GEO) — スクリーンショット 1"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Optimización GEO para posicionamiento en respuestas de Inteligencia Artificial"
+        }
+      },
+      {
+        "r2Path": "paginahv/sr-2.webp",
+        "alt": {
+          "es": "Resultados de búsqueda generativa por IA (GEO) para Mimo Senior — Captura 2",
+          "br": "Resultados de busca generativa por IA (GEO) para Mimo Senior — Captura 2",
+          "en": "Generative AI search results (GEO) for Mimo Senior — Screenshot 2",
+          "fr": "Résultats de recherche générative par IA (GEO) pour Mimo Senior — Capture 2",
+          "de": "Generative KI-Suchergebnisse (GEO) für Mimo Senior — Screenshot 2",
+          "ar": "نتائج البحث التوليدي بالذكاء الاصطناعي (GEO) لـ Mimo Senior - لقطة شاشة 2",
+          "zh": "Mimo Senior 生成式AI搜索结果 (GEO) — 截图 2",
+          "ja": "Mimo Senior 生成AI検索結果 (GEO) — スクリーンショット 2"
+        },
+        "placeholder": {
+          "enabled": true,
+          "seoText": "Indexación exitosa del proyecto web en motores generativos de IA"
+        }
+      }
+    ],
+    "keywords": [
+      "GEO",
+      "Generative Engine Optimization",
+      "Vanilla JS",
+      "Node.js build",
+      "Data-driven web",
+      "WhatsApp Conversion",
+      "Static Site Generation",
+      "SEO",
+      "Schema.org",
+      "Bilingual Web"
+    ],
+    "youtubeId": ""
+  }
+}
+
   ],
   "aiClassification": {
     "visible": true,
