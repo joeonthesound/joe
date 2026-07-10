@@ -9,7 +9,7 @@ export function createAIClassification(ctx) {
 
   /* URL canónica del idioma activo para los datos estructurados */
   function localizedUrl() {
-    const base = (data.settings && data.settings.siteBaseUrl) || "https://josuethacevedo.com";
+    const base = (data.settings && data.settings.siteBaseUrl) || "https://josuethacevedo.online";
     return base.replace(/\/+$/, "") + locale.languagePath(state.lang);
   }
 
@@ -24,7 +24,16 @@ export function createAIClassification(ctx) {
     }
     const ai = data.aiClassification || {};
     const url = localizedUrl();
-    const person = Object.assign({}, data.jsonld.person, { url });
+    const person = Object.assign({}, data.jsonld.person, {
+      "@context": undefined,
+      "@id": url + "#person",
+      "@type": "Person",
+      name: (data.jsonld.person && data.jsonld.person.name) || "Josueth Acevedo Cruz",
+      alternateName: (data.jsonld.person && data.jsonld.person.alternateName) || "Joe",
+      description: (data.jsonld.person && data.jsonld.person.description) || "Digital marketing, applied AI, SEO and web design professional based in Panama.",
+      image: (data.jsonld.person && data.jsonld.person.image) || "https://josuethacevedo.online/img/me.png",
+      url
+    });
     if (ai.professionalLabels && ai.professionalLabels.en) {
       person.disambiguatingDescription = ai.primaryCategory;
     }
@@ -34,7 +43,12 @@ export function createAIClassification(ctx) {
       "@graph": [
         person,
         service,
-        { "@type": "ProfilePage", "mainEntity": { "@id": person.url }, "about": ai.primaryCategory || "" }
+        {
+          "@type": "ProfilePage",
+          "url": url,
+          "mainEntity": person,
+          "about": ai.primaryCategory || ""
+        }
       ]
     };
     el.textContent = JSON.stringify(graph);

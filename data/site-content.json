@@ -57,7 +57,7 @@
       "zh": "/zh/",
       "ja": "/ja/"
     },
-    "siteBaseUrl": "https://josuethacevedo.com",
+    "siteBaseUrl": "https://josuethacevedo.online",
     "languageAliases": {
       "pt": "br",
       "pt-br": "br",
@@ -2979,8 +2979,11 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Josueth Acevedo Cruz",
+      "alternateName": "Joe",
+      "description": "Digital marketing, applied AI, SEO and web design professional based in Panama.",
+      "image": "https://josuethacevedo.online/img/me.png",
       "email": "mailto:josueth.acevedo@gmail.com",
-      "url": "https://josuethacevedo.com/es/",
+      "url": "https://josuethacevedo.online/es/",
       "sameAs": [
         "https://linkedin.com/in/josuethacevedo",
         "https://www.prensa.com/Dinamismo-laboral-internet_0_3318418279.html"
@@ -3056,7 +3059,7 @@
         "zh-Hans",
         "ja"
       ],
-      "url": "https://josuethacevedo.com/es/",
+      "url": "https://josuethacevedo.online/es/",
       "makesOffer": [
         {
           "@type": "Offer",
