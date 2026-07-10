@@ -232,13 +232,14 @@ export function createRenderer(ctx) {
   /* ---------- Navegación, idioma, tema, footer ---------- */
   function renderNav() {
     const list = document.getElementById("nav-list");
+    const faqLink = '<li><a href="/es/preguntas-y-respuestas/" data-native="true">F&Q</a></li>';
     list.innerHTML = (data.navigation || []).filter(isVisible).map(function (n) {
       return '<li><a href="' + esc(url(n.path)) + '" data-path="' + esc(n.path) + '">' + esc(t(n.label)) + "</a></li>";
-    }).join("");
+    }).join("") + faqLink;
     const fl = document.getElementById("footer-links");
     fl.innerHTML = (data.navigation || []).filter(isVisible).map(function (n) {
       return '<li><a href="' + esc(url(n.path)) + '">' + esc(t(n.label)) + "</a></li>";
-    }).join("") +
+    }).join("") + faqLink +
       '<li><a href="' + esc(LINKS.linkedin) + '" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>' +
       '<li><a href="' + esc(LINKS.pressArticle) + '" target="_blank" rel="noopener noreferrer">La Prensa</a></li>';
   }
