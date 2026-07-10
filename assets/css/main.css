@@ -479,6 +479,38 @@ html[dir="rtl"] .value-block{border-left:0;border-right:3px solid var(--copper);
 .footer-meta{font-size:.8rem;color:var(--muted);margin-top:10px}
 
 /* ============================================================
+   PREGUNTAS Y RESPUESTAS SEO
+   ============================================================ */
+.faq-section{border-top:1px solid var(--line)}
+.faq-section.faq-standalone{padding-top:calc(var(--header-h) + 56px)}
+.faq-layout{display:grid;grid-template-columns:minmax(240px,.82fr) 1.45fr;gap:34px;align-items:start}
+.faq-layout .section-head{position:sticky;top:calc(var(--header-h) + 24px);margin-bottom:0}
+.faq-more{margin-top:20px}
+.faq-list{display:grid;gap:14px}
+.faq-item{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 24px;box-shadow:var(--shadow-sm)
+}
+.faq-item h2,
+.faq-item h3{font-family:var(--font-body);font-size:1.02rem;font-weight:700;line-height:1.35;color:var(--ink)}
+.faq-answer{margin-top:10px;color:var(--ink-soft);font-size:.94rem}
+.faq-answer p+p{margin-top:10px}
+.faq-answer .tick-list{margin-top:12px}
+.faq-answer .tick-list li{font-size:.9rem}
+.faq-jump{
+  margin-top:26px;display:flex;flex-wrap:wrap;gap:8px
+}
+.faq-jump a{
+  padding:7px 12px;border:1px solid var(--line-strong);border-radius:999px;
+  color:var(--ink-soft);background:var(--surface);font-size:.8rem;font-weight:600
+}
+.faq-jump a:hover{border-color:var(--copper);color:var(--copper-deep);background:var(--gold-soft)}
+@media(max-width:880px){
+  .faq-layout{grid-template-columns:1fr}
+  .faq-layout .section-head{position:static}
+}
+
+/* ============================================================
    ANIMACIONES DE SCROLL
    ============================================================ */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
