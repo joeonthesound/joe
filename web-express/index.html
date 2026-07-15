@@ -12,6 +12,7 @@
   <link rel="alternate" hreflang="es" href="https://josuethacevedo.online/web-express/">
   <link rel="alternate" hreflang="en" href="https://josuethacevedo.online/web-express/?lang=en">
   <link rel="alternate" hreflang="pt-BR" href="https://josuethacevedo.online/web-express/?lang=pt">
+  <link rel="alternate" hreflang="zh-Hans" href="https://josuethacevedo.online/web-express/?lang=zh">
   <link rel="alternate" hreflang="x-default" href="https://josuethacevedo.online/web-express/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Joe Codex Web Express | Landing Page AI-Ready desde $200">
@@ -75,6 +76,7 @@
         <button type="button" data-lang="es" aria-pressed="true">ES</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
         <button type="button" data-lang="pt" aria-pressed="false">PT</button>
+        <button type="button" data-lang="zh" aria-pressed="false">ZH</button>
       </nav>
     </div>
   </header>
@@ -169,6 +171,17 @@
         close: { title: "Pare de perder clientes por não ter uma presença digital profissional.", body: "O processo é rápido, direto e sem complicações técnicas do seu lado. O preço a partir de $200 aplica-se a sites express de escopo específico; se o projeto exigir mais seções, integrações ou funções, fazemos a cotação antes de iniciar.", cta: "Reservar meu site express a partir de $200" },
         footer: "Landing pages AI-ready, SEO moderno e conversão pelo WhatsApp.",
         whatsapp: "Olá Joe, vi sua proposta Web Express a partir de $200 na landing. Quero saber se meu site se encaixa no escopo express. Como iniciamos?"
+      },
+      zh: {
+        metaTitle: "Joe Codex Web Express | AI-Ready 快速网站，200 美元起",
+        metaDescription: "面向个人创业者、创作者和个人品牌的快速落地页。高速网站、现代 SEO、GEO 结构和 WhatsApp 转化入口，适用于范围明确的快速网站项目，200 美元起。",
+        brandSub: "AI-Ready 快速网站",
+        hero: { kicker: "快速、清晰，并为获取潜在客户而设计。", pretitle: "少一点压力，一周内或更快上线。", title: "我们创建快速网站，帮助你被 Google 收录，并被人工智能理解。", subtitle: "高影响力、加载迅速的落地页，用来把访问者转化为客户。技术部分交给我处理。", cta: "200 美元起启动我的网站", secondary: "查看包含内容", trust: "快速交付。通过 PayPal 安全付款。", price: "适用于范围明确的快速网站" },
+        problem: { kicker: "GEO / LLM-ready", title: "市场已经改变。如果 AI 看不懂你，你就很难被发现。", body: "漂亮的设计已经不够了。现在 ChatGPT、Perplexity 和 Gemini 等工具会直接向用户推荐服务。如果你的网站代码过时或结构混乱，你就会变得不可见。我用 AI-Ready 架构和现代 SEO 为你创建落地页，成本远低于传统市场价格。" },
+        features: { kicker: "包含内容", title: "200 美元起的快速网站包含什么？", items: [{ title: "极速加载", text: "干净、移动端优先的代码，减少潜在客户在页面加载前离开的情况。" }, { title: "语义结构（GEO）", text: "把你的业务结构化，让 AI 回答引擎和 Google 更容易理解并找到你。" }, { title: "专注转化", text: "直接、清晰的转化路径，减少干扰，推动访客联系你或完成注册。" }, { title: "付款灵活", text: "可先支付 50% 启动项目，交付时再支付剩余款项。" }] },
+        close: { title: "不要因为缺少专业数字形象而继续流失客户。", body: "流程快速、直接，你不需要处理复杂技术。200 美元起的价格适用于范围明确的快速网站；如果项目需要更多页面、集成或功能，我会在开始前先报价。", cta: "预约 200 美元起的快速网站" },
+        footer: "AI-ready 落地页、现代 SEO 和 WhatsApp 转化。",
+        whatsapp: "你好 Joe，我在落地页看到 Web Express 200 美元起的服务。想了解我的网站是否符合快速网站范围。我们如何开始？"
       }
     };
     const getValue = (obj, path) => path.split(".").reduce((acc, key) => acc && acc[key], obj);
@@ -178,11 +191,12 @@
       const value = String(requested || "es").toLowerCase();
       if (value.startsWith("en")) return "en";
       if (value.startsWith("pt")) return "pt";
+      if (value.startsWith("zh")) return "zh";
       return "es";
     }
     function applyLang(lang) {
       const t = CONTENT[lang] || CONTENT.es;
-      document.documentElement.lang = lang === "pt" ? "pt-BR" : lang;
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : (lang === "zh" ? "zh-Hans" : lang);
       document.title = t.metaTitle;
       document.querySelector('meta[name="description"]').setAttribute("content", t.metaDescription);
       document.querySelectorAll("[data-i18n]").forEach((el) => {
