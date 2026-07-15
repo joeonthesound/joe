@@ -20,6 +20,19 @@
   <meta property="og:url" content="https://josuethacevedo.online/web-express/">
   <meta property="og:image" content="https://cdn.josuethacevedo.online/paginahv/joe2.webp">
   <meta name="twitter:card" content="summary_large_image">
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1701561123267901');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1701561123267901&ev=PageView&noscript=1" alt=""></noscript>
   <style>
     :root{--bg:#f7f4ee;--ink:#171717;--muted:#5e5a54;--line:#ded8ce;--panel:#fffdfa;--accent:#0f766e;--accent-2:#b45309;--dark:#10201e;--radius:8px;--shadow:0 18px 50px rgba(23,23,23,.10)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}img{max-width:100%;display:block}a{color:inherit}.skip{position:absolute;left:-999px;top:auto}.skip:focus{left:16px;top:16px;z-index:20;background:var(--ink);color:#fff;padding:10px 14px;border-radius:var(--radius)}.wrap{width:min(1360px,100%);margin:auto;padding:0 clamp(24px,4vw,56px)}
@@ -230,6 +243,8 @@
     let currentLang = "es";
     let currentProjectIndex = -1;
     let lastFocusedProject = null;
+    let languageTrackingReady = false;
+    const trackedScrollDepths = new Set();
     const projectGrid = document.querySelector("[data-project-grid]");
     const projectModal = document.querySelector("[data-project-modal]");
     const projectDialog = document.querySelector("[data-project-dialog]");
@@ -243,6 +258,18 @@
     const projectNext = document.querySelector("[data-project-next]");
     const projectWhatsapp = document.querySelector("[data-project-whatsapp]");
     const modalContactMessage = "Hi Joe, I saw your previous web projects and I want to discuss an express website for my business.";
+
+    function trackPixel(eventName, data, options) {
+      if (typeof window.fbq !== "function") return;
+      const method = options && options.custom ? "trackCustom" : "track";
+      window.fbq(method, eventName, data || {});
+    }
+
+    function trackWhatsAppClick(source, label) {
+      const payload = { source, label: label || "", language: currentLang };
+      trackPixel("Lead", payload);
+      trackPixel("WhatsAppClick", payload, { custom: true });
+    }
 
     function renderProjects(lang) {
       const t = CONTENT[lang] || CONTENT.es;
@@ -288,6 +315,17 @@
       };
       projectImage.onerror = () => setProjectImageState("error");
       projectImage.src = project.image;
+      trackPixel("ViewContent", {
+        content_name: project.title,
+        content_ids: [String(project.id)],
+        content_type: "previous_project",
+        language: currentLang
+      });
+      trackPixel("ProjectOpen", {
+        project_id: project.id,
+        project_title: project.title,
+        language: currentLang
+      }, { custom: true });
       projectClose.focus();
     }
 
@@ -302,7 +340,26 @@
     function showAdjacentProject(direction) {
       const nextIndex = currentProjectIndex + direction;
       const trigger = projectGrid.querySelector('[data-project-index="' + nextIndex + '"]');
+      trackPixel("ProjectNavigate", {
+        direction: direction > 0 ? "next" : "previous",
+        from_project: currentProjectIndex + 1,
+        to_project: nextIndex + 1,
+        language: currentLang
+      }, { custom: true });
       openProject(nextIndex, trigger || lastFocusedProject);
+    }
+
+    function trackScrollDepth() {
+      const doc = document.documentElement;
+      const scrollable = doc.scrollHeight - window.innerHeight;
+      if (scrollable <= 0) return;
+      const percent = Math.round((window.scrollY / scrollable) * 100);
+      [25, 50, 75, 90].forEach((depth) => {
+        if (percent >= depth && !trackedScrollDepths.has(depth)) {
+          trackedScrollDepths.add(depth);
+          trackPixel("ScrollDepth", { percent: depth, language: currentLang }, { custom: true });
+        }
+      });
     }
 
     function trapModalFocus(event) {
@@ -331,6 +388,7 @@
     }
     function applyLang(lang) {
       const t = CONTENT[lang] || CONTENT.es;
+      const previousLang = currentLang;
       currentLang = lang;
       document.documentElement.lang = lang === "pt" ? "pt-BR" : (lang === "zh" ? "zh-Hans" : lang);
       document.title = t.metaTitle;
@@ -346,8 +404,19 @@
       renderProjects(currentLang);
       localStorage.setItem("joe-webexpress-lang", lang);
       history.replaceState(null, "", lang === "es" ? location.pathname : location.pathname + "?lang=" + lang);
+      if (languageTrackingReady && previousLang !== lang) {
+        trackPixel("LanguageChange", { from: previousLang, to: lang }, { custom: true });
+      }
+      languageTrackingReady = true;
     }
     document.querySelectorAll("[data-lang]").forEach((btn) => btn.addEventListener("click", () => applyLang(btn.dataset.lang)));
+    document.querySelectorAll("[data-cta]").forEach((link) => {
+      link.addEventListener("click", () => trackWhatsAppClick(link.dataset.i18n || "cta", link.textContent.trim()));
+    });
+    projectWhatsapp.addEventListener("click", () => {
+      const project = projects[currentProjectIndex];
+      trackWhatsAppClick("project_modal", project ? project.title : "Project modal");
+    });
     projectClose.addEventListener("click", closeProject);
     projectPrev.addEventListener("click", () => showAdjacentProject(-1));
     projectNext.addEventListener("click", () => showAdjacentProject(1));
@@ -361,6 +430,9 @@
       if (event.key === "ArrowRight" && !projectNext.disabled) showAdjacentProject(1);
       trapModalFocus(event);
     });
+    window.addEventListener("scroll", trackScrollDepth, { passive: true });
+    window.setTimeout(() => trackPixel("TimeOnPage", { seconds: 30, language: currentLang }, { custom: true }), 30000);
+    window.setTimeout(() => trackPixel("TimeOnPage", { seconds: 60, language: currentLang }, { custom: true }), 60000);
     applyLang(pickLang());
   </script>
 </body>
