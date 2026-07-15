@@ -26,8 +26,10 @@
     .site-header{position:sticky;top:0;z-index:10;background:rgba(247,244,238,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;letter-spacing:-.02em}.mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font-size:13px}.brand small{display:block;font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}.lang{display:flex;align-items:center;gap:6px;padding:4px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}.lang button{border:0;background:transparent;color:var(--muted);font:700 12px/1 inherit;padding:9px 11px;border-radius:999px;cursor:pointer}.lang button[aria-pressed=true]{background:var(--ink);color:#fff}
     .hero{padding:58px 0 44px}.hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.92fr);gap:40px;align-items:center}.kicker{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:.11em}.kicker:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(42px,7.4vw,78px);line-height:.96;letter-spacing:-.055em;margin:10px 0 20px;max-width:780px}h2{font-size:clamp(30px,5.2vw,54px);line-height:1.02;letter-spacing:-.045em;margin-bottom:16px}.hero-pretitle{font-size:clamp(24px,3.2vw,36px);line-height:1.08;letter-spacing:0;margin:18px 0 10px;max-width:650px;color:var(--accent-2)}h3{font-size:18px;margin-bottom:8px}.lead{font-size:clamp(18px,2.3vw,22px);color:var(--muted);max-width:670px}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 14px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:15px 22px;border-radius:999px;font-weight:800;text-decoration:none;text-align:center;line-height:1.15}.btn-primary{background:var(--accent);color:#fff;box-shadow:0 10px 28px rgba(15,118,110,.25)}.btn-primary:hover{background:#115e59}.btn-secondary{border:1px solid var(--line);background:var(--panel);color:var(--ink)}.trust{font-size:14px;color:var(--muted);font-weight:650}.portrait{position:relative;border-radius:var(--radius);overflow:hidden;background:#e9e2d8;box-shadow:var(--shadow);border:1px solid var(--line);align-self:center}.portrait img{width:100%;height:auto}.price-card{position:absolute;left:14px;right:14px;bottom:14px;background:rgba(255,253,250,.94);border:1px solid rgba(222,216,206,.85);border-radius:var(--radius);padding:16px;backdrop-filter:blur(10px)}.price-card strong{font-size:34px;line-height:1}.price-card span{display:block;color:var(--muted);font-size:13px;font-weight:700}
     .section{padding:62px 0;border-top:1px solid var(--line)}.problem{background:var(--dark);color:#f8faf9}.problem .lead,.problem p{color:#d7e2df}.problem .kicker{color:#5eead4}.problem .kicker:before{background:#5eead4}.copy{max-width:850px;font-size:19px;color:var(--muted)}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}.feature{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;min-height:210px}.feature .num{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e7f5f2;color:var(--accent);font-weight:900;margin-bottom:18px}.feature p{color:var(--muted);font-size:15px;margin:0}.closing{text-align:center}.closing .copy{margin:0 auto 26px}.footer{padding:32px 0;color:var(--muted);font-size:14px}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:24px}
+    .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.project-card{display:block;width:100%;padding:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);box-shadow:0 14px 34px rgba(23,23,23,.08);overflow:hidden;text-align:left;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}.project-card:hover,.project-card:focus-visible{transform:translateY(-3px);box-shadow:var(--shadow);border-color:rgba(15,118,110,.34)}.project-card:focus-visible{outline:3px solid rgba(15,118,110,.28);outline-offset:3px}.project-preview{display:block;width:100%;height:340px;padding:0;margin:0;border:0;overflow:hidden;background:transparent;border-radius:var(--radius) var(--radius) 0 0}.project-preview img{display:block;width:100%;min-width:100%;max-width:none;height:auto;margin:0;object-position:top center}.project-info{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px}.project-info strong{font-size:16px}.project-info span{color:var(--accent);font-size:13px;font-weight:800}.modal-open{overflow:hidden}.project-modal{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(16,32,30,.72)}.project-modal.is-open{display:flex}.project-dialog{width:min(980px,100%);max-height:90vh;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.project-modal-head{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line);background:rgba(255,253,250,.96);backdrop-filter:blur(12px)}.project-modal-title{margin:0;font-size:16px}.project-actions{display:flex;align-items:center;gap:8px}.icon-btn{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--ink);font:900 20px/1 inherit;cursor:pointer}.icon-btn:disabled{opacity:.38;cursor:not-allowed}.modal-whatsapp{min-height:42px;padding:10px 14px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-size:13px;font-weight:900}.project-viewport{position:relative;max-height:calc(90vh - 72px);overflow-y:auto;background:#f2eee7}.project-viewport img{width:100%;height:auto}.project-state{padding:34px 18px;text-align:center;color:var(--muted);font-weight:700}.project-state[hidden]{display:none}
     @media(max-width:820px){.hero{padding-top:34px}.hero-grid{grid-template-columns:1fr}.portrait{max-width:430px}.feature-grid{grid-template-columns:1fr 1fr}h1{font-size:46px}.btn{width:100%}.nav{height:auto;min-height:66px;padding:12px 0;align-items:flex-start}.brand small{font-size:10px}}
-    @media(max-width:560px){.wrap{padding:0 16px}.feature-grid{grid-template-columns:1fr}.section{padding:48px 0}.lang button{padding:8px 9px}.brand span:last-child{max-width:142px}.hero h1{font-size:40px}.price-card strong{font-size:28px}}
+    @media(max-width:920px){.project-grid{grid-template-columns:repeat(2,1fr)}.project-preview{height:320px}}
+    @media(max-width:560px){.wrap{padding:0 16px}.feature-grid,.project-grid{grid-template-columns:1fr}.section{padding:48px 0}.lang button{padding:8px 9px}.brand span:last-child{max-width:142px}.hero h1{font-size:40px}.price-card strong{font-size:28px}.project-preview{height:300px}.project-modal{padding:10px}.project-dialog{max-height:92vh}.project-modal-head{align-items:flex-start;flex-direction:column}.project-actions{width:100%;justify-content:space-between}.modal-whatsapp{flex:1;text-align:center}.project-viewport{max-height:calc(92vh - 112px)}}
   </style>
   <script type="application/ld+json" id="schema-product">
   {
@@ -122,6 +124,14 @@
         </div>
       </div>
     </section>
+    <section class="section" id="proyectos-anteriores" aria-labelledby="projects-title">
+      <div class="wrap">
+        <p class="kicker" data-i18n="projects.kicker">Referencias reales</p>
+        <h2 id="projects-title" data-i18n="projects.title">Proyectos anteriores</h2>
+        <p class="copy" data-i18n="projects.body">Explora algunos sitios desarrollados anteriormente a partir de capturas verticales de páginas completas.</p>
+        <div class="project-grid" data-project-grid></div>
+      </div>
+    </section>
     <section class="section closing" aria-labelledby="close-title">
       <div class="wrap">
         <h2 id="close-title" data-i18n="close.title">Deja de perder clientes por no tener una presencia digital profesional.</h2>
@@ -130,6 +140,24 @@
       </div>
     </section>
   </main>
+  <div class="project-modal" data-project-modal role="dialog" aria-modal="true" aria-labelledby="project-modal-title" aria-hidden="true">
+    <div class="project-dialog" data-project-dialog>
+      <div class="project-modal-head">
+        <h3 class="project-modal-title" id="project-modal-title">Proyecto</h3>
+        <div class="project-actions">
+          <button class="icon-btn" type="button" data-project-prev aria-label="Proyecto anterior">‹</button>
+          <button class="icon-btn" type="button" data-project-next aria-label="Proyecto siguiente">›</button>
+          <a class="modal-whatsapp" data-project-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">WhatsApp</a>
+          <button class="icon-btn" type="button" data-project-close aria-label="Cerrar">×</button>
+        </div>
+      </div>
+      <div class="project-viewport" data-project-viewport>
+        <p class="project-state" data-project-loading>Cargando proyecto...</p>
+        <p class="project-state" data-project-error hidden>No se pudo cargar esta captura.</p>
+        <img data-project-image alt="" hidden>
+      </div>
+    </div>
+  </div>
   <footer class="footer">
     <div class="wrap footer-inner">
       <span>Joe Codex - Josueth Acevedo Cruz</span>
@@ -138,6 +166,16 @@
   </footer>
   <script>
     const WHATSAPP_NUMBER = "50765164741";
+    const totalProjects = 7;
+    const projects = Array.from({ length: totalProjects }, (_, index) => {
+      const number = String(index + 1).padStart(2, "0");
+      return {
+        id: index + 1,
+        title: "Proyecto " + number,
+        image: "https://cdn.josuethacevedo.online/ref/" + number + ".webp",
+        alt: "Captura vertical del proyecto web " + number
+      };
+    });
     const CONTENT = {
       es: {
         metaTitle: "Joe Codex Web Express | Landing Page AI-Ready desde $200",
@@ -146,6 +184,7 @@
         hero: { kicker: "Web rápida, clara y preparada para captar leads.", pretitle: "Libre de estrés, en una semana o menos.", title: "Creamos sitios web express optimizados para ser indexados por Google y entendidos por la Inteligencia Artificial.", subtitle: "Una Landing Page de alto impacto, ultra rápida y diseñada para convertir visitas en clientes. Sin complicaciones técnicas.", cta: "Lanzar mi web desde $200", secondary: "Ver qué incluye", trust: "Entrega express garantizada. Pago 100% seguro vía PayPal.", price: "Para sitios express de alcance específico" },
         problem: { kicker: "GEO / LLM-ready", title: "El mercado cambió. Si la IA no te entiende, no existes.", body: "El diseño bonito ya no es suficiente. Hoy en día, herramientas como ChatGPT, Perplexity y Gemini recomiendan servicios directamente a los usuarios. Si el código de tu web es obsoleto o desordenado, eres invisible. Yo creo tu landing page con arquitectura AI-Ready y SEO moderno por una fracción del costo del mercado tradicional." },
         features: { kicker: "Valor incluido", title: "¿Qué incluye tu sitio web express desde $200 USD?", items: [{ title: "Velocidad Ultra-Rápida", text: "Código limpio optimizado para dispositivos móviles que evita que tus leads se vayan antes de cargar la página." }, { title: "Estructura Semántica (GEO)", text: "Tu negocio estructurado para que los motores de respuesta de IA y Google te encuentren primero." }, { title: "Enfoque en Conversión", text: "Un embudo directo sin enlaces distractores, diseñado específicamente para que te escriban o se registren." }, { title: "Facilidad de Pago", text: "Inicia hoy mismo con el primer pago del 50% y liquida el resto al momento de la entrega." }] },
+        projects: { kicker: "Referencias reales", title: "Proyectos anteriores", body: "Explora algunos sitios desarrollados anteriormente a partir de capturas verticales de páginas completas.", view: "Ver proyecto completo" },
         close: { title: "Deja de perder clientes por no tener una presencia digital profesional.", body: "El proceso es rápido, directo y sin complicaciones técnicas de tu lado. El precio desde $200 aplica para sitios express de alcance específico; si tu proyecto requiere más secciones, integraciones o funciones, lo cotizamos antes de iniciar.", cta: "Reservar mi sitio express desde $200" },
         footer: "Landing pages AI-ready, SEO moderno y conversión por WhatsApp.",
         whatsapp: "Hola Joe, vi tu propuesta de Web Express desde $200 en la landing. Me interesa saber si mi sitio encaja en el alcance express. ¿Cómo iniciamos?"
@@ -157,6 +196,7 @@
         hero: { kicker: "Built for Solopreneurs, Creators, and Personal Brands.", pretitle: "Stress-free, in one week or less.", title: "We create express websites optimized to be indexed by Google and understood by AI.", subtitle: "A high-impact, ultra-fast landing page built to convert traffic into clients. Zero technical headaches.", cta: "Launch my web from $200", secondary: "See what's included", trust: "Guaranteed express delivery. 100% secure payment via PayPal.", price: "For specific-scope express sites" },
         problem: { kicker: "GEO / LLM-ready", title: "The market has shifted. If AI doesn't understand you, you don't exist.", body: "A beautiful design is no longer enough. Today, tools like ChatGPT, Perplexity, and Gemini recommend services directly to users. If your website code is outdated or messy, you are invisible. I build your AI-Ready and Modern SEO landing page for a fraction of traditional market costs." },
         features: { kicker: "Included value", title: "What is included in your express website from $200 USD?", items: [{ title: "Ultra-Fast Speed", text: "Clean code optimized for mobile devices that stops leads from leaving before the page loads." }, { title: "Semantic Architecture (GEO)", text: "Your business structured so AI answer engines and Google find you first." }, { title: "Conversion Focused", text: "A direct funnel with zero distracting links, engineered specifically to get people to text or register." }, { title: "Flexible Payment", text: "Get started today with a 50% deposit and clear the rest upon delivery." }] },
+        projects: { kicker: "Real references", title: "Previous projects", body: "Explore a few websites previously developed through vertical full-page screenshots.", view: "View full project" },
         close: { title: "Stop losing clients due to a lack of a professional digital presence.", body: "The process is fast, straightforward, and with zero technical headaches on your end. The from-$200 price applies to specific-scope express sites; if your project needs more sections, integrations, or features, we quote it before starting.", cta: "Book my express site from $200" },
         footer: "AI-ready landing pages, modern SEO and WhatsApp conversion.",
         whatsapp: "Hi Joe, I saw your Web Express offer from $200 on the landing page. I want to know if my site fits the express scope. How do we start?"
@@ -168,6 +208,7 @@
         hero: { kicker: "Projetado para Solopreneurs, Criadores e Marcas Pessoais.", pretitle: "Livre de estresse, em uma semana ou menos.", title: "Criamos sites express otimizados para serem indexados pelo Google e compreendidos pela Inteligência Artificial.", subtitle: "Uma Landing Page de alto impacto, ultra rápida e feita para converter visitas em clientes. Sem complicações técnicas.", cta: "Lançar meu site a partir de $200", secondary: "Ver o que inclui", trust: "Entrega expressa garantida. Pagamento 100% seguro via PayPal.", price: "Para sites express de escopo específico" },
         problem: { kicker: "GEO / LLM-ready", title: "O mercado mudou. Se a IA não te entende, você não existe.", body: "Um design bonito já não é suficiente. Hoje, ferramentas como ChatGPT, Perplexity e Gemini recomendam serviços diretamente aos usuários. Se o código do seu site for obsoleto ou bagunçado, você estará invisível. Eu crio sua landing page com arquitetura AI-Ready e SEO moderno por uma fração do custo tradicional do mercado." },
         features: { kicker: "Valor incluído", title: "O que está incluído no seu site express a partir de $200 USD?", items: [{ title: "Velocidade Ultra-Rápida", text: "Código limpo otimizado para dispositivos móveis que evita que seus leads saiam antes da página carregar." }, { title: "Arquitetura Semântica (GEO)", text: "Seu negócio estruturado para que os motores de resposta de IA e o Google te encontrem primeiro." }, { title: "Foco em Conversão", text: "Um funil direto sem links de distração, projetado especificamente para fazer as pessoas entrarem em contato ou se registrarem." }, { title: "Facilidade de Pagamento", text: "Comece hoje mesmo com o primeiro pagamento de 50% e quite o restante na entrega." }] },
+        projects: { kicker: "Referências reais", title: "Projetos anteriores", body: "Explore alguns sites desenvolvidos anteriormente por meio de capturas verticais de páginas completas.", view: "Ver projeto completo" },
         close: { title: "Pare de perder clientes por não ter uma presença digital profissional.", body: "O processo é rápido, direto e sem complicações técnicas do seu lado. O preço a partir de $200 aplica-se a sites express de escopo específico; se o projeto exigir mais seções, integrações ou funções, fazemos a cotação antes de iniciar.", cta: "Reservar meu site express a partir de $200" },
         footer: "Landing pages AI-ready, SEO moderno e conversão pelo WhatsApp.",
         whatsapp: "Olá Joe, vi sua proposta Web Express a partir de $200 na landing. Quero saber se meu site se encaixa no escopo express. Como iniciamos?"
@@ -179,12 +220,106 @@
         hero: { kicker: "快速、清晰，并为获取潜在客户而设计。", pretitle: "少一点压力，一周内或更快上线。", title: "我们创建快速网站，帮助你被 Google 收录，并被人工智能理解。", subtitle: "高影响力、加载迅速的落地页，用来把访问者转化为客户。技术部分交给我处理。", cta: "200 美元起启动我的网站", secondary: "查看包含内容", trust: "快速交付。通过 PayPal 安全付款。", price: "适用于范围明确的快速网站" },
         problem: { kicker: "GEO / LLM-ready", title: "市场已经改变。如果 AI 看不懂你，你就很难被发现。", body: "漂亮的设计已经不够了。现在 ChatGPT、Perplexity 和 Gemini 等工具会直接向用户推荐服务。如果你的网站代码过时或结构混乱，你就会变得不可见。我用 AI-Ready 架构和现代 SEO 为你创建落地页，成本远低于传统市场价格。" },
         features: { kicker: "包含内容", title: "200 美元起的快速网站包含什么？", items: [{ title: "极速加载", text: "干净、移动端优先的代码，减少潜在客户在页面加载前离开的情况。" }, { title: "语义结构（GEO）", text: "把你的业务结构化，让 AI 回答引擎和 Google 更容易理解并找到你。" }, { title: "专注转化", text: "直接、清晰的转化路径，减少干扰，推动访客联系你或完成注册。" }, { title: "付款灵活", text: "可先支付 50% 启动项目，交付时再支付剩余款项。" }] },
+        projects: { kicker: "真实参考", title: "过往项目", body: "通过整页纵向截图，浏览一些此前开发的网站。", view: "查看完整项目" },
         close: { title: "不要因为缺少专业数字形象而继续流失客户。", body: "流程快速、直接，你不需要处理复杂技术。200 美元起的价格适用于范围明确的快速网站；如果项目需要更多页面、集成或功能，我会在开始前先报价。", cta: "预约 200 美元起的快速网站" },
         footer: "AI-ready 落地页、现代 SEO 和 WhatsApp 转化。",
         whatsapp: "你好 Joe，我在落地页看到 Web Express 200 美元起的服务。想了解我的网站是否符合快速网站范围。我们如何开始？"
       }
     };
     const getValue = (obj, path) => path.split(".").reduce((acc, key) => acc && acc[key], obj);
+    let currentLang = "es";
+    let currentProjectIndex = -1;
+    let lastFocusedProject = null;
+    const projectGrid = document.querySelector("[data-project-grid]");
+    const projectModal = document.querySelector("[data-project-modal]");
+    const projectDialog = document.querySelector("[data-project-dialog]");
+    const projectTitle = document.getElementById("project-modal-title");
+    const projectViewport = document.querySelector("[data-project-viewport]");
+    const projectImage = document.querySelector("[data-project-image]");
+    const projectLoading = document.querySelector("[data-project-loading]");
+    const projectError = document.querySelector("[data-project-error]");
+    const projectClose = document.querySelector("[data-project-close]");
+    const projectPrev = document.querySelector("[data-project-prev]");
+    const projectNext = document.querySelector("[data-project-next]");
+    const projectWhatsapp = document.querySelector("[data-project-whatsapp]");
+    const modalContactMessage = "Hi Joe, I saw your previous web projects and I want to discuss an express website for my business.";
+
+    function renderProjects(lang) {
+      const t = CONTENT[lang] || CONTENT.es;
+      const viewLabel = (t.projects && t.projects.view) || CONTENT.es.projects.view;
+      projectGrid.innerHTML = projects.map((project, index) => (
+        '<button class="project-card" type="button" data-project-index="' + index + '" aria-label="' + viewLabel + ': ' + project.title + '">' +
+          '<span class="project-preview">' +
+            '<img src="' + project.image + '" alt="' + project.alt + '" loading="lazy" decoding="async">' +
+          '</span>' +
+          '<span class="project-info"><strong>' + project.title + '</strong><span>' + viewLabel + '</span></span>' +
+        '</button>'
+      )).join("");
+      projectGrid.querySelectorAll("[data-project-index]").forEach((card) => {
+        card.addEventListener("click", () => openProject(Number(card.dataset.projectIndex), card));
+      });
+    }
+
+    function setProjectImageState(state) {
+      projectLoading.hidden = state !== "loading";
+      projectError.hidden = state !== "error";
+      projectImage.hidden = state !== "ready";
+    }
+
+    function openProject(index, trigger) {
+      const project = projects[index];
+      if (!project) return;
+      currentProjectIndex = index;
+      lastFocusedProject = trigger || lastFocusedProject;
+      projectTitle.textContent = project.title;
+      projectImage.alt = project.alt;
+      projectImage.removeAttribute("src");
+      setProjectImageState("loading");
+      projectViewport.scrollTop = 0;
+      projectPrev.disabled = index === 0;
+      projectNext.disabled = index === projects.length - 1;
+      projectWhatsapp.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(modalContactMessage);
+      projectModal.classList.add("is-open");
+      projectModal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      projectImage.onload = () => {
+        setProjectImageState("ready");
+        projectViewport.scrollTop = 0;
+      };
+      projectImage.onerror = () => setProjectImageState("error");
+      projectImage.src = project.image;
+      projectClose.focus();
+    }
+
+    function closeProject() {
+      projectModal.classList.remove("is-open");
+      projectModal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      projectImage.removeAttribute("src");
+      if (lastFocusedProject) lastFocusedProject.focus();
+    }
+
+    function showAdjacentProject(direction) {
+      const nextIndex = currentProjectIndex + direction;
+      const trigger = projectGrid.querySelector('[data-project-index="' + nextIndex + '"]');
+      openProject(nextIndex, trigger || lastFocusedProject);
+    }
+
+    function trapModalFocus(event) {
+      if (!projectModal.classList.contains("is-open") || event.key !== "Tab") return;
+      const focusable = projectModal.querySelectorAll('button:not(:disabled),a[href]');
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+
     function pickLang() {
       const params = new URLSearchParams(location.search);
       const requested = params.get("lang") || localStorage.getItem("joe-webexpress-lang") || navigator.language;
@@ -196,6 +331,7 @@
     }
     function applyLang(lang) {
       const t = CONTENT[lang] || CONTENT.es;
+      currentLang = lang;
       document.documentElement.lang = lang === "pt" ? "pt-BR" : (lang === "zh" ? "zh-Hans" : lang);
       document.title = t.metaTitle;
       document.querySelector('meta[name="description"]').setAttribute("content", t.metaDescription);
@@ -207,10 +343,24 @@
       document.querySelectorAll("[data-cta]").forEach((link) => {
         link.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(t.whatsapp);
       });
+      renderProjects(currentLang);
       localStorage.setItem("joe-webexpress-lang", lang);
       history.replaceState(null, "", lang === "es" ? location.pathname : location.pathname + "?lang=" + lang);
     }
     document.querySelectorAll("[data-lang]").forEach((btn) => btn.addEventListener("click", () => applyLang(btn.dataset.lang)));
+    projectClose.addEventListener("click", closeProject);
+    projectPrev.addEventListener("click", () => showAdjacentProject(-1));
+    projectNext.addEventListener("click", () => showAdjacentProject(1));
+    projectModal.addEventListener("click", (event) => {
+      if (!projectDialog.contains(event.target)) closeProject();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (!projectModal.classList.contains("is-open")) return;
+      if (event.key === "Escape") closeProject();
+      if (event.key === "ArrowLeft" && !projectPrev.disabled) showAdjacentProject(-1);
+      if (event.key === "ArrowRight" && !projectNext.disabled) showAdjacentProject(1);
+      trapModalFocus(event);
+    });
     applyLang(pickLang());
   </script>
 </body>
