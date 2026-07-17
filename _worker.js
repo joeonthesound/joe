@@ -60,27 +60,101 @@ function clientIp(request) {
   );
 }
 
-async function handlePurchaseCapi(request, env) {
-  if (request.method !== "POST") {
-    return new Response("Method Not Allowed", {
-      status: 405,
-      headers: { Allow: "POST" }
-    });
-  }
-
+function assertMetaConfig(env) {
   if (!env.FB_ACCESS_TOKEN || !env.FB_PIXEL_ID) {
     return jsonResponse(
       { success: false, error: "Missing FB_ACCESS_TOKEN or FB_PIXEL_ID" },
       500
     );
   }
+  return undefined;
+}
 
-  let body;
-  try {
-    body = await request.json();
-  } catch {
-    return jsonResponse({ success: false, error: "Invalid JSON body" }, 400);
+function compactUserData(userData) {
+  Object.keys(userData).forEach((key) => {
+    if (Array.isArray(userData[key])) {
+      userData[key] = userData[key].filter(Boolean);
+      if (!userData[key].length) delete userData[key];
+      return;
+    }
+    if (!userData[key]) delete userData[key];
+  });
+  return userData;
+}
+
+function withTestEventCode(payload, env) {
+  if (env.NODE_ENV === "test" && cleanString(env.FB_TEST_CODE)) {
+    payload.test_event_code = cleanString(env.FB_TEST_CODE);
   }
+  return payload;
+}
+
+async function sendMetaEvent(payload, env) {
+  const apiVersion = cleanString(env.FB_API_VERSION) || DEFAULT_META_CAPI_VERSION;
+  const capiUrl = `https://graph.facebook.com/${apiVersion}/${env.FB_PIXEL_ID}/events?access_token=${env.FB_ACCESS_TOKEN}`;
+  const response = await fetch(capiUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(withTestEventCode(payload, env))
+  });
+
+  const result = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    console.error("CAPI error:", result);
+    return jsonResponse(
+      { success: false, error: result.error?.message || "Meta CAPI request failed" },
+      502
+    );
+  }
+
+  return jsonResponse({
+    success: true,
+    event: payload.data?.[0]?.event_name,
+    eventsReceived: result.events_received,
+    fbTraceId: result.fbtrace_id
+  });
+}
+
+async function parseJsonBody(request) {
+  try {
+    return { body: await request.json() };
+  } catch {
+    return { error: jsonResponse({ success: false, error: "Invalid JSON body" }, 400) };
+  }
+}
+
+async function baseUserData(body, request) {
+  return compactUserData({
+    em: [await hashField(body.email)],
+    ph: [await hashField(body.phone, "phone")],
+    fn: [await hashField(body.firstName)],
+    ln: [await hashField(body.lastName)],
+    client_ip_address: clientIp(request),
+    client_user_agent: request.headers.get("user-agent") || undefined,
+    fbp: cleanString(body.fbp),
+    fbc: cleanString(body.fbc)
+  });
+}
+
+function methodNotAllowed() {
+  return new Response("Method Not Allowed", {
+    status: 405,
+    headers: { Allow: "POST" }
+  });
+}
+
+async function handlePurchaseCapi(request, env) {
+  if (request.method !== "POST") {
+    return methodNotAllowed();
+  }
+
+  const configError = assertMetaConfig(env);
+  if (configError) return configError;
+
+  const parsed = await parseJsonBody(request);
+  if (parsed.error) return parsed.error;
+  const { body } = parsed;
 
   const eventId = cleanString(body.event_id || body.eventId || body.orderId);
   if (!eventId) {
@@ -95,28 +169,12 @@ async function handlePurchaseCapi(request, env) {
   const currency = cleanString(body.currency) || "USD";
   const pageUrl = cleanString(body.pageUrl);
 
-  const userData = {
-    em: [await hashField(body.email)],
-    ph: [await hashField(body.phone, "phone")],
-    fn: [await hashField(body.firstName)],
-    ln: [await hashField(body.lastName)],
+  const userData = compactUserData({
+    ...(await baseUserData(body, request)),
     ct: [await hashField(body.city)],
     st: [await hashField(body.state)],
     zp: [await hashField(body.zip, "zip")],
-    country: [await hashField(body.country)],
-    client_ip_address: clientIp(request),
-    client_user_agent: request.headers.get("user-agent") || undefined,
-    fbp: cleanString(body.fbp),
-    fbc: cleanString(body.fbc)
-  };
-
-  Object.keys(userData).forEach((key) => {
-    if (Array.isArray(userData[key])) {
-      userData[key] = userData[key].filter(Boolean);
-      if (!userData[key].length) delete userData[key];
-      return;
-    }
-    if (!userData[key]) delete userData[key];
+    country: [await hashField(body.country)]
   });
 
   const payload = {
@@ -146,29 +204,50 @@ async function handlePurchaseCapi(request, env) {
     delete payload.data[0].custom_data.content_ids;
   }
 
-  const apiVersion = cleanString(env.FB_API_VERSION) || DEFAULT_META_CAPI_VERSION;
-  const capiUrl = `https://graph.facebook.com/${apiVersion}/${env.FB_PIXEL_ID}/events?access_token=${env.FB_ACCESS_TOKEN}`;
-  const response = await fetch(capiUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload)
-  });
+  return sendMetaEvent(payload, env);
+}
 
-  const result = await response.json().catch(() => ({}));
-
-  if (!response.ok) {
-    console.error("CAPI error:", result);
-    return jsonResponse(
-      { success: false, error: result.error?.message || "Meta CAPI request failed" },
-      502
-    );
+async function handleLeadCapi(request, env) {
+  if (request.method !== "POST") {
+    return methodNotAllowed();
   }
 
-  return jsonResponse({
-    success: true,
-    eventsReceived: result.events_received,
-    fbTraceId: result.fbtrace_id
-  });
+  const configError = assertMetaConfig(env);
+  if (configError) return configError;
+
+  const parsed = await parseJsonBody(request);
+  if (parsed.error) return parsed.error;
+  const { body } = parsed;
+
+  const eventId = cleanString(body.event_id || body.eventId);
+  if (!eventId) {
+    return jsonResponse({ success: false, error: "event_id is required" }, 400);
+  }
+
+  const customData = {
+    content_name: cleanString(body.contentName)
+  };
+
+  if (!customData.content_name) {
+    delete customData.content_name;
+  }
+
+  return sendMetaEvent(
+    {
+      data: [
+        {
+          event_name: "Lead",
+          event_time: Math.floor(Date.now() / 1000),
+          event_id: eventId,
+          action_source: "website",
+          event_source_url: cleanString(body.pageUrl),
+          user_data: await baseUserData(body, request),
+          custom_data: customData
+        }
+      ]
+    },
+    env
+  );
 }
 
 export default {
@@ -177,6 +256,10 @@ export default {
 
     if (url.pathname === "/api/facebook-capi/purchase") {
       return handlePurchaseCapi(request, env);
+    }
+
+    if (url.pathname === "/api/facebook-capi/lead") {
+      return handleLeadCapi(request, env);
     }
 
     if (request.method !== "GET" && request.method !== "HEAD") {

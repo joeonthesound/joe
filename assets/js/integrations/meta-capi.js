@@ -5,16 +5,27 @@ function getCookie(name) {
   return undefined;
 }
 
+function uniqueEventId(prefix) {
+  if (window.crypto && window.crypto.randomUUID) {
+    return `${prefix}-${window.crypto.randomUUID()}`;
+  }
+
+  return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
 function purchaseEventId(order) {
   if (order.event_id) return String(order.event_id);
   if (order.eventId) return String(order.eventId);
   if (order.orderId) return String(order.orderId);
 
-  if (window.crypto && window.crypto.randomUUID) {
-    return `purchase-${window.crypto.randomUUID()}`;
-  }
+  return uniqueEventId("purchase");
+}
 
-  return `purchase-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+function leadEventId(leadData) {
+  if (leadData.event_id) return String(leadData.event_id);
+  if (leadData.eventId) return String(leadData.eventId);
+
+  return uniqueEventId("lead");
 }
 
 export async function trackMetaPurchaseConversion(order) {
@@ -69,4 +80,42 @@ export async function trackMetaPurchaseConversion(order) {
   return response.json();
 }
 
+export async function trackMetaLeadConversion(leadData) {
+  const eventId = leadEventId(leadData);
+  const contentName = leadData.contentName || "Lead";
+
+  if (typeof window.fbq === "function") {
+    window.fbq(
+      "track",
+      "Lead",
+      { content_name: contentName },
+      { eventID: eventId }
+    );
+  }
+
+  const response = await fetch("/api/facebook-capi/lead", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      event_id: eventId,
+      email: leadData.email,
+      phone: leadData.phone,
+      firstName: leadData.firstName,
+      lastName: leadData.lastName,
+      contentName,
+      pageUrl: window.location.href,
+      fbp: getCookie("_fbp"),
+      fbc: getCookie("_fbc")
+    })
+  });
+
+  if (!response.ok) {
+    const detail = await response.json().catch(() => ({}));
+    throw new Error(detail.error || "Meta CAPI lead request failed");
+  }
+
+  return response.json();
+}
+
 window.trackMetaPurchaseConversion = trackMetaPurchaseConversion;
+window.trackMetaLeadConversion = trackMetaLeadConversion;
