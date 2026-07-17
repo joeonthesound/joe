@@ -1,0 +1,812 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "f9bb20e4f98caf49a15f82cf9a21be9b96497416",
+  "generatedAt": "2026-07-15T19:59:01.180Z",
+  "files": {
+    "_worker.js": {
+      "filePath": "_worker.js",
+      "contentHash": "7618a8cf76397edb353cfbe389a5c183374dbee6b327c324a5e696f05ca626ee",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 88,
+      "hasStructuralAnalysis": true
+    },
+    ".assetsignore": {
+      "filePath": ".assetsignore",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    ".nojekyll": {
+      "filePath": ".nojekyll",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": false
+    },
+    ".ua/.understandignore": {
+      "filePath": ".ua/.understandignore",
+      "contentHash": "51db07b089482330d620d6b45271aa4ff12e59e413033945d3a5f25894b20275",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 44,
+      "hasStructuralAnalysis": false
+    },
+    ".wrangler/cache/wrangler-account.json": {
+      "filePath": ".wrangler/cache/wrangler-account.json",
+      "contentHash": "e2e4f3696f94abc30e6451bd3e1bc0d44cd728a02082d9c0b346636e14eb1fc3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "404.html": {
+      "filePath": "404.html",
+      "contentHash": "3740a7d01fcecda5ea4909010183460cb43014d571a4dcc192aac5951b7bf5d6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 31,
+      "hasStructuralAnalysis": false
+    },
+    "ar/index.html": {
+      "filePath": "ar/index.html",
+      "contentHash": "c1fb53fac49cc56f87a0dfec9968934f8ee7c596c6f1a70dcfc7825be7c6e68f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 248,
+      "hasStructuralAnalysis": false
+    },
+    "archive/index-Pre.html": {
+      "filePath": "archive/index-Pre.html",
+      "contentHash": "db7b4bb91fb78dd0a26bc6d96a9c69eac599c2cf7fea1c7d6a9f07c2ff48dab8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2168,
+      "hasStructuralAnalysis": false
+    },
+    "archive/old-index-2.html": {
+      "filePath": "archive/old-index-2.html",
+      "contentHash": "46870c1de3aedad573bf3b0d4981943af33fea98fa4c1666f1a716c6ff3eb4a9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 700,
+      "hasStructuralAnalysis": false
+    },
+    "assets/css/main.css": {
+      "filePath": "assets/css/main.css",
+      "contentHash": "360b881415aefb74853ed3c269727b089e1367069ece266cf7e5e9c6a2ab4cc3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 598,
+      "hasStructuralAnalysis": false
+    },
+    "assets/js/app.js": {
+      "filePath": "assets/js/app.js",
+      "contentHash": "afc07c180ab9ef139c41cb22f155b2e379acdd2db44492656aae7c396cd054c1",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "exported": false,
+          "lineCount": 75
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "./core/content-loader.js",
+          "specifiers": [
+            "loadSiteContent",
+            "renderFatalError"
+          ]
+        },
+        {
+          "source": "./core/locale.js",
+          "specifiers": [
+            "createLocale"
+          ]
+        },
+        {
+          "source": "./core/i18n.js",
+          "specifiers": [
+            "createI18n"
+          ]
+        },
+        {
+          "source": "./utils/dom.js",
+          "specifiers": [
+            "createRevealObserver"
+          ]
+        },
+        {
+          "source": "./components/image-manager.js",
+          "specifiers": [
+            "createImageManager"
+          ]
+        },
+        {
+          "source": "./components/project-modal.js",
+          "specifiers": [
+            "createProjectModal"
+          ]
+        },
+        {
+          "source": "./components/project-grid.js",
+          "specifiers": [
+            "createProjectGrid"
+          ]
+        },
+        {
+          "source": "./components/ai-classification.js",
+          "specifiers": [
+            "createAIClassification"
+          ]
+        },
+        {
+          "source": "./components/opportunity-form.js",
+          "specifiers": [
+            "createWizard"
+          ]
+        },
+        {
+          "source": "./core/renderer.js",
+          "specifiers": [
+            "createRenderer"
+          ]
+        },
+        {
+          "source": "./core/router.js",
+          "specifiers": [
+            "createRouter"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 101,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/ai-classification.js": {
+      "filePath": "assets/js/components/ai-classification.js",
+      "contentHash": "f1b2c69de678ea27be075c08639ffaf6afdca620571f8af092ee9e3d7cf67137",
+      "functions": [
+        {
+          "name": "createAIClassification",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 94
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isVisible"
+          ]
+        }
+      ],
+      "exports": [
+        "createAIClassification"
+      ],
+      "totalLines": 101,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/image-manager.js": {
+      "filePath": "assets/js/components/image-manager.js",
+      "contentHash": "4dbba41595cfa48522645a4233d29bee4ea5e5f465640a46c642496ea491e064",
+      "functions": [
+        {
+          "name": "joinUrl",
+          "params": [
+            "base",
+            "path"
+          ],
+          "exported": false,
+          "lineCount": 3
+        },
+        {
+          "name": "createImageManager",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 103
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc"
+          ]
+        },
+        {
+          "source": "../core/config.js",
+          "specifiers": [
+            "rootAsset"
+          ]
+        }
+      ],
+      "exports": [
+        "createImageManager"
+      ],
+      "totalLines": 126,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/opportunity-form.js": {
+      "filePath": "assets/js/components/opportunity-form.js",
+      "contentHash": "4237bbd9cd1cc6a9e0960c6fa21959036c2e1fce4a41f0d669f5f97378d8460f",
+      "functions": [
+        {
+          "name": "createWizard",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 386
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isValidEmail"
+          ]
+        }
+      ],
+      "exports": [
+        "createWizard"
+      ],
+      "totalLines": 398,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/project-grid.js": {
+      "filePath": "assets/js/components/project-grid.js",
+      "contentHash": "d3effe51cf86a9a103113daddfe036884a55092d7a5405632c723120a8c56a14",
+      "functions": [
+        {
+          "name": "createProjectGrid",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 45
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc",
+            "extAttrs"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isVisible"
+          ]
+        }
+      ],
+      "exports": [
+        "createProjectGrid"
+      ],
+      "totalLines": 56,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/project-modal.js": {
+      "filePath": "assets/js/components/project-modal.js",
+      "contentHash": "34695d79d7ccd779e28b8ce2f2419e463becbae64ce909088f61cab711553105",
+      "functions": [
+        {
+          "name": "createProjectModal",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 136
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc",
+            "extAttrs"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isVisible"
+          ]
+        },
+        {
+          "source": "./youtube-player.js",
+          "specifiers": [
+            "renderYouTubeEmbed"
+          ]
+        }
+      ],
+      "exports": [
+        "createProjectModal"
+      ],
+      "totalLines": 153,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/components/youtube-player.js": {
+      "filePath": "assets/js/components/youtube-player.js",
+      "contentHash": "31b586fb50fb68a519c84b9620223623b84345f21129b02ce984aa1aafd9adeb",
+      "functions": [
+        {
+          "name": "renderYouTubeEmbed",
+          "params": [
+            "youtubeId",
+            "title"
+          ],
+          "exported": true,
+          "lineCount": 11
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isValidYouTubeId"
+          ]
+        }
+      ],
+      "exports": [
+        "renderYouTubeEmbed"
+      ],
+      "totalLines": 22,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/config.js": {
+      "filePath": "assets/js/core/config.js",
+      "contentHash": "b852f2013f3b04bddaee8d6af6e6f2341c2b1e70ca55127c45fc28311d516eea",
+      "functions": [
+        {
+          "name": "rootAsset",
+          "params": [
+            "path"
+          ],
+          "exported": true,
+          "lineCount": 6
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "SITE_ROOT_URL",
+        "DATA_URL",
+        "rootAsset"
+      ],
+      "totalLines": 22,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/content-loader.js": {
+      "filePath": "assets/js/core/content-loader.js",
+      "contentHash": "63ed5be8dc8be07489cd4d168c60d3520e3b057c343f22de46b98bc0615e64e5",
+      "functions": [
+        {
+          "name": "loadSiteContent",
+          "params": [],
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "renderFatalError",
+          "params": [
+            "error"
+          ],
+          "exported": true,
+          "lineCount": 18
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "./config.js",
+          "specifiers": [
+            "DATA_URL"
+          ]
+        },
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc"
+          ]
+        }
+      ],
+      "exports": [
+        "loadSiteContent",
+        "renderFatalError"
+      ],
+      "totalLines": 36,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/i18n.js": {
+      "filePath": "assets/js/core/i18n.js",
+      "contentHash": "49b85581cece1bad18595c535ddd1feeba935830a5b6f400d719ff619126f3b0",
+      "functions": [
+        {
+          "name": "createI18n",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 36
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "createI18n"
+      ],
+      "totalLines": 41,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/locale.js": {
+      "filePath": "assets/js/core/locale.js",
+      "contentHash": "e7533555110957889aae38c03593da1b7ef7daac31489b46e13e05915d9d0e13",
+      "functions": [
+        {
+          "name": "createLocale",
+          "params": [
+            "settings"
+          ],
+          "exported": true,
+          "lineCount": 85
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "createLocale"
+      ],
+      "totalLines": 90,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/renderer.js": {
+      "filePath": "assets/js/core/renderer.js",
+      "contentHash": "d4d0fe09e807bbf65ea9323dffb276432c837aefba1d7988cd369f186cc9949b",
+      "functions": [
+        {
+          "name": "createRenderer",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 269
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "../utils/dom.js",
+          "specifiers": [
+            "esc",
+            "extAttrs"
+          ]
+        },
+        {
+          "source": "../utils/validation.js",
+          "specifiers": [
+            "isVisible"
+          ]
+        }
+      ],
+      "exports": [
+        "createRenderer"
+      ],
+      "totalLines": 281,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/core/router.js": {
+      "filePath": "assets/js/core/router.js",
+      "contentHash": "79cd0535027793c7c6711d1bf47fc0a43b4e0b94d6f7243fe5867ba0d7fc0249",
+      "functions": [
+        {
+          "name": "createRouter",
+          "params": [
+            "ctx"
+          ],
+          "exported": true,
+          "lineCount": 110
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "createRouter"
+      ],
+      "totalLines": 116,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/utils/dom.js": {
+      "filePath": "assets/js/utils/dom.js",
+      "contentHash": "0cb539db9d76f720cab1d5330cbd5dde76cffe5c36b1b650198bf06254d5a292",
+      "functions": [
+        {
+          "name": "esc",
+          "params": [
+            "s"
+          ],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "extAttrs",
+          "params": [
+            "external"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "createRevealObserver",
+          "params": [],
+          "exported": true,
+          "lineCount": 18
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "esc",
+        "extAttrs",
+        "createRevealObserver"
+      ],
+      "totalLines": 36,
+      "hasStructuralAnalysis": true
+    },
+    "assets/js/utils/validation.js": {
+      "filePath": "assets/js/utils/validation.js",
+      "contentHash": "0cefbe23d2a2d68cf57a2efa7d734b7e766d98817a7d49bec72c9ad988a95a47",
+      "functions": [
+        {
+          "name": "isValidEmail",
+          "params": [
+            "value"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "isValidYouTubeId",
+          "params": [
+            "value"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "isVisible",
+          "params": [
+            "obj"
+          ],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "isValidEmail",
+        "isValidYouTubeId",
+        "isVisible"
+      ],
+      "totalLines": 19,
+      "hasStructuralAnalysis": true
+    },
+    "br/index.html": {
+      "filePath": "br/index.html",
+      "contentHash": "102230ada8c60a76706ee2b4054ec95a3c5e40ebecea948d25846a878eef22a8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 140,
+      "hasStructuralAnalysis": false
+    },
+    "COMMIT_MESSAGE.txt": {
+      "filePath": "COMMIT_MESSAGE.txt",
+      "contentHash": "761a5e183a8f37094a8667b8cb8d57b0a626bf80f215694c38fb1b13d1944053",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 76,
+      "hasStructuralAnalysis": false
+    },
+    "data/site-content.json": {
+      "filePath": "data/site-content.json",
+      "contentHash": "8d76925c3309d3edf392a5ef0abac5d7dc375ce799125eeb9dbb21fbbc975038",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 3105,
+      "hasStructuralAnalysis": true
+    },
+    "de/index.html": {
+      "filePath": "de/index.html",
+      "contentHash": "2dd9601a8aa8f79767229c3a03e97d6d53268b428c12f5b1cdbd3b1156c9577a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 256,
+      "hasStructuralAnalysis": false
+    },
+    "en/index.html": {
+      "filePath": "en/index.html",
+      "contentHash": "f8873684beee849b24c4a6127538745dacb8bdec2c498d94d929e88c90293c92",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 259,
+      "hasStructuralAnalysis": false
+    },
+    "es/index.html": {
+      "filePath": "es/index.html",
+      "contentHash": "679099265392052c8f9488f452b7e1d535a4a55e1467d26dc79fcc811e3ac2bb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 314,
+      "hasStructuralAnalysis": false
+    },
+    "es/preguntas-y-respuestas/index.html": {
+      "filePath": "es/preguntas-y-respuestas/index.html",
+      "contentHash": "7734112b228ca8d19d61fdd16b24c5b203cca38304fb2c3908d0a302dd2097f1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 191,
+      "hasStructuralAnalysis": false
+    },
+    "fr/index.html": {
+      "filePath": "fr/index.html",
+      "contentHash": "55607c13e671f63e387d69d413a36834aa72a2da87efd79a8aa116b48e5146f3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 259,
+      "hasStructuralAnalysis": false
+    },
+    "index.html": {
+      "filePath": "index.html",
+      "contentHash": "4d25bb5a99e0a876ab02290518d5f79e207d41edd41ce32564abd567a9091cac",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 90,
+      "hasStructuralAnalysis": false
+    },
+    "ja/index.html": {
+      "filePath": "ja/index.html",
+      "contentHash": "104b82bdd905a70e1d332d3736617998442ba761434c8a7782302929aff7c133",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 259,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "fe4f5d885359dab41568d68cca0bc6e575fa8d9fef76cc0cc8b9a81236600aa4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 430,
+      "hasStructuralAnalysis": true
+    },
+    "robot.txt": {
+      "filePath": "robot.txt",
+      "contentHash": "dda4fe964f1c6a5d6bc6b29405176f596db00f857d5e8bec19d93b00764cd63c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 8,
+      "hasStructuralAnalysis": false
+    },
+    "sitemap.xml": {
+      "filePath": "sitemap.xml",
+      "contentHash": "a761bbeb4f55762083287ec5c6f20afa86dd3488f8f6fcd02346d9ef8c466e0e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 737,
+      "hasStructuralAnalysis": false
+    },
+    "web-express/index.html": {
+      "filePath": "web-express/index.html",
+      "contentHash": "1614590b61af3710d01baef4c59afe8ae468e55f89f05192c5fec7e74df54cd3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 449,
+      "hasStructuralAnalysis": false
+    },
+    "wrangler.jsonc": {
+      "filePath": "wrangler.jsonc",
+      "contentHash": "378e2c93fabd538e9b0937673b4a6582f9056e462f5d811e440937b9f232f2f8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 13,
+      "hasStructuralAnalysis": true
+    },
+    "zh/index.html": {
+      "filePath": "zh/index.html",
+      "contentHash": "8b840142813007da02b1c43c4645fffb2975db98817e04b0494fdb8b95944451",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 259,
+      "hasStructuralAnalysis": false
+    }
+  }
+}

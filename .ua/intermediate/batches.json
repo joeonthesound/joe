@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "louvain",
+  "totalFiles": 41,
+  "totalBatches": 3,
+  "exportsByPath": {
+    "_worker.js": [],
+    ".assetsignore": [],
+    ".nojekyll": [],
+    ".ua/.understandignore": [],
+    "assets/js/app.js": [],
+    "assets/js/components/ai-classification.js": [
+      "createAIClassification"
+    ],
+    "assets/js/components/image-manager.js": [
+      "createImageManager"
+    ],
+    "assets/js/components/opportunity-form.js": [
+      "createWizard"
+    ],
+    "assets/js/components/project-grid.js": [
+      "createProjectGrid"
+    ],
+    "assets/js/components/project-modal.js": [
+      "createProjectModal"
+    ],
+    "assets/js/components/youtube-player.js": [
+      "renderYouTubeEmbed"
+    ],
+    "assets/js/core/config.js": [
+      "SITE_ROOT_URL",
+      "DATA_URL",
+      "rootAsset"
+    ],
+    "assets/js/core/content-loader.js": [
+      "loadSiteContent",
+      "renderFatalError"
+    ],
+    "assets/js/core/i18n.js": [
+      "createI18n"
+    ],
+    "assets/js/core/locale.js": [
+      "createLocale"
+    ],
+    "assets/js/core/renderer.js": [
+      "createRenderer"
+    ],
+    "assets/js/core/router.js": [
+      "createRouter"
+    ],
+    "assets/js/utils/dom.js": [
+      "esc",
+      "extAttrs",
+      "createRevealObserver"
+    ],
+    "assets/js/utils/validation.js": [
+      "isValidEmail",
+      "isValidYouTubeId",
+      "isVisible"
+    ]
+  },
+  "batches": [
+    {
+      "batchIndex": 1,
+      "files": [
+        {
+          "path": "404.html",
+          "language": "html",
+          "sizeLines": 30,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "COMMIT_MESSAGE.txt",
+          "language": "txt",
+          "sizeLines": 75,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "README.md",
+          "language": "markdown",
+          "sizeLines": 429,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "index.html",
+          "language": "html",
+          "sizeLines": 89,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "robot.txt",
+          "language": "txt",
+          "sizeLines": 7,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "sitemap.xml",
+          "language": "xml",
+          "sizeLines": 736,
+          "fileCategory": "config"
+        },
+        {
+          "path": "wrangler.jsonc",
+          "language": "jsonc",
+          "sizeLines": 12,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "404.html": [],
+        "COMMIT_MESSAGE.txt": [],
+        "README.md": [],
+        "index.html": [],
+        "robot.txt": [],
+        "sitemap.xml": [],
+        "wrangler.jsonc": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 2,
+      "files": [
+        {
+          "path": "_worker.js",
+          "language": "javascript",
+          "sizeLines": 87,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".assetsignore",
+          "language": "unknown",
+          "sizeLines": 1,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".nojekyll",
+          "language": "unknown",
+          "sizeLines": 0,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".ua/.understandignore",
+          "language": "unknown",
+          "sizeLines": 43,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".wrangler/cache/wrangler-account.json",
+          "language": "json",
+          "sizeLines": 5,
+          "fileCategory": "config"
+        },
+        {
+          "path": "ar/index.html",
+          "language": "html",
+          "sizeLines": 247,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "archive/index-Pre.html",
+          "language": "html",
+          "sizeLines": 2167,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "archive/old-index-2.html",
+          "language": "html",
+          "sizeLines": 699,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "assets/css/main.css",
+          "language": "css",
+          "sizeLines": 597,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "assets/js/app.js",
+          "language": "javascript",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/ai-classification.js",
+          "language": "javascript",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/image-manager.js",
+          "language": "javascript",
+          "sizeLines": 125,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/opportunity-form.js",
+          "language": "javascript",
+          "sizeLines": 397,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/project-grid.js",
+          "language": "javascript",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/project-modal.js",
+          "language": "javascript",
+          "sizeLines": 152,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/components/youtube-player.js",
+          "language": "javascript",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/config.js",
+          "language": "javascript",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/content-loader.js",
+          "language": "javascript",
+          "sizeLines": 35,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/i18n.js",
+          "language": "javascript",
+          "sizeLines": 40,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/locale.js",
+          "language": "javascript",
+          "sizeLines": 89,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/renderer.js",
+          "language": "javascript",
+          "sizeLines": 280,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/core/router.js",
+          "language": "javascript",
+          "sizeLines": 115,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/utils/dom.js",
+          "language": "javascript",
+          "sizeLines": 35,
+          "fileCategory": "code"
+        },
+        {
+          "path": "assets/js/utils/validation.js",
+          "language": "javascript",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "br/index.html",
+          "language": "html",
+          "sizeLines": 139,
+          "fileCategory": "markup"
+        }
+      ],
+      "batchImportData": {
+        "_worker.js": [],
+        ".assetsignore": [],
+        ".nojekyll": [],
+        ".ua/.understandignore": [],
+        ".wrangler/cache/wrangler-account.json": [],
+        "ar/index.html": [],
+        "archive/index-Pre.html": [],
+        "archive/old-index-2.html": [],
+        "assets/css/main.css": [],
+        "assets/js/app.js": [],
+        "assets/js/components/ai-classification.js": [],
+        "assets/js/components/image-manager.js": [],
+        "assets/js/components/opportunity-form.js": [],
+        "assets/js/components/project-grid.js": [],
+        "assets/js/components/project-modal.js": [],
+        "assets/js/components/youtube-player.js": [],
+        "assets/js/core/config.js": [],
+        "assets/js/core/content-loader.js": [],
+        "assets/js/core/i18n.js": [],
+        "assets/js/core/locale.js": [],
+        "assets/js/core/renderer.js": [],
+        "assets/js/core/router.js": [],
+        "assets/js/utils/dom.js": [],
+        "assets/js/utils/validation.js": [],
+        "br/index.html": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 3,
+      "files": [
+        {
+          "path": "data/site-content.json",
+          "language": "json",
+          "sizeLines": 3104,
+          "fileCategory": "config"
+        },
+        {
+          "path": "de/index.html",
+          "language": "html",
+          "sizeLines": 255,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "en/index.html",
+          "language": "html",
+          "sizeLines": 258,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "es/index.html",
+          "language": "html",
+          "sizeLines": 313,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "es/preguntas-y-respuestas/index.html",
+          "language": "html",
+          "sizeLines": 190,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "fr/index.html",
+          "language": "html",
+          "sizeLines": 258,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "ja/index.html",
+          "language": "html",
+          "sizeLines": 258,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "web-express/index.html",
+          "language": "html",
+          "sizeLines": 448,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "zh/index.html",
+          "language": "html",
+          "sizeLines": 258,
+          "fileCategory": "markup"
+        }
+      ],
+      "batchImportData": {
+        "data/site-content.json": [],
+        "de/index.html": [],
+        "en/index.html": [],
+        "es/index.html": [],
+        "es/preguntas-y-respuestas/index.html": [],
+        "fr/index.html": [],
+        "ja/index.html": [],
+        "web-express/index.html": [],
+        "zh/index.html": []
+      },
+      "neighborMap": {}
+    }
+  ]
+}

@@ -21,6 +21,7 @@ import { createAIClassification } from "./components/ai-classification.js";
 import { createWizard } from "./components/opportunity-form.js";
 import { createRenderer } from "./core/renderer.js";
 import { createRouter } from "./core/router.js";
+import "./integrations/meta-capi.js";
 
 async function main() {
   const data = await loadSiteContent();

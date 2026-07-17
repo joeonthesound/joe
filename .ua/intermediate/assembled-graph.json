@@ -1,0 +1,1607 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "joe",
+    "languages": [
+      "javascript",
+      "unknown",
+      "json",
+      "html",
+      "css",
+      "txt",
+      "markdown",
+      "xml",
+      "jsonc"
+    ],
+    "frameworks": [
+      "Cloudflare Workers",
+      "Static HTML",
+      "ES Modules"
+    ],
+    "description": "Multilingual personal portfolio and service site with modular browser JavaScript, shared content JSON, static localized pages, and a Cloudflare Worker fallback runtime.",
+    "analyzedAt": "2026-07-15T19:58:53.559Z",
+    "gitCommitHash": "f9bb20e4f98caf49a15f82cf9a21be9b96497416"
+  },
+  "nodes": [
+    {
+      "id": "file:_worker.js",
+      "type": "file",
+      "name": "_worker.js",
+      "filePath": "_worker.js",
+      "summary": "Project file in javascript: _worker.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.assetsignore",
+      "type": "file",
+      "name": ".assetsignore",
+      "filePath": ".assetsignore",
+      "summary": "Project file in unknown: .assetsignore.",
+      "tags": [
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.nojekyll",
+      "type": "file",
+      "name": ".nojekyll",
+      "filePath": ".nojekyll",
+      "summary": "Project file in unknown: .nojekyll.",
+      "tags": [
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.ua/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".ua/.understandignore",
+      "summary": "Project file in unknown: .ua/.understandignore.",
+      "tags": [
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.wrangler/cache/wrangler-account.json",
+      "type": "config",
+      "name": "wrangler-account.json",
+      "filePath": ".wrangler/cache/wrangler-account.json",
+      "summary": "Configuration or structured data file used by the site: .wrangler/cache/wrangler-account.json.",
+      "tags": [
+        "config",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:404.html",
+      "type": "file",
+      "name": "404.html",
+      "filePath": "404.html",
+      "summary": "Project file in html: 404.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ar/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "ar/index.html",
+      "summary": "Project file in html: ar/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:archive/index-Pre.html",
+      "type": "file",
+      "name": "index-Pre.html",
+      "filePath": "archive/index-Pre.html",
+      "summary": "Project file in html: archive/index-Pre.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:archive/old-index-2.html",
+      "type": "file",
+      "name": "old-index-2.html",
+      "filePath": "archive/old-index-2.html",
+      "summary": "Project file in html: archive/old-index-2.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:assets/css/main.css",
+      "type": "file",
+      "name": "main.css",
+      "filePath": "assets/css/main.css",
+      "summary": "Project file in css: assets/css/main.css.",
+      "tags": [
+        "markup",
+        "css"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:assets/js/app.js",
+      "type": "file",
+      "name": "app.js",
+      "filePath": "assets/js/app.js",
+      "summary": "Project file in javascript: assets/js/app.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/components/ai-classification.js",
+      "type": "file",
+      "name": "ai-classification.js",
+      "filePath": "assets/js/components/ai-classification.js",
+      "summary": "Project file in javascript: assets/js/components/ai-classification.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/components/image-manager.js",
+      "type": "file",
+      "name": "image-manager.js",
+      "filePath": "assets/js/components/image-manager.js",
+      "summary": "Project file in javascript: assets/js/components/image-manager.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/components/opportunity-form.js",
+      "type": "file",
+      "name": "opportunity-form.js",
+      "filePath": "assets/js/components/opportunity-form.js",
+      "summary": "Project file in javascript: assets/js/components/opportunity-form.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:assets/js/components/project-grid.js",
+      "type": "file",
+      "name": "project-grid.js",
+      "filePath": "assets/js/components/project-grid.js",
+      "summary": "Project file in javascript: assets/js/components/project-grid.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/components/project-modal.js",
+      "type": "file",
+      "name": "project-modal.js",
+      "filePath": "assets/js/components/project-modal.js",
+      "summary": "Project file in javascript: assets/js/components/project-modal.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/components/youtube-player.js",
+      "type": "file",
+      "name": "youtube-player.js",
+      "filePath": "assets/js/components/youtube-player.js",
+      "summary": "Project file in javascript: assets/js/components/youtube-player.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/core/config.js",
+      "type": "file",
+      "name": "config.js",
+      "filePath": "assets/js/core/config.js",
+      "summary": "Project file in javascript: assets/js/core/config.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/core/content-loader.js",
+      "type": "file",
+      "name": "content-loader.js",
+      "filePath": "assets/js/core/content-loader.js",
+      "summary": "Project file in javascript: assets/js/core/content-loader.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/core/i18n.js",
+      "type": "file",
+      "name": "i18n.js",
+      "filePath": "assets/js/core/i18n.js",
+      "summary": "Project file in javascript: assets/js/core/i18n.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/core/locale.js",
+      "type": "file",
+      "name": "locale.js",
+      "filePath": "assets/js/core/locale.js",
+      "summary": "Project file in javascript: assets/js/core/locale.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/core/renderer.js",
+      "type": "file",
+      "name": "renderer.js",
+      "filePath": "assets/js/core/renderer.js",
+      "summary": "Project file in javascript: assets/js/core/renderer.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/core/router.js",
+      "type": "file",
+      "name": "router.js",
+      "filePath": "assets/js/core/router.js",
+      "summary": "Project file in javascript: assets/js/core/router.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:assets/js/utils/dom.js",
+      "type": "file",
+      "name": "dom.js",
+      "filePath": "assets/js/utils/dom.js",
+      "summary": "Project file in javascript: assets/js/utils/dom.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:assets/js/utils/validation.js",
+      "type": "file",
+      "name": "validation.js",
+      "filePath": "assets/js/utils/validation.js",
+      "summary": "Project file in javascript: assets/js/utils/validation.js.",
+      "tags": [
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:br/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "br/index.html",
+      "summary": "Project file in html: br/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:COMMIT_MESSAGE.txt",
+      "type": "document",
+      "name": "COMMIT_MESSAGE.txt",
+      "filePath": "COMMIT_MESSAGE.txt",
+      "summary": "Documentation file for the project: COMMIT_MESSAGE.txt.",
+      "tags": [
+        "docs",
+        "txt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:data/site-content.json",
+      "type": "config",
+      "name": "site-content.json",
+      "filePath": "data/site-content.json",
+      "summary": "Configuration or structured data file used by the site: data/site-content.json.",
+      "tags": [
+        "config",
+        "json"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:de/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "de/index.html",
+      "summary": "Project file in html: de/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:en/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "en/index.html",
+      "summary": "Project file in html: en/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:es/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "es/index.html",
+      "summary": "Project file in html: es/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:es/preguntas-y-respuestas/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "es/preguntas-y-respuestas/index.html",
+      "summary": "Project file in html: es/preguntas-y-respuestas/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:fr/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "fr/index.html",
+      "summary": "Project file in html: fr/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "Project file in html: index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ja/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "ja/index.html",
+      "summary": "Project file in html: ja/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Documentation file for the project: README.md.",
+      "tags": [
+        "docs",
+        "markdown"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:robot.txt",
+      "type": "document",
+      "name": "robot.txt",
+      "filePath": "robot.txt",
+      "summary": "Documentation file for the project: robot.txt.",
+      "tags": [
+        "docs",
+        "txt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:sitemap.xml",
+      "type": "config",
+      "name": "sitemap.xml",
+      "filePath": "sitemap.xml",
+      "summary": "Configuration or structured data file used by the site: sitemap.xml.",
+      "tags": [
+        "config",
+        "xml"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web-express/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "web-express/index.html",
+      "summary": "Project file in html: web-express/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:wrangler.jsonc",
+      "type": "config",
+      "name": "wrangler.jsonc",
+      "filePath": "wrangler.jsonc",
+      "summary": "Configuration or structured data file used by the site: wrangler.jsonc.",
+      "tags": [
+        "config",
+        "jsonc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:zh/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "zh/index.html",
+      "summary": "Project file in html: zh/index.html.",
+      "tags": [
+        "markup",
+        "html"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/ai-classification.js:createAIClassification",
+      "type": "function",
+      "name": "createAIClassification",
+      "filePath": "assets/js/components/ai-classification.js",
+      "summary": "Exported JavaScript symbol createAIClassification from assets/js/components/ai-classification.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/image-manager.js:createImageManager",
+      "type": "function",
+      "name": "createImageManager",
+      "filePath": "assets/js/components/image-manager.js",
+      "summary": "Exported JavaScript symbol createImageManager from assets/js/components/image-manager.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/opportunity-form.js:createWizard",
+      "type": "function",
+      "name": "createWizard",
+      "filePath": "assets/js/components/opportunity-form.js",
+      "summary": "Exported JavaScript symbol createWizard from assets/js/components/opportunity-form.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/project-grid.js:createProjectGrid",
+      "type": "function",
+      "name": "createProjectGrid",
+      "filePath": "assets/js/components/project-grid.js",
+      "summary": "Exported JavaScript symbol createProjectGrid from assets/js/components/project-grid.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/project-modal.js:createProjectModal",
+      "type": "function",
+      "name": "createProjectModal",
+      "filePath": "assets/js/components/project-modal.js",
+      "summary": "Exported JavaScript symbol createProjectModal from assets/js/components/project-modal.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/components/youtube-player.js:renderYouTubeEmbed",
+      "type": "function",
+      "name": "renderYouTubeEmbed",
+      "filePath": "assets/js/components/youtube-player.js",
+      "summary": "Exported JavaScript symbol renderYouTubeEmbed from assets/js/components/youtube-player.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/config.js:SITE_ROOT_URL",
+      "type": "function",
+      "name": "SITE_ROOT_URL",
+      "filePath": "assets/js/core/config.js",
+      "summary": "Exported JavaScript symbol SITE_ROOT_URL from assets/js/core/config.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/config.js:DATA_URL",
+      "type": "function",
+      "name": "DATA_URL",
+      "filePath": "assets/js/core/config.js",
+      "summary": "Exported JavaScript symbol DATA_URL from assets/js/core/config.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/config.js:rootAsset",
+      "type": "function",
+      "name": "rootAsset",
+      "filePath": "assets/js/core/config.js",
+      "summary": "Exported JavaScript symbol rootAsset from assets/js/core/config.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/content-loader.js:loadSiteContent",
+      "type": "function",
+      "name": "loadSiteContent",
+      "filePath": "assets/js/core/content-loader.js",
+      "summary": "Exported JavaScript symbol loadSiteContent from assets/js/core/content-loader.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/content-loader.js:renderFatalError",
+      "type": "function",
+      "name": "renderFatalError",
+      "filePath": "assets/js/core/content-loader.js",
+      "summary": "Exported JavaScript symbol renderFatalError from assets/js/core/content-loader.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/i18n.js:createI18n",
+      "type": "function",
+      "name": "createI18n",
+      "filePath": "assets/js/core/i18n.js",
+      "summary": "Exported JavaScript symbol createI18n from assets/js/core/i18n.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/locale.js:createLocale",
+      "type": "function",
+      "name": "createLocale",
+      "filePath": "assets/js/core/locale.js",
+      "summary": "Exported JavaScript symbol createLocale from assets/js/core/locale.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/renderer.js:createRenderer",
+      "type": "function",
+      "name": "createRenderer",
+      "filePath": "assets/js/core/renderer.js",
+      "summary": "Exported JavaScript symbol createRenderer from assets/js/core/renderer.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/core/router.js:createRouter",
+      "type": "function",
+      "name": "createRouter",
+      "filePath": "assets/js/core/router.js",
+      "summary": "Exported JavaScript symbol createRouter from assets/js/core/router.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/dom.js:esc",
+      "type": "function",
+      "name": "esc",
+      "filePath": "assets/js/utils/dom.js",
+      "summary": "Exported JavaScript symbol esc from assets/js/utils/dom.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/dom.js:extAttrs",
+      "type": "function",
+      "name": "extAttrs",
+      "filePath": "assets/js/utils/dom.js",
+      "summary": "Exported JavaScript symbol extAttrs from assets/js/utils/dom.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/dom.js:createRevealObserver",
+      "type": "function",
+      "name": "createRevealObserver",
+      "filePath": "assets/js/utils/dom.js",
+      "summary": "Exported JavaScript symbol createRevealObserver from assets/js/utils/dom.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/validation.js:isValidEmail",
+      "type": "function",
+      "name": "isValidEmail",
+      "filePath": "assets/js/utils/validation.js",
+      "summary": "Exported JavaScript symbol isValidEmail from assets/js/utils/validation.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/validation.js:isValidYouTubeId",
+      "type": "function",
+      "name": "isValidYouTubeId",
+      "filePath": "assets/js/utils/validation.js",
+      "summary": "Exported JavaScript symbol isValidYouTubeId from assets/js/utils/validation.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:assets/js/utils/validation.js:isVisible",
+      "type": "function",
+      "name": "isVisible",
+      "filePath": "assets/js/utils/validation.js",
+      "summary": "Exported JavaScript symbol isVisible from assets/js/utils/validation.js.",
+      "tags": [
+        "export",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:_worker.js",
+      "target": "config:wrangler.jsonc",
+      "type": "configures",
+      "weight": 0.6,
+      "description": "Cloudflare worker behavior is deployed with Wrangler config."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/core/content-loader.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/core/content-loader.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/core/locale.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/core/locale.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/core/i18n.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/core/i18n.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/components/image-manager.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/components/image-manager.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/components/project-modal.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/components/project-modal.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/components/project-grid.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/components/project-grid.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/components/ai-classification.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/components/ai-classification.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/components/opportunity-form.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/components/opportunity-form.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/core/renderer.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/core/renderer.js."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "file:assets/js/core/router.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/app.js imports assets/js/core/router.js."
+    },
+    {
+      "source": "file:assets/js/components/ai-classification.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/ai-classification.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/ai-classification.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/ai-classification.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/components/ai-classification.js",
+      "target": "function:assets/js/components/ai-classification.js:createAIClassification",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/ai-classification.js contains createAIClassification."
+    },
+    {
+      "source": "function:assets/js/components/ai-classification.js:createAIClassification",
+      "target": "file:assets/js/components/ai-classification.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createAIClassification is exported by assets/js/components/ai-classification.js."
+    },
+    {
+      "source": "file:assets/js/components/image-manager.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/image-manager.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/image-manager.js",
+      "target": "file:assets/js/core/config.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/image-manager.js imports assets/js/core/config.js."
+    },
+    {
+      "source": "file:assets/js/components/image-manager.js",
+      "target": "function:assets/js/components/image-manager.js:createImageManager",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/image-manager.js contains createImageManager."
+    },
+    {
+      "source": "function:assets/js/components/image-manager.js:createImageManager",
+      "target": "file:assets/js/components/image-manager.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createImageManager is exported by assets/js/components/image-manager.js."
+    },
+    {
+      "source": "file:assets/js/components/opportunity-form.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/opportunity-form.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/opportunity-form.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/opportunity-form.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/components/opportunity-form.js",
+      "target": "function:assets/js/components/opportunity-form.js:createWizard",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/opportunity-form.js contains createWizard."
+    },
+    {
+      "source": "function:assets/js/components/opportunity-form.js:createWizard",
+      "target": "file:assets/js/components/opportunity-form.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createWizard is exported by assets/js/components/opportunity-form.js."
+    },
+    {
+      "source": "file:assets/js/components/project-grid.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/project-grid.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/project-grid.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/project-grid.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/components/project-grid.js",
+      "target": "function:assets/js/components/project-grid.js:createProjectGrid",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/project-grid.js contains createProjectGrid."
+    },
+    {
+      "source": "function:assets/js/components/project-grid.js:createProjectGrid",
+      "target": "file:assets/js/components/project-grid.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createProjectGrid is exported by assets/js/components/project-grid.js."
+    },
+    {
+      "source": "file:assets/js/components/project-modal.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/project-modal.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/project-modal.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/project-modal.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/components/project-modal.js",
+      "target": "file:assets/js/components/youtube-player.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/project-modal.js imports assets/js/components/youtube-player.js."
+    },
+    {
+      "source": "file:assets/js/components/project-modal.js",
+      "target": "function:assets/js/components/project-modal.js:createProjectModal",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/project-modal.js contains createProjectModal."
+    },
+    {
+      "source": "function:assets/js/components/project-modal.js:createProjectModal",
+      "target": "file:assets/js/components/project-modal.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createProjectModal is exported by assets/js/components/project-modal.js."
+    },
+    {
+      "source": "file:assets/js/components/youtube-player.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/youtube-player.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/components/youtube-player.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/components/youtube-player.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/components/youtube-player.js",
+      "target": "function:assets/js/components/youtube-player.js:renderYouTubeEmbed",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/components/youtube-player.js contains renderYouTubeEmbed."
+    },
+    {
+      "source": "function:assets/js/components/youtube-player.js:renderYouTubeEmbed",
+      "target": "file:assets/js/components/youtube-player.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "renderYouTubeEmbed is exported by assets/js/components/youtube-player.js."
+    },
+    {
+      "source": "file:assets/js/core/config.js",
+      "target": "function:assets/js/core/config.js:SITE_ROOT_URL",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/config.js contains SITE_ROOT_URL."
+    },
+    {
+      "source": "function:assets/js/core/config.js:SITE_ROOT_URL",
+      "target": "file:assets/js/core/config.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "SITE_ROOT_URL is exported by assets/js/core/config.js."
+    },
+    {
+      "source": "file:assets/js/core/config.js",
+      "target": "function:assets/js/core/config.js:DATA_URL",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/config.js contains DATA_URL."
+    },
+    {
+      "source": "function:assets/js/core/config.js:DATA_URL",
+      "target": "file:assets/js/core/config.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "DATA_URL is exported by assets/js/core/config.js."
+    },
+    {
+      "source": "file:assets/js/core/config.js",
+      "target": "function:assets/js/core/config.js:rootAsset",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/config.js contains rootAsset."
+    },
+    {
+      "source": "function:assets/js/core/config.js:rootAsset",
+      "target": "file:assets/js/core/config.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "rootAsset is exported by assets/js/core/config.js."
+    },
+    {
+      "source": "file:assets/js/core/content-loader.js",
+      "target": "file:assets/js/core/config.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/core/content-loader.js imports assets/js/core/config.js."
+    },
+    {
+      "source": "file:assets/js/core/content-loader.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/core/content-loader.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/core/content-loader.js",
+      "target": "function:assets/js/core/content-loader.js:loadSiteContent",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/content-loader.js contains loadSiteContent."
+    },
+    {
+      "source": "function:assets/js/core/content-loader.js:loadSiteContent",
+      "target": "file:assets/js/core/content-loader.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "loadSiteContent is exported by assets/js/core/content-loader.js."
+    },
+    {
+      "source": "file:assets/js/core/content-loader.js",
+      "target": "function:assets/js/core/content-loader.js:renderFatalError",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/content-loader.js contains renderFatalError."
+    },
+    {
+      "source": "function:assets/js/core/content-loader.js:renderFatalError",
+      "target": "file:assets/js/core/content-loader.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "renderFatalError is exported by assets/js/core/content-loader.js."
+    },
+    {
+      "source": "file:assets/js/core/content-loader.js",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.7,
+      "description": "Loads site content JSON."
+    },
+    {
+      "source": "file:assets/js/core/i18n.js",
+      "target": "function:assets/js/core/i18n.js:createI18n",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/i18n.js contains createI18n."
+    },
+    {
+      "source": "function:assets/js/core/i18n.js:createI18n",
+      "target": "file:assets/js/core/i18n.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createI18n is exported by assets/js/core/i18n.js."
+    },
+    {
+      "source": "file:assets/js/core/locale.js",
+      "target": "function:assets/js/core/locale.js:createLocale",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/locale.js contains createLocale."
+    },
+    {
+      "source": "function:assets/js/core/locale.js:createLocale",
+      "target": "file:assets/js/core/locale.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createLocale is exported by assets/js/core/locale.js."
+    },
+    {
+      "source": "file:assets/js/core/renderer.js",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/core/renderer.js imports assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/core/renderer.js",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "imports",
+      "weight": 0.7,
+      "description": "assets/js/core/renderer.js imports assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/core/renderer.js",
+      "target": "function:assets/js/core/renderer.js:createRenderer",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/renderer.js contains createRenderer."
+    },
+    {
+      "source": "function:assets/js/core/renderer.js:createRenderer",
+      "target": "file:assets/js/core/renderer.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createRenderer is exported by assets/js/core/renderer.js."
+    },
+    {
+      "source": "file:assets/js/core/router.js",
+      "target": "function:assets/js/core/router.js:createRouter",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/core/router.js contains createRouter."
+    },
+    {
+      "source": "function:assets/js/core/router.js:createRouter",
+      "target": "file:assets/js/core/router.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createRouter is exported by assets/js/core/router.js."
+    },
+    {
+      "source": "file:assets/js/utils/dom.js",
+      "target": "function:assets/js/utils/dom.js:esc",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/dom.js contains esc."
+    },
+    {
+      "source": "function:assets/js/utils/dom.js:esc",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "esc is exported by assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/utils/dom.js",
+      "target": "function:assets/js/utils/dom.js:extAttrs",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/dom.js contains extAttrs."
+    },
+    {
+      "source": "function:assets/js/utils/dom.js:extAttrs",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "extAttrs is exported by assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/utils/dom.js",
+      "target": "function:assets/js/utils/dom.js:createRevealObserver",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/dom.js contains createRevealObserver."
+    },
+    {
+      "source": "function:assets/js/utils/dom.js:createRevealObserver",
+      "target": "file:assets/js/utils/dom.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "createRevealObserver is exported by assets/js/utils/dom.js."
+    },
+    {
+      "source": "file:assets/js/utils/validation.js",
+      "target": "function:assets/js/utils/validation.js:isValidEmail",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/validation.js contains isValidEmail."
+    },
+    {
+      "source": "function:assets/js/utils/validation.js:isValidEmail",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "isValidEmail is exported by assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/utils/validation.js",
+      "target": "function:assets/js/utils/validation.js:isValidYouTubeId",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/validation.js contains isValidYouTubeId."
+    },
+    {
+      "source": "function:assets/js/utils/validation.js:isValidYouTubeId",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "isValidYouTubeId is exported by assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:assets/js/utils/validation.js",
+      "target": "function:assets/js/utils/validation.js:isVisible",
+      "type": "contains",
+      "weight": 1,
+      "description": "assets/js/utils/validation.js contains isVisible."
+    },
+    {
+      "source": "function:assets/js/utils/validation.js:isVisible",
+      "target": "file:assets/js/utils/validation.js",
+      "type": "exports",
+      "weight": 0.8,
+      "description": "isVisible is exported by assets/js/utils/validation.js."
+    },
+    {
+      "source": "file:ar/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:ar/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:ar/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:br/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:br/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:br/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:de/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:de/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:de/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:en/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:en/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:en/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:es/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:es/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:es/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:es/preguntas-y-respuestas/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:fr/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:fr/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:fr/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:ja/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:ja/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:ja/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:zh/index.html",
+      "target": "file:assets/css/main.css",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page uses the shared stylesheet."
+    },
+    {
+      "source": "file:zh/index.html",
+      "target": "file:assets/js/app.js",
+      "type": "depends_on",
+      "weight": 0.6,
+      "description": "Page boots the modular JavaScript app."
+    },
+    {
+      "source": "file:zh/index.html",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.6,
+      "description": "Page content is hydrated from shared content data."
+    },
+    {
+      "source": "file:assets/js/app.js",
+      "target": "config:data/site-content.json",
+      "type": "reads_from",
+      "weight": 0.7,
+      "description": "Application entry point loads site content."
+    },
+    {
+      "source": "document:README.md",
+      "target": "config:data/site-content.json",
+      "type": "documents",
+      "weight": 0.5,
+      "description": "README documents the content data workflow."
+    },
+    {
+      "source": "config:sitemap.xml",
+      "target": "config:data/site-content.json",
+      "type": "related",
+      "weight": 0.5,
+      "description": "Sitemap paths should match route definitions."
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:edge-runtime",
+      "name": "Edge Runtime",
+      "description": "Cloudflare worker and deployment configuration.",
+      "nodeIds": [
+        "file:_worker.js",
+        "config:wrangler.jsonc",
+        "config:.wrangler/cache/wrangler-account.json"
+      ]
+    },
+    {
+      "id": "layer:application-shells",
+      "name": "Application Shells",
+      "description": "Localized HTML shells and standalone pages served to visitors.",
+      "nodeIds": [
+        "file:404.html",
+        "file:ar/index.html",
+        "file:br/index.html",
+        "file:de/index.html",
+        "file:en/index.html",
+        "file:es/index.html",
+        "file:es/preguntas-y-respuestas/index.html",
+        "file:fr/index.html",
+        "file:index.html",
+        "file:ja/index.html",
+        "file:web-express/index.html",
+        "file:zh/index.html"
+      ]
+    },
+    {
+      "id": "layer:client-application",
+      "name": "Client Application",
+      "description": "Modular browser JavaScript that loads data, renders routes, and handles interactions.",
+      "nodeIds": [
+        "file:assets/js/app.js",
+        "file:assets/js/components/ai-classification.js",
+        "file:assets/js/components/image-manager.js",
+        "file:assets/js/components/opportunity-form.js",
+        "file:assets/js/components/project-grid.js",
+        "file:assets/js/components/project-modal.js",
+        "file:assets/js/components/youtube-player.js",
+        "file:assets/js/core/config.js",
+        "file:assets/js/core/content-loader.js",
+        "file:assets/js/core/i18n.js",
+        "file:assets/js/core/locale.js",
+        "file:assets/js/core/renderer.js",
+        "file:assets/js/core/router.js",
+        "file:assets/js/utils/dom.js",
+        "file:assets/js/utils/validation.js"
+      ]
+    },
+    {
+      "id": "layer:content-and-assets",
+      "name": "Content And Assets",
+      "description": "Shared CSS, structured content, sitemap, and static control files.",
+      "nodeIds": [
+        "file:assets/css/main.css",
+        "config:data/site-content.json",
+        "config:sitemap.xml",
+        "document:robot.txt",
+        "file:.assetsignore",
+        "file:.nojekyll"
+      ]
+    },
+    {
+      "id": "layer:documentation-and-archive",
+      "name": "Documentation And Archive",
+      "description": "Project documentation, commit notes, generated ignore file, and older archived pages.",
+      "nodeIds": [
+        "file:.ua/.understandignore",
+        "file:archive/index-Pre.html",
+        "file:archive/old-index-2.html",
+        "document:COMMIT_MESSAGE.txt",
+        "document:README.md"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Project Overview",
+      "description": "Start with the README for the portfolio site's purpose, deployment notes, and content workflow.",
+      "nodeIds": [
+        "document:README.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Static Entry Shells",
+      "description": "Review the root and localized HTML shells that load the shared CSS, data, and JavaScript application.",
+      "nodeIds": [
+        "file:index.html",
+        "file:es/index.html",
+        "file:en/index.html"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Client Boot Sequence",
+      "description": "Follow the browser application entry point as it composes content loading, locale, rendering, routing, and UI modules.",
+      "nodeIds": [
+        "file:assets/js/app.js",
+        "file:assets/js/core/content-loader.js",
+        "file:assets/js/core/router.js",
+        "file:assets/js/core/renderer.js"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Content Source",
+      "description": "Inspect the shared JSON content and sitemap relationship that drive localized page content and SEO routes.",
+      "nodeIds": [
+        "config:data/site-content.json",
+        "config:sitemap.xml"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Deployment Runtime",
+      "description": "Finish with the Cloudflare worker and Wrangler config that serve static assets and language fallbacks.",
+      "nodeIds": [
+        "file:_worker.js",
+        "config:wrangler.jsonc"
+      ]
+    }
+  ]
+}

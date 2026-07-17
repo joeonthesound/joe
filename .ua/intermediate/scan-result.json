@@ -1,0 +1,274 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": "_worker.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".assetsignore",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".nojekyll",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".wrangler/cache/wrangler-account.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "404.html",
+      "language": "html",
+      "sizeLines": 30,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "ar/index.html",
+      "language": "html",
+      "sizeLines": 247,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "archive/index-Pre.html",
+      "language": "html",
+      "sizeLines": 2167,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "archive/old-index-2.html",
+      "language": "html",
+      "sizeLines": 699,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "assets/css/main.css",
+      "language": "css",
+      "sizeLines": 597,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "assets/js/app.js",
+      "language": "javascript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/ai-classification.js",
+      "language": "javascript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/image-manager.js",
+      "language": "javascript",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/opportunity-form.js",
+      "language": "javascript",
+      "sizeLines": 397,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/project-grid.js",
+      "language": "javascript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/project-modal.js",
+      "language": "javascript",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/components/youtube-player.js",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/config.js",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/content-loader.js",
+      "language": "javascript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/i18n.js",
+      "language": "javascript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/locale.js",
+      "language": "javascript",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/renderer.js",
+      "language": "javascript",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/core/router.js",
+      "language": "javascript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/utils/dom.js",
+      "language": "javascript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "assets/js/utils/validation.js",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "br/index.html",
+      "language": "html",
+      "sizeLines": 139,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "COMMIT_MESSAGE.txt",
+      "language": "txt",
+      "sizeLines": 75,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "data/site-content.json",
+      "language": "json",
+      "sizeLines": 3104,
+      "fileCategory": "config"
+    },
+    {
+      "path": "de/index.html",
+      "language": "html",
+      "sizeLines": 255,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "en/index.html",
+      "language": "html",
+      "sizeLines": 258,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "es/index.html",
+      "language": "html",
+      "sizeLines": 313,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "es/preguntas-y-respuestas/index.html",
+      "language": "html",
+      "sizeLines": 190,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "fr/index.html",
+      "language": "html",
+      "sizeLines": 258,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "sizeLines": 89,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "ja/index.html",
+      "language": "html",
+      "sizeLines": 258,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 429,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "robot.txt",
+      "language": "txt",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "sitemap.xml",
+      "language": "xml",
+      "sizeLines": 736,
+      "fileCategory": "config"
+    },
+    {
+      "path": "web-express/index.html",
+      "language": "html",
+      "sizeLines": 448,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "language": "jsonc",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "zh/index.html",
+      "language": "html",
+      "sizeLines": 258,
+      "fileCategory": "markup"
+    }
+  ],
+  "totalFiles": 41,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "stats": {
+    "filesScanned": 41,
+    "byCategory": {
+      "code": 19,
+      "config": 4,
+      "markup": 15,
+      "docs": 3
+    },
+    "byLanguage": {
+      "javascript": 16,
+      "unknown": 3,
+      "json": 2,
+      "html": 14,
+      "css": 1,
+      "txt": 2,
+      "markdown": 1,
+      "xml": 1,
+      "jsonc": 1
+    }
+  }
+}

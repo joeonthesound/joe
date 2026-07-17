@@ -1,0 +1,37 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'file:.assetsignore' has no edges (orphan)",
+    "Node 'file:.nojekyll' has no edges (orphan)",
+    "Node 'file:.ua/.understandignore' has no edges (orphan)",
+    "Node 'config:.wrangler/cache/wrangler-account.json' has no edges (orphan)",
+    "Node 'file:404.html' has no edges (orphan)",
+    "Node 'file:archive/index-Pre.html' has no edges (orphan)",
+    "Node 'file:archive/old-index-2.html' has no edges (orphan)",
+    "Node 'document:COMMIT_MESSAGE.txt' has no edges (orphan)",
+    "Node 'document:robot.txt' has no edges (orphan)",
+    "Node 'file:web-express/index.html' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 62,
+    "totalEdges": 101,
+    "totalLayers": 5,
+    "tourSteps": 5,
+    "nodeTypes": {
+      "file": 34,
+      "config": 4,
+      "document": 3,
+      "function": 21
+    },
+    "edgeTypes": {
+      "configures": 1,
+      "imports": 28,
+      "contains": 21,
+      "exports": 21,
+      "reads_from": 11,
+      "depends_on": 17,
+      "documents": 1,
+      "related": 1
+    }
+  }
+}
