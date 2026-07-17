@@ -225,11 +225,15 @@ async function handleLeadCapi(request, env) {
   }
 
   const customData = {
-    content_name: cleanString(body.contentName)
+    content_name: cleanString(body.contentName),
+    content_category: cleanString(body.contentCategory)
   };
 
   if (!customData.content_name) {
     delete customData.content_name;
+  }
+  if (!customData.content_category) {
+    delete customData.content_category;
   }
 
   return sendMetaEvent(

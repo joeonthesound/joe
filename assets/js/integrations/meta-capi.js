@@ -82,13 +82,17 @@ export async function trackMetaPurchaseConversion(order) {
 
 export async function trackMetaLeadConversion(leadData) {
   const eventId = leadEventId(leadData);
-  const contentName = leadData.contentName || "Lead";
+  const contentName = leadData.contentName || "WhatsApp Lead Request";
+  const contentCategory = leadData.contentCategory || "general";
 
   if (typeof window.fbq === "function") {
     window.fbq(
       "track",
       "Lead",
-      { content_name: contentName },
+      {
+        content_name: contentName,
+        content_category: contentCategory
+      },
       { eventID: eventId }
     );
   }
@@ -103,6 +107,7 @@ export async function trackMetaLeadConversion(leadData) {
       firstName: leadData.firstName,
       lastName: leadData.lastName,
       contentName,
+      contentCategory,
       pageUrl: window.location.href,
       fbp: getCookie("_fbp"),
       fbc: getCookie("_fbc")
@@ -117,5 +122,10 @@ export async function trackMetaLeadConversion(leadData) {
   return response.json();
 }
 
+export function trackLead(leadData) {
+  return trackMetaLeadConversion(leadData || {});
+}
+
 window.trackMetaPurchaseConversion = trackMetaPurchaseConversion;
 window.trackMetaLeadConversion = trackMetaLeadConversion;
+window.trackLead = trackLead;
