@@ -62,7 +62,8 @@ export function createRenderer(ctx) {
         (supportLinks ? '<div class="hero-support">' + supportLinks + "</div>" : "") +
         "</div>" +
         '<div class="hero-visual reveal">' +
-        '<div class="hero-frame">' + ctx.images.renderMedia(data.profile && data.profile.media, h.name) +
+        '<div class="hero-frame">' +
+        '<div class="hero-logo-stage" aria-hidden="true"><span class="hero-logo-mark"></span></div>' +
         '<p class="hero-rule">' + esc(t(h.ruleLabel)) + "</p></div>" +
         '<div class="badges">' + badges + "</div>" +
         "</div></div></div></section>";
