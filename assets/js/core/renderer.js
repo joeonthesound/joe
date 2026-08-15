@@ -41,19 +41,31 @@ export function createRenderer(ctx) {
         return '<span class="badge">' + esc(b) + "</span>";
       }).join("");
       const btnStyle = { primary: "btn-primary", outline: "btn-outline", copper: "btn-copper", ghost: "btn-ghost" };
-      const buttons = (h.buttons || []).filter(isVisible).map(function (b) {
+      const visibleButtons = (h.buttons || []).filter(isVisible);
+      const primaryButton = visibleButtons[0] ? '<a class="btn btn-primary" href="' + esc(linkOf(visibleButtons[0])) + '"' +
+        extAttrs(visibleButtons[0].external) + ">" + esc(t(visibleButtons[0].label)) + "</a>" : "";
+      const portfolioButton = visibleButtons.find(function (b) { return b.linkRef === "portfolioOnline"; }) || visibleButtons[1];
+      const secondaryButton = portfolioButton ? '<a class="btn ' + (btnStyle[portfolioButton.style] || "btn-outline") + '" href="' + esc(linkOf(portfolioButton)) + '"' +
+        extAttrs(portfolioButton.external) + ">" + esc(t(portfolioButton.label)) + "</a>" : "";
+      const supportLinks = visibleButtons.slice(1).filter(function (b) { return b !== portfolioButton; }).map(function (b) {
         return '<a class="btn ' + (btnStyle[b.style] || "btn-outline") + '" href="' + esc(linkOf(b)) + '"' +
           extAttrs(b.external) + ">" + esc(t(b.label)) + "</a>";
       }).join("");
       return '<section class="hero" aria-label="' + esc(h.name) + '"><div class="container">' +
+        '<div class="hero-layout">' +
+        '<div class="hero-copy reveal">' +
         '<p class="hero-kicker"><span class="dot" aria-hidden="true"></span>' + esc(t(h.kicker)) + "</p>" +
         "<h1>" + esc(h.name) + "</h1>" +
         '<p class="hero-title">' + t(h.title) + "</p>" +
         '<p class="hero-sub">' + esc(t(h.subtitle)) + "</p>" +
+        '<div class="hero-cta">' + primaryButton + secondaryButton + "</div>" +
+        (supportLinks ? '<div class="hero-support">' + supportLinks + "</div>" : "") +
+        "</div>" +
+        '<div class="hero-visual reveal">' +
+        '<div class="hero-frame">' + ctx.images.renderMedia(data.profile && data.profile.media, h.name) +
+        '<p class="hero-rule">' + esc(t(h.ruleLabel)) + "</p></div>" +
         '<div class="badges">' + badges + "</div>" +
-        '<div class="hero-cta">' + buttons + "</div>" +
-        '<p class="hero-rule">' + esc(t(h.ruleLabel)) + "</p>" +
-        "</div></section>";
+        "</div></div></div></section>";
     },
 
     profile: function () {
